@@ -1057,13 +1057,19 @@
  "L28": {
   "nama": "Rumah Keluarga Dhruva",
   "jenis": "latar",
-  "file": null,
+  "file": "refs/auto/L28.png",
   "lolos": false,
-  "catatan": "Belum ada",
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
   "anchor": "Dhruva's family home: a small modest house in the east district with a flat rooftop and a living room with a worn couch.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Dhruva's family home: a small modest house in the east district with a flat rooftop and a living room with a worn couch.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L28 RUMAH KELUARGA DHRUVA\".",
   "sumber": "auto",
-  "qc": {},
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
   "catatan_asal": "BELUM: A modest, old, slightly worn family home in a poorer east district: faded paint, simple flat rooftop with a water tank and laundry line, small living room with a worn patched couch, simple furniture. Not a modern luxury pod house."
  },
  "L29": {
@@ -1533,13 +1539,19 @@
  "L54": {
   "nama": "Desa Sprite",
   "jenis": "latar",
-  "file": null,
+  "file": "refs/auto/L54.png",
   "lolos": false,
-  "catatan": "Belum ada",
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
   "anchor": "The sprite village: small round huts of glowing stone perched on tall stone pillars.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The sprite village: small round huts of glowing stone perched on tall stone pillars.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L54 DESA SPRITE\".",
   "sumber": "auto",
-  "qc": {},
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
   "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. The sprite village is inside the realm of flame: red-gold sky, warm stone plains, lava glow. Small round huts of warm amber glowing stone perched on tall stone pillars. No jungle, no teal colors."
  },
  "L55": {
@@ -1581,13 +1593,19 @@
  "L57": {
   "nama": "Bagian Dalam Sang Hampa",
   "jenis": "latar",
-  "file": null,
+  "file": "refs/auto/L57.png",
   "lolos": false,
-  "catatan": "Belum ada",
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
   "anchor": "Inside Sang Hampa: an endless silent void of white static.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Inside Sang Hampa: an endless silent void of white static.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L57 BAGIAN DALAM SANG HAMPA\".",
   "sumber": "auto",
-  "qc": {},
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
   "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. A tangible 3D space: an endless glossy white floor fading into white fog, floating grey static particles and drifting noise flecks, soft even studio light, faint horizon line. Silent and empty."
  },
  "L58": {
@@ -1685,20 +1703,21 @@
   "jenis": "latar",
   "file": "refs/auto/L63.png",
   "lolos": false,
-  "catatan": "GAGAL QC: Deskripsi adalah 'ruang putih tak berujung', tetapi gambar menunjukkan lanskap bergelombang dan objek pusat yang bersinar biru, bukan ruang kosong.",
+  "catatan": "GAGAL QC: Ruangan memiliki garis cahaya sian, tidak sesuai deskripsi 'ruang putih'.; Deskripsi tidak menyebutkan objek utama berupa bola putih besar yang melayang.",
   "anchor": "Inside the Entropy Catalyst: an endless silent white space.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Inside the Entropy Catalyst: an endless silent white space.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L63 BAGIAN DALAM KATALIS\".",
   "sumber": "auto",
   "qc": {
    "lolos": false,
-   "skor": 5.0,
+   "skor": 7.0,
    "gagal": [
     "sesuai_deskripsi"
    ],
    "masalah": [
-    "Deskripsi adalah 'ruang putih tak berujung', tetapi gambar menunjukkan lanskap bergelombang dan objek pusat yang bersinar biru, bukan ruang kosong."
+    "Ruangan memiliki garis cahaya sian, tidak sesuai deskripsi 'ruang putih'.",
+    "Deskripsi tidak menyebutkan objek utama berupa bola putih besar yang melayang."
    ],
-   "perbaikan": "Remove the landscape forms and the central glowing object to create a truly empty, featureless white void as described."
+   "perbaikan": "Update the description to accurately reflect the visual elements, including the cyan lights and the central sphere."
   },
   "catatan_asal": "Belum ada"
  },
@@ -1707,21 +1726,16 @@
   "jenis": "latar",
   "file": "refs/auto/L64.png",
   "lolos": false,
-  "catatan": "GAGAL QC: Gaya visual tidak sesuai dengan referensi yang disetujui.; Tingkat realisme terlalu tinggi dan tidak cocok dengan gaya fiksi ilmiah yang sudah ada.",
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
   "anchor": "The city pier: a long wooden-and-steel pier facing the open sea.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The city pier: a long wooden-and-steel pier facing the open sea.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L64 DERMAGA KOTA\".",
   "sumber": "auto",
   "qc": {
-   "lolos": false,
-   "skor": 3.0,
-   "gagal": [
-    "gaya_3d"
-   ],
-   "masalah": [
-    "Gaya visual tidak sesuai dengan referensi yang disetujui.",
-    "Tingkat realisme terlalu tinggi dan tidak cocok dengan gaya fiksi ilmiah yang sudah ada."
-   ],
-   "perbaikan": "Redesign the pier to match the futuristic, clean aesthetic of the approved house style."
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
   },
   "catatan_asal": "Belum ada"
  },
@@ -1764,13 +1778,19 @@
  "L67": {
   "nama": "Rumah Maheswari",
   "jenis": "latar",
-  "file": null,
+  "file": "refs/auto/L67.png",
   "lolos": false,
-  "catatan": "Belum ada",
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
   "anchor": "Maheswari's house: a traditional joglo-style wooden house with an open pendopo veranda and a quiet garden.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Maheswari's house: a traditional joglo-style wooden house with an open pendopo veranda and a quiet garden.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L67 RUMAH MAHESWARI\".",
   "sumber": "auto",
-  "qc": {},
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
   "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. A traditional joglo-style wooden house with an open pendopo veranda and a quiet garden, rounded stylized shapes, simplified textures, soft warm lighting."
  },
  "L68": {
