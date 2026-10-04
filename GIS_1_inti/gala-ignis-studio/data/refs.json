@@ -138,8 +138,8 @@
   "nama": "Nira",
   "jenis": "karakter",
   "file": "refs/auto/K16.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "Nira, a former cadet turned hacker, a stylized 3D chibi teen girl: short black asymmetrical hair covering her right eye; a dark hooded jacket with glowing cyan data-lining; fingerless black gloves; a small wrist-mounted hologram emitter; dark cargo pants; black sneakers.",
   "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nNira, a former cadet turned hacker, a stylized 3D chibi teen girl: short black asymmetrical hair covering her right eye; a dark hooded jacket with glowing cyan data-lining; fingerless black gloves; a small wrist-mounted hologram emitter; dark cargo pants; black sneakers.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K16 NIRA\".",
   "sumber": "auto",
@@ -182,11 +182,20 @@
  "K20": {
   "nama": "Katalis Entropi",
   "jenis": "karakter",
-  "file": "refs/karakter/K20_Katalis_Entropi.png",
+  "file": "refs/auto/K20.png",
   "lolos": false,
-  "catatan": "BELUM: generate ulang tanpa teks liar",
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
   "anchor": "Katalis Entropi (the Entropy Catalyst), a colossal formless shape of grey-white mist with pale rings turning slowly around it and a single hollow white void at its center; everything near it is drained of color.",
-  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nKatalis Entropi (the Entropy Catalyst), a colossal formless shape of grey-white mist with pale rings turning slowly around it and a single hollow white void at its center; everything near it is drained of color.\nShow it as one large full view and one close-up of its defining feature, with a tiny human silhouette for scale.\nLabel the sheet with one small clean caption: \"K20 KATALIS ENTROPI\"."
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nKatalis Entropi (the Entropy Catalyst), a colossal formless shape of grey-white mist with pale rings turning slowly around it and a single hollow white void at its center; everything near it is drained of color.\nShow it as one large full view and one close-up of its defining feature, with a tiny human silhouette for scale.\nLabel the sheet with one small clean caption: \"K20 KATALIS ENTROPI\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "BELUM: generate ulang tanpa teks liar"
  },
  "K30": {
   "nama": "Tiga Instruktur Akademi",
@@ -309,8 +318,8 @@
   "nama": "Pejuang Perlawanan",
   "jenis": "karakter",
   "file": "refs/auto/K43.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "Resistance fighters: people in hooded patched coats of faded indigo and grey, carrying makeshift rifles.",
   "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nResistance fighters: people in hooded patched coats of faded indigo and grey, carrying makeshift rifles.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K43 PEJUANG PERLAWANAN\".",
   "sumber": "auto",
@@ -348,14 +357,14 @@
    "masalah": [],
    "perbaikan": ""
   },
-  "catatan_asal": "BELUM: hapus monokel di potret netral"
+  "catatan_asal": "BELUM: Keep the previously approved design: an old MAN with a long braided grey beard and long grey hair braid, ragged faded brown Galians robe, barefoot, carrying a lantern. No monocle or glasses in any view. Not a woman."
  },
  "K46": {
   "nama": "Chrono-Wraith",
   "jenis": "karakter",
   "file": "refs/auto/K46.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "A Chrono-Wraith: a gaunt humanoid made of shattered clock glass and bent clock hands, trailing purple-silver afterimages, with long glass claws.",
   "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nA Chrono-Wraith: a gaunt humanoid made of shattered clock glass and bent clock hands, trailing purple-silver afterimages, with long glass claws.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K46 CHRONO-WRAITH\".",
   "sumber": "auto",
@@ -409,22 +418,18 @@
   "jenis": "karakter",
   "file": "refs/auto/K51.png",
   "lolos": false,
-  "catatan": "GAGAL QC: Hanya menampilkan dua karakter, bukan lima pendiri yang berbeda seperti yang diminta.",
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
   "anchor": "The five founders of the Council: elders in ancient ceremonial robes of deep green and gold, their faces stern.",
   "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nThe five founders of the Council: elders in ancient ceremonial robes of deep green and gold, their faces stern.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K51 LIMA PENDIRI DEWAN\".",
   "sumber": "auto",
   "qc": {
-   "lolos": false,
-   "skor": 3.0,
-   "gagal": [
-    "sesuai_deskripsi"
-   ],
-   "masalah": [
-    "Hanya menampilkan dua karakter, bukan lima pendiri yang berbeda seperti yang diminta."
-   ],
-   "perbaikan": "The sheet must be updated to show five unique character designs for each of the founders."
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
   },
-  "catatan_asal": "BELUM: harus lima wajah berbeda"
+  "catatan_asal": "BELUM: Show exactly FIVE separate elderly founders standing side by side in a single row, full body, evenly spaced, all five fully visible. Each has a clearly different face: first a round face, clean-shaven and bald; second a long thin face with a long white beard; third darker skin with a short grey beard and a wrapped headcloth; fourth a moustache only with a black peci cap; fifth a braided beard and tall crown-like headwear. Same deep green and gold robes. No text."
  },
  "K52": {
   "nama": "Staf Vextron",
@@ -484,8 +489,8 @@
   "nama": "Sprite Desa Alam Nyala",
   "jenis": "karakter",
   "file": "refs/auto/K58.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "Small fire sprites of various warm colors: tiny glowing orbs of red, amber and yellow flame with two white dot eyes each.",
   "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nSmall fire sprites of various warm colors: tiny glowing orbs of red, amber and yellow flame with two white dot eyes each.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K58 SPRITE DESA ALAM NYALA\".",
   "sumber": "auto",
@@ -564,11 +569,20 @@
  "K65": {
   "nama": "Penjaga Simpul Selatan",
   "jenis": "karakter",
-  "file": "refs/karakter/K65_Penjaga_Simpul_Selatan.png",
+  "file": "refs/auto/K65.png",
   "lolos": false,
-  "catatan": "BELUM: hapus tongkat",
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
   "anchor": "The southern node keeper: a very old thin man with long white hair in a simple grey robe.",
-  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nThe southern node keeper: a very old thin man with long white hair in a simple grey robe.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K65 PENJAGA SIMPUL SELATAN\"."
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nThe southern node keeper: a very old thin man with long white hair in a simple grey robe.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K65 PENJAGA SIMPUL SELATAN\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "BELUM: hapus tongkat"
  },
  "K66": {
   "nama": "Bayang Gerhana",
@@ -604,7 +618,7 @@
    "masalah": [],
    "perbaikan": ""
   },
-  "catatan_asal": "Belum ada"
+  "catatan_asal": "BELUM: The ship must be as big as a city bus: a child silhouette for scale reaches only up to the bottom of the hull. The gold crest on each side is the official Galians crest: a pair of golden wings flanking a circle that contains a flame, not a bird. Show four different views: front, left side, rear with the loading ramp lowered, and three-quarter top view; no duplicate views."
  },
  "L01": {
   "nama": "Arena 7 Akademi",
@@ -664,8 +678,8 @@
   "nama": "Hanggar Akademi",
   "jenis": "latar",
   "file": "refs/auto/L07.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The academy hangar: a tall hangar with a sleek white-and-purple Galians transport ship on a landing pad, yellow floor markings, a huge sliding door open to the mountain sky.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy hangar: a tall hangar with a sleek white-and-purple Galians transport ship on a landing pad, yellow floor markings, a huge sliding door open to the mountain sky.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L07 HANGGAR AKADEMI\".",
   "sumber": "auto",
@@ -682,8 +696,8 @@
   "nama": "Halaman Akademi",
   "jenis": "latar",
   "file": "refs/auto/L08.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The academy courtyard: a wide stone courtyard ringed by tiered academy buildings with joglo-style rooftops and gold trim on a mountainside, a golden dome shield faintly visible overhead.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy courtyard: a wide stone courtyard ringed by tiered academy buildings with joglo-style rooftops and gold trim on a mountainside, a golden dome shield faintly visible overhead.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L08 HALAMAN AKADEMI\".",
   "sumber": "auto",
@@ -700,8 +714,8 @@
   "nama": "Lorong Bawah Tanah Akademi",
   "jenis": "latar",
   "file": "refs/auto/L09.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The academy underground tunnels: narrow riveted metal tunnels with pipes along the ceiling and caged amber work lights.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy underground tunnels: narrow riveted metal tunnels with pipes along the ceiling and caged amber work lights.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L09 LORONG BAWAH TANAH AKADEMI\".",
   "sumber": "auto",
@@ -718,8 +732,8 @@
   "nama": "Ruang Inti Akademi",
   "jenis": "latar",
   "file": "refs/auto/L10.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The academy core chamber: a vast round chamber with a colossal floating atomic crystal above a pool of golden plasma, metal catwalks ringing it.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy core chamber: a vast round chamber with a colossal floating atomic crystal above a pool of golden plasma, metal catwalks ringing it.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L10 RUANG INTI AKADEMI\".",
   "sumber": "auto",
@@ -748,7 +762,7 @@
    "masalah": [],
    "perbaikan": ""
   },
-  "catatan_asal": "Belum ada"
+  "catatan_asal": "BELUM: The gold banners must show the official Galians crest: a pair of golden wings flanking a circle that contains a flame. No birds, no eagle or Garuda emblems."
  },
  "L12": {
   "nama": "Kamar dan Balkon Gala",
@@ -766,14 +780,14 @@
    "masalah": [],
    "perbaikan": ""
   },
-  "catatan_asal": "Belum ada"
+  "catatan_asal": "BELUM: The balcony view must show the futuristic city of Nusantara: towers with joglo-style tiered rooftops and glowing gold batik light lines, monorail tracks, terrace greenery. Not a Mediterranean town, no terracotta roofs."
  },
  "L13": {
   "nama": "Ruang Dewan",
   "jenis": "latar",
   "file": "refs/auto/L13.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The council chamber: a semicircular chamber with tiered wooden seats, a raised council bench of dark wood with gold parang batik inlay, a public gallery above, a holographic projector in the center.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The council chamber: a semicircular chamber with tiered wooden seats, a raised council bench of dark wood with gold parang batik inlay, a public gallery above, a holographic projector in the center.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L13 RUANG DEWAN\".",
   "sumber": "auto",
@@ -790,8 +804,8 @@
   "nama": "Menara Arsip Akademi",
   "jenis": "latar",
   "file": "refs/auto/L14.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The academy archive tower: a tall round library with spiral shelves of scrolls and glowing record crystals, a vault door with a batik-patterned lock at the lowest level, a domed roof on top.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy archive tower: a tall round library with spiral shelves of scrolls and glowing record crystals, a vault door with a batik-patterned lock at the lowest level, a domed roof on top.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L14 MENARA ARSIP AKADEMI\".",
   "sumber": "auto",
@@ -808,8 +822,8 @@
   "nama": "Ruang Medis Akademi",
   "jenis": "latar",
   "file": "refs/auto/L15.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The academy medbay: a quiet white room with rounded beds, soft green monitor lights and tall windows.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy medbay: a quiet white room with rounded beds, soft green monitor lights and tall windows.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L15 RUANG MEDIS AKADEMI\".",
   "sumber": "auto",
@@ -844,8 +858,8 @@
   "nama": "Bengkel Akademi",
   "jenis": "latar",
   "file": "refs/auto/L17.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The academy workshop: tool racks, a large workbench under hanging lamps, disassembled gadgets and floating holographic schematics.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy workshop: tool racks, a large workbench under hanging lamps, disassembled gadgets and floating holographic schematics.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L17 BENGKEL AKADEMI\".",
   "sumber": "auto",
@@ -880,8 +894,8 @@
   "nama": "Kawasan Pabrik Sektor 7",
   "jenis": "latar",
   "file": "refs/auto/L19.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The Sector 7 nano-fiber factory complex: grey factory blocks, tall smokestacks, a wide courtyard, a huge warehouse door.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The Sector 7 nano-fiber factory complex: grey factory blocks, tall smokestacks, a wide courtyard, a huge warehouse door.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L19 KAWASAN PABRIK SEKTOR 7\".",
   "sumber": "auto",
@@ -898,8 +912,8 @@
   "nama": "Gudang Pabrik Sektor 7",
   "jenis": "latar",
   "file": "refs/auto/L20.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "Inside the Sector 7 factory warehouse: towering fiber spools, conveyor belts and thick pipes, a broken skylight in the roof, a side room with frosted glass walls.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Inside the Sector 7 factory warehouse: towering fiber spools, conveyor belts and thick pipes, a broken skylight in the roof, a side room with frosted glass walls.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L20 GUDANG PABRIK SEKTOR 7\".",
   "sumber": "auto",
@@ -916,8 +930,8 @@
   "nama": "Ruang Reaktor Sektor 7",
   "jenis": "latar",
   "file": "refs/auto/L21.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The Sector 7 reactor room: a round room built around a tall cylindrical reactor core, a control console at its base.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The Sector 7 reactor room: a round room built around a tall cylindrical reactor core, a control console at its base.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L21 RUANG REAKTOR SEKTOR 7\".",
   "sumber": "auto",
@@ -934,8 +948,8 @@
   "nama": "Kota Nusantara",
   "jenis": "latar",
   "file": "refs/auto/L22.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The city of Nusantara: futuristic towers with joglo-style tiered rooftops and glowing gold batik light lines, elevated monorail tracks, greenery on terraces.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The city of Nusantara: futuristic towers with joglo-style tiered rooftops and glowing gold batik light lines, elevated monorail tracks, greenery on terraces.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L22 KOTA NUSANTARA\".",
   "sumber": "auto",
@@ -952,8 +966,8 @@
   "nama": "Alun-Alun Monumen Atom",
   "jenis": "latar",
   "file": "refs/auto/L23.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The monument plaza: a wide circular stone plaza at the foot of the Atomic Monument, a 300-meter spire engraved with glowing gold batik lines.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The monument plaza: a wide circular stone plaza at the foot of the Atomic Monument, a 300-meter spire engraved with glowing gold batik lines.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L23 ALUN-ALUN MONUMEN ATOM\".",
   "sumber": "auto",
@@ -972,8 +986,8 @@
   "nama": "Puncak Monumen Atom",
   "jenis": "latar",
   "file": "refs/auto/L24.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The top of the Atomic Monument: a narrow circular platform around the spire tip with a glowing core socket at the center, the whole city far below.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The top of the Atomic Monument: a narrow circular platform around the spire tip with a glowing core socket at the center, the whole city far below.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L24 PUNCAK MONUMEN ATOM\".",
   "sumber": "auto",
@@ -990,8 +1004,8 @@
   "nama": "Rumah Sakit Kota",
   "jenis": "latar",
   "file": "refs/auto/L25.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The city hospital: a white futuristic hospital with rounded wards of medical pods, a basement battery room and a rooftop with a radar tower.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The city hospital: a white futuristic hospital with rounded wards of medical pods, a basement battery room and a rooftop with a radar tower.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L25 RUMAH SAKIT KOTA\".",
   "sumber": "auto",
@@ -1008,8 +1022,8 @@
   "nama": "Kilang Gas Atom",
   "jenis": "latar",
   "file": "refs/auto/L26.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The atomic gas plant: a maze of giant pipes, valve wheels and metal platforms.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The atomic gas plant: a maze of giant pipes, valve wheels and metal platforms.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L26 KILANG GAS ATOM\".",
   "sumber": "auto",
@@ -1026,8 +1040,8 @@
   "nama": "Pasar Tua",
   "jenis": "latar",
   "file": "refs/auto/L27.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The old market: a narrow lane of wooden stalls under patched tarps lit by oil lamps, an herbal-drink stall at the corner.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The old market: a narrow lane of wooden stalls under patched tarps lit by oil lamps, an herbal-drink stall at the corner.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L27 PASAR TUA\".",
   "sumber": "auto",
@@ -1043,11 +1057,23 @@
  "L28": {
   "nama": "Rumah Keluarga Dhruva",
   "jenis": "latar",
-  "file": "refs/auto/L28.png",
+  "file": null,
   "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "catatan": "Belum ada",
   "anchor": "Dhruva's family home: a small modest house in the east district with a flat rooftop and a living room with a worn couch.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Dhruva's family home: a small modest house in the east district with a flat rooftop and a living room with a worn couch.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L28 RUMAH KELUARGA DHRUVA\".",
+  "sumber": "auto",
+  "qc": {},
+  "catatan_asal": "BELUM: A modest, old, slightly worn family home in a poorer east district: faded paint, simple flat rooftop with a water tank and laundry line, small living room with a worn patched couch, simple furniture. Not a modern luxury pod house."
+ },
+ "L29": {
+  "nama": "Menara Vextron",
+  "jenis": "latar",
+  "file": "refs/auto/L29.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The Vextron Tower: a black glass skyscraper with thin violet circuit lines; inside, a black-glass lobby, an executive office with glass walls, server floors of violet-lit racks and a domed top chamber.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The Vextron Tower: a black glass skyscraper with thin violet circuit lines; inside, a black-glass lobby, an executive office with glass walls, server floors of violet-lit racks and a domed top chamber.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L29 MENARA VEXTRON\".",
   "sumber": "auto",
   "qc": {
    "lolos": true,
@@ -1056,36 +1082,14 @@
    "masalah": [],
    "perbaikan": ""
   },
-  "catatan_asal": "Belum ada"
- },
- "L29": {
-  "nama": "Menara Vextron",
-  "jenis": "latar",
-  "file": "refs/auto/L29.png",
-  "lolos": false,
-  "catatan": "GAGAL QC: Gambar interior lobi kaca hitam tidak disertakan.",
-  "anchor": "The Vextron Tower: a black glass skyscraper with thin violet circuit lines; inside, a black-glass lobby, an executive office with glass walls, server floors of violet-lit racks and a domed top chamber.",
-  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The Vextron Tower: a black glass skyscraper with thin violet circuit lines; inside, a black-glass lobby, an executive office with glass walls, server floors of violet-lit racks and a domed top chamber.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L29 MENARA VEXTRON\".",
-  "sumber": "auto",
-  "qc": {
-   "lolos": false,
-   "skor": 8.0,
-   "gagal": [
-    "sesuai_deskripsi"
-   ],
-   "masalah": [
-    "Gambar interior lobi kaca hitam tidak disertakan."
-   ],
-   "perbaikan": "Add a shot of the black-glass lobby interior to complete the reference sheet."
-  },
-  "catatan_asal": "Belum ada"
+  "catatan_asal": "BELUM: Show all four views clearly: the black glass skyscraper exterior with thin violet circuit lines, a black-glass ground-floor lobby with reception desk, an executive office with glass walls, and a server floor of violet-lit racks. Domed top chamber visible on the exterior."
  },
  "L30": {
   "nama": "Gudang Persembunyian Nira",
   "jenis": "latar",
   "file": "refs/auto/L30.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "Nira's hideout: an old warehouse full of electronic scrap with a scrap-built terminal in the middle.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Nira's hideout: an old warehouse full of electronic scrap with a scrap-built terminal in the middle.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L30 GUDANG PERSEMBUNYIAN NIRA\".",
   "sumber": "auto",
@@ -1138,8 +1142,8 @@
   "nama": "Atap-Atap Kota",
   "jenis": "latar",
   "file": "refs/auto/L33.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The city rooftops: flat rooftops with water tanks, antennas and billboards, joglo-style tower roofs in the background.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The city rooftops: flat rooftops with water tanks, antennas and billboards, joglo-style tower roofs in the background.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L33 ATAP-ATAP KOTA\".",
   "sumber": "auto",
@@ -1156,8 +1160,8 @@
   "nama": "Pegunungan Es dan Benteng Cryo-Tech",
   "jenis": "latar",
   "file": "refs/auto/L34.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The ice mountains: jagged icy peaks, and a dark mechanical fortress built into the frozen cliffs.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The ice mountains: jagged icy peaks, and a dark mechanical fortress built into the frozen cliffs.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L34 PEGUNUNGAN ES DAN BENTENG CRYO-TECH\".",
   "sumber": "auto",
@@ -1174,8 +1178,8 @@
   "nama": "Interior Benteng Cryo-Tech",
   "jenis": "latar",
   "file": "refs/auto/L35.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "Inside the Cryo-Tech fortress: long frozen metal corridors with blue lights and ice-crusted walls and pipes.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Inside the Cryo-Tech fortress: long frozen metal corridors with blue lights and ice-crusted walls and pipes.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L35 INTERIOR BENTENG CRYO-TECH\".",
   "sumber": "auto",
@@ -1192,8 +1196,8 @@
   "nama": "Ruang Generator Es",
   "jenis": "latar",
   "file": "refs/auto/L36.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The fortress generator room: a colossal room with a giant blue ice crystal spinning inside a metal ring, three catwalks circling it.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The fortress generator room: a colossal room with a giant blue ice crystal spinning inside a metal ring, three catwalks circling it.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L36 RUANG GENERATOR ES\".",
   "sumber": "auto",
@@ -1222,7 +1226,7 @@
    "masalah": [],
    "perbaikan": ""
   },
-  "catatan_asal": "Belum ada"
+  "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. A massive dark crystal citadel in a frozen black valley under a blizzard, rounded stylized crystal shapes, soft volumetric lighting."
  },
  "L38": {
   "nama": "Aula Citadel",
@@ -1240,32 +1244,38 @@
    "masalah": [],
    "perbaikan": ""
   },
-  "catatan_asal": "Belum ada"
+  "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. Plain grey sheet background like the other location sheets: one wide shot on top and two views below. Grand halls of dark blue crystal with lines glowing beneath crystal floors."
  },
  "L39": {
   "nama": "Ruang Singgasana",
   "jenis": "latar",
   "file": "refs/auto/L39.png",
   "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "catatan": "GAGAL QC: Gaya visualnya adalah lukisan konsep 2D, bukan render 3D CGI.; Tampilannya tidak cocok dengan gaya 3D yang telah disetujui pada lembar referensi akademi.",
   "anchor": "The citadel throne room: a dark crystal throne room with a black crystal throne atop tall stairs.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The citadel throne room: a dark crystal throne room with a black crystal throne atop tall stairs.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L39 RUANG SINGGASANA\".",
   "sumber": "auto",
   "qc": {
-   "lolos": true,
-   "skor": 10.0,
-   "gagal": [],
-   "masalah": [],
-   "perbaikan": ""
+   "lolos": false,
+   "skor": 2.0,
+   "gagal": [
+    "sesuai_deskripsi",
+    "gaya_3d"
+   ],
+   "masalah": [
+    "Gaya visualnya adalah lukisan konsep 2D, bukan render 3D CGI.",
+    "Tampilannya tidak cocok dengan gaya 3D yang telah disetujui pada lembar referensi akademi."
+   ],
+   "perbaikan": "The scene must be fully modeled and rendered in 3D to match the approved clean, stylized CGI look of the other sheets."
   },
-  "catatan_asal": "Belum ada"
+  "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. A dark crystal throne room with a black crystal throne atop tall stairs, rounded stylized shapes, soft cold lighting."
  },
  "L40": {
   "nama": "Kabin Kapal Angkut Galians",
   "jenis": "latar",
   "file": "refs/auto/L40.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "Inside the Galians transport: a compact cabin with fold-down seats along both walls, round windows and an overhead grab rail.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Inside the Galians transport: a compact cabin with fold-down seats along both walls, round windows and an overhead grab rail.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L40 KABIN KAPAL ANGKUT GALIANS\".",
   "sumber": "auto",
@@ -1283,25 +1293,29 @@
   "jenis": "latar",
   "file": "refs/auto/L41.png",
   "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "catatan": "GAGAL QC: Gaya render tidak konsisten dengan referensi, terlihat lebih realistis dan bertekstur daripada gaya animasi yang disetujui.",
   "anchor": "The mirror city: the same city layout, but dark, abandoned and snowbound, no lights anywhere, faded blue snowflake banners on ruined towers.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The mirror city: the same city layout, but dark, abandoned and snowbound, no lights anywhere, faded blue snowflake banners on ruined towers.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L41 KOTA CERMIN (LINI MASA PARALEL)\".",
   "sumber": "auto",
   "qc": {
-   "lolos": true,
-   "skor": 10.0,
-   "gagal": [],
-   "masalah": [],
-   "perbaikan": ""
+   "lolos": false,
+   "skor": 4.0,
+   "gagal": [
+    "sesuai_deskripsi"
+   ],
+   "masalah": [
+    "Gaya render tidak konsisten dengan referensi, terlihat lebih realistis dan bertekstur daripada gaya animasi yang disetujui."
+   ],
+   "perbaikan": "Re-render the scene to match the clean, smooth, and stylized 3D aesthetic of the approved academy environment sheets."
   },
-  "catatan_asal": "Belum ada"
+  "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. This is the SAME city as Nusantara (towers with joglo-style tiered rooftops, monorail tracks), but dark, abandoned and snowbound, no lights anywhere, faded blue snowflake banners on ruined towers."
  },
  "L42": {
   "nama": "Reruntuhan Akademi (lini masa paralel)",
   "jenis": "latar",
   "file": "refs/auto/L42.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The academy ruins of the parallel timeline: shattered academy buildings buried in snow, the scorched hexagonal arena open to the sky.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy ruins of the parallel timeline: shattered academy buildings buried in snow, the scorched hexagonal arena open to the sky.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L42 RERUNTUHAN AKADEMI (LINI MASA PARALEL)\".",
   "sumber": "auto",
@@ -1318,8 +1332,8 @@
   "nama": "Markas Perlawanan Bawah Tanah",
   "jenis": "latar",
   "file": "refs/auto/L43.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The resistance base: an underground metro station with tiled walls, old train cars, lanterns built from salvaged batik panels and scrap workbenches.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The resistance base: an underground metro station with tiled walls, old train cars, lanterns built from salvaged batik panels and scrap workbenches.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L43 MARKAS PERLAWANAN BAWAH TANAH\".",
   "sumber": "auto",
@@ -1337,25 +1351,29 @@
   "jenis": "latar",
   "file": "refs/auto/L44.png",
   "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "catatan": "GAGAL QC: Puncak monumen tidak terlihat seluruhnya, padahal deskripsi meminta untuk menunjukkan keseluruhan menara.",
   "anchor": "The dead monument of the parallel timeline: the same Atomic Monument encased in dark ice, its batik lines unlit, a cracked dark core socket at its base.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The dead monument of the parallel timeline: the same Atomic Monument encased in dark ice, its batik lines unlit, a cracked dark core socket at its base.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L44 MONUMEN MATI (LINI MASA PARALEL)\".",
   "sumber": "auto",
   "qc": {
-   "lolos": true,
-   "skor": 10.0,
-   "gagal": [],
-   "masalah": [],
-   "perbaikan": ""
+   "lolos": false,
+   "skor": 7.0,
+   "gagal": [
+    "sesuai_deskripsi"
+   ],
+   "masalah": [
+    "Puncak monumen tidak terlihat seluruhnya, padahal deskripsi meminta untuk menunjukkan keseluruhan menara."
+   ],
+   "perbaikan": "Adjust the camera framing to show the entire monument spire from base to tip."
   },
-  "catatan_asal": "Belum ada"
+  "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. Show the whole tall Atomic Monument spire (same spire and plaza as the approved monument plaza sheet) encased in dark ice, its gold batik lines unlit, a cracked dark core socket at its base, snowy dead plaza around it."
  },
  "L45": {
   "nama": "Sektor 7 Paralel",
   "jenis": "latar",
   "file": "refs/auto/L45.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The defeated Sector 7: snowbound factories and broken smokestacks; inside the warehouse, hanging cocoons of clock glass.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The defeated Sector 7: snowbound factories and broken smokestacks; inside the warehouse, hanging cocoons of clock glass.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L45 SEKTOR 7 PARALEL\".",
   "sumber": "auto",
@@ -1372,8 +1390,8 @@
   "nama": "Kuil Bukit Utara",
   "jenis": "latar",
   "file": "refs/auto/L46.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The hermit's shrine: a small stone shrine on a snowy hill with a single lantern at the door and an ancient wall relief inside.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The hermit's shrine: a small stone shrine on a snowy hill with a single lantern at the door and an ancient wall relief inside.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L46 KUIL BUKIT UTARA\".",
   "sumber": "auto",
@@ -1390,8 +1408,8 @@
   "nama": "Candi Kuno Hutan Selatan",
   "jenis": "latar",
   "file": "refs/auto/L47.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The ancient temple in the southern jungle: a stone temple rising from misty jungle, walls carved with reliefs of batik-sashed warriors, a carved stone gate at the top of the steps.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The ancient temple in the southern jungle: a stone temple rising from misty jungle, walls carved with reliefs of batik-sashed warriors, a carved stone gate at the top of the steps.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L47 CANDI KUNO HUTAN SELATAN\".",
   "sumber": "auto",
@@ -1408,8 +1426,8 @@
   "nama": "Interior Candi Kuno",
   "jenis": "latar",
   "file": "refs/auto/L48.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "Inside the ancient temple: a corridor lined with stone guardian statues leading to a tomb chamber with a chained sarcophagus beneath a giant relief.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Inside the ancient temple: a corridor lined with stone guardian statues leading to a tomb chamber with a chained sarcophagus beneath a giant relief.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L48 INTERIOR CANDI KUNO\".",
   "sumber": "auto",
@@ -1438,14 +1456,14 @@
    "masalah": [],
    "perbaikan": ""
   },
-  "catatan_asal": "Belum ada"
+  "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. A countryside village of wooden houses around a small village temple with stone statues, rounded stylized shapes and soft warm lighting."
  },
  "L50": {
   "nama": "Candi Sungai",
   "jenis": "latar",
   "file": "refs/auto/L50.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The river temple: a small stone temple on stepping stones in a misty river.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The river temple: a small stone temple on stepping stones in a misty river.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L50 CANDI SUNGAI\".",
   "sumber": "auto",
@@ -1462,8 +1480,8 @@
   "nama": "Alam Nyala",
   "jenis": "latar",
   "file": "refs/auto/L51.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The realm of flame: a red-gold sky, rivers of glowing lava, floating stone islands and warm stone plains.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The realm of flame: a red-gold sky, rivers of glowing lava, floating stone islands and warm stone plains.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L51 ALAM NYALA\".",
   "sumber": "auto",
@@ -1480,8 +1498,8 @@
   "nama": "Gua Bara Agni",
   "jenis": "latar",
   "file": "refs/auto/L52.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "Agni's ember cave: a cave with glowing red crystal walls and floating embers.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Agni's ember cave: a cave with glowing red crystal walls and floating embers.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L52 GUA BARA AGNI\".",
   "sumber": "auto",
@@ -1498,8 +1516,8 @@
   "nama": "Padang Abu",
   "jenis": "latar",
   "file": "refs/auto/L53.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The ash fields: a silent grey field of dead ash under a dull sky, all color drained.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The ash fields: a silent grey field of dead ash under a dull sky, all color drained.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L53 PADANG ABU\".",
   "sumber": "auto",
@@ -1515,27 +1533,21 @@
  "L54": {
   "nama": "Desa Sprite",
   "jenis": "latar",
-  "file": "refs/auto/L54.png",
+  "file": null,
   "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "catatan": "Belum ada",
   "anchor": "The sprite village: small round huts of glowing stone perched on tall stone pillars.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The sprite village: small round huts of glowing stone perched on tall stone pillars.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L54 DESA SPRITE\".",
   "sumber": "auto",
-  "qc": {
-   "lolos": true,
-   "skor": 10.0,
-   "gagal": [],
-   "masalah": [],
-   "perbaikan": ""
-  },
-  "catatan_asal": "Belum ada"
+  "qc": {},
+  "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. The sprite village is inside the realm of flame: red-gold sky, warm stone plains, lava glow. Small round huts of warm amber glowing stone perched on tall stone pillars. No jungle, no teal colors."
  },
  "L55": {
   "nama": "Jembatan Lava dan Ceruk Batu",
   "jenis": "latar",
   "file": "refs/auto/L55.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The lava bridges: narrow stone bridges over rivers of lava, and a cooler rock alcove used for shelter.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The lava bridges: narrow stone bridges over rivers of lava, and a cooler rock alcove used for shelter.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L55 JEMBATAN LAVA DAN CERUK BATU\".",
   "sumber": "auto",
@@ -1552,8 +1564,8 @@
   "nama": "Kawah Jantung",
   "jenis": "latar",
   "file": "refs/auto/L56.png",
-  "lolos": false,
-  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The Heart Crater: a vast crater with steep glowing walls and a giant pulsing Heart of fire at its bottom.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The Heart Crater: a vast crater with steep glowing walls and a giant pulsing Heart of fire at its bottom.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L56 KAWAH JANTUNG\".",
   "sumber": "auto",
@@ -1569,25 +1581,14 @@
  "L57": {
   "nama": "Bagian Dalam Sang Hampa",
   "jenis": "latar",
-  "file": "refs/auto/L57.png",
+  "file": null,
   "lolos": false,
-  "catatan": "GAGAL QC: Gaya visual tidak konsisten dengan referensi 3D yang disetujui.; Terlihat seperti efek 2D atau lukisan digital, bukan render 3D.",
+  "catatan": "Belum ada",
   "anchor": "Inside Sang Hampa: an endless silent void of white static.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Inside Sang Hampa: an endless silent void of white static.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L57 BAGIAN DALAM SANG HAMPA\".",
   "sumber": "auto",
-  "qc": {
-   "lolos": false,
-   "skor": 3.0,
-   "gagal": [
-    "gaya_3d"
-   ],
-   "masalah": [
-    "Gaya visual tidak konsisten dengan referensi 3D yang disetujui.",
-    "Terlihat seperti efek 2D atau lukisan digital, bukan render 3D."
-   ],
-   "perbaikan": "Recreate the concept using 3D volumetric rendering and particle systems to match the approved CGI house style."
-  },
-  "catatan_asal": "Belum ada"
+  "qc": {},
+  "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. A tangible 3D space: an endless glossy white floor fading into white fog, floating grey static particles and drifting noise flecks, soft even studio light, faint horizon line. Silent and empty."
  },
  "L58": {
   "nama": "Pulau Emas (Simpul Barat)",
@@ -1664,29 +1665,65 @@
  "L62": {
   "nama": "Palung Tengah",
   "jenis": "latar",
-  "file": null,
+  "file": "refs/auto/L62.png",
   "lolos": false,
-  "catatan": "Belum ada",
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
   "anchor": "The central sea: open sea above a deep trench whose steep dark walls descend into darkness.",
-  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The central sea: open sea above a deep trench whose steep dark walls descend into darkness.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L62 PALUNG TENGAH\"."
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The central sea: open sea above a deep trench whose steep dark walls descend into darkness.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L62 PALUNG TENGAH\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
  },
  "L63": {
   "nama": "Bagian Dalam Katalis",
   "jenis": "latar",
-  "file": null,
+  "file": "refs/auto/L63.png",
   "lolos": false,
-  "catatan": "Belum ada",
+  "catatan": "GAGAL QC: Deskripsi adalah 'ruang putih tak berujung', tetapi gambar menunjukkan lanskap bergelombang dan objek pusat yang bersinar biru, bukan ruang kosong.",
   "anchor": "Inside the Entropy Catalyst: an endless silent white space.",
-  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Inside the Entropy Catalyst: an endless silent white space.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L63 BAGIAN DALAM KATALIS\"."
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Inside the Entropy Catalyst: an endless silent white space.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L63 BAGIAN DALAM KATALIS\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": false,
+   "skor": 5.0,
+   "gagal": [
+    "sesuai_deskripsi"
+   ],
+   "masalah": [
+    "Deskripsi adalah 'ruang putih tak berujung', tetapi gambar menunjukkan lanskap bergelombang dan objek pusat yang bersinar biru, bukan ruang kosong."
+   ],
+   "perbaikan": "Remove the landscape forms and the central glowing object to create a truly empty, featureless white void as described."
+  },
+  "catatan_asal": "Belum ada"
  },
  "L64": {
   "nama": "Dermaga Kota",
   "jenis": "latar",
-  "file": null,
+  "file": "refs/auto/L64.png",
   "lolos": false,
-  "catatan": "Belum ada",
+  "catatan": "GAGAL QC: Gaya visual tidak sesuai dengan referensi yang disetujui.; Tingkat realisme terlalu tinggi dan tidak cocok dengan gaya fiksi ilmiah yang sudah ada.",
   "anchor": "The city pier: a long wooden-and-steel pier facing the open sea.",
-  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The city pier: a long wooden-and-steel pier facing the open sea.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L64 DERMAGA KOTA\"."
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The city pier: a long wooden-and-steel pier facing the open sea.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L64 DERMAGA KOTA\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": false,
+   "skor": 3.0,
+   "gagal": [
+    "gaya_3d"
+   ],
+   "masalah": [
+    "Gaya visual tidak sesuai dengan referensi yang disetujui.",
+    "Tingkat realisme terlalu tinggi dan tidak cocok dengan gaya fiksi ilmiah yang sudah ada."
+   ],
+   "perbaikan": "Redesign the pier to match the futuristic, clean aesthetic of the approved house style."
+  },
+  "catatan_asal": "Belum ada"
  },
  "L65": {
   "nama": "Laboratorium Rahasia Vikrama",
@@ -1722,30 +1759,19 @@
    "masalah": [],
    "perbaikan": ""
   },
-  "catatan_asal": "Belum ada"
+  "catatan_asal": "BELUM: The city around the monorail is Nusantara: futuristic towers with joglo-style tiered rooftops, glowing gold batik light lines and terrace greenery. Not a generic modern city."
  },
  "L67": {
   "nama": "Rumah Maheswari",
   "jenis": "latar",
-  "file": "refs/auto/L67.png",
+  "file": null,
   "lolos": false,
-  "catatan": "GAGAL QC: Gaya render terlalu fotorealistis dan tidak sesuai dengan gaya visual seri yang sudah disetujui.; Tingkat detail pada tekstur dan pencahayaan terlalu rumit dibandingkan contoh referensi.",
+  "catatan": "Belum ada",
   "anchor": "Maheswari's house: a traditional joglo-style wooden house with an open pendopo veranda and a quiet garden.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Maheswari's house: a traditional joglo-style wooden house with an open pendopo veranda and a quiet garden.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L67 RUMAH MAHESWARI\".",
   "sumber": "auto",
-  "qc": {
-   "lolos": false,
-   "skor": 3.0,
-   "gagal": [
-    "gaya_3d"
-   ],
-   "masalah": [
-    "Gaya render terlalu fotorealistis dan tidak sesuai dengan gaya visual seri yang sudah disetujui.",
-    "Tingkat detail pada tekstur dan pencahayaan terlalu rumit dibandingkan contoh referensi."
-   ],
-   "perbaikan": "The model and render must be simplified to match the established clean, stylized look of the series, reducing texture detail and using a less realistic lighting model."
-  },
-  "catatan_asal": "Belum ada"
+  "qc": {},
+  "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. A traditional joglo-style wooden house with an open pendopo veranda and a quiet garden, rounded stylized shapes, simplified textures, soft warm lighting."
  },
  "L68": {
   "nama": "Kantor Vikrama",
