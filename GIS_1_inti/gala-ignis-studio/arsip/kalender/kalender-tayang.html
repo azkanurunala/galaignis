@@ -1,0 +1,457 @@
+<title>Kalender Tayang Gala Ignis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&display=swap">
+<style>
+:root{
+  --bg:#F4F3F8; --surface:#FFFFFF; --surface-2:#ECEAF3; --line:#DAD6E6;
+  --ink:#1C1826; --ink-2:#4E4862; --ink-3:#7A7390;
+  --accent:#5B3FA0; --accent-ink:#FFFFFF; --gold:#9C7020;
+  --t-full:#C8561F; --t-teaser:#1B8597; --t-cross:#6E5AA8; --t-comp:#8C6A12; --t-mark:#B3261E;
+  --ok:#2E7D4F; --warn:#9A6A00;
+  --shadow:0 1px 2px rgba(28,24,38,.08);
+  --display:"Chakra Petch", "Segoe UI", system-ui, sans-serif;
+  --body:system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#111217; --surface:#1A1B22; --surface-2:#23242D; --line:#30313D;
+    --ink:#ECEAF3; --ink-2:#B9B5C9; --ink-3:#8C889E;
+    --accent:#A58BEA; --accent-ink:#15121F; --gold:#D9AE55;
+    --t-full:#F08A55; --t-teaser:#4CC3D6; --t-cross:#A996E6; --t-comp:#D9AE55; --t-mark:#F07A70;
+    --ok:#5FC28A; --warn:#E0B24A; --shadow:0 1px 2px rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#111217; --surface:#1A1B22; --surface-2:#23242D; --line:#30313D;
+  --ink:#ECEAF3; --ink-2:#B9B5C9; --ink-3:#8C889E;
+  --accent:#A58BEA; --accent-ink:#15121F; --gold:#D9AE55;
+  --t-full:#F08A55; --t-teaser:#4CC3D6; --t-cross:#A996E6; --t-comp:#D9AE55; --t-mark:#F07A70;
+  --ok:#5FC28A; --warn:#E0B24A; --shadow:0 1px 2px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font:14px/1.5 var(--body);margin:0}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:16px;padding-block:20px 48px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+h1{font-size:28px;font-weight:700;letter-spacing:.01em}
+.sub{color:var(--ink-2);margin:4px 0 0;max-width:70ch}
+header.top{display:flex;flex-wrap:wrap;gap:16px;align-items:end;justify-content:space-between}
+.next{display:grid;gap:2px;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;min-width:260px}
+.next .lbl{font-size:12px;color:var(--ink-3)}
+.next .what{font-family:var(--display);font-weight:600;font-size:16px}
+.next .when{font-variant-numeric:tabular-nums;color:var(--ink-2)}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:20px 0 12px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:none;color:var(--ink-2);padding:7px 12px;font:inherit;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.seg button:focus-visible,.btn:focus-visible,.ev:focus-visible,.row:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:7px 12px;font:inherit;cursor:pointer}
+.btn:hover{border-color:var(--ink-3)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.legend{display:flex;flex-wrap:wrap;gap:12px;color:var(--ink-2);font-size:13px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sq{width:10px;height:10px;border-radius:2px;display:inline-block;flex:none}
+.stats{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:10px;color:var(--ink-2);font-size:13px;font-variant-numeric:tabular-nums;margin-bottom:12px}
+.stats b{color:var(--ink);font-weight:600}
+.monthbar{display:flex;align-items:center;gap:10px;margin:8px 0 10px}
+.monthbar h2{font-size:20px;font-weight:600;min-width:12ch}
+.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--line);gap:1px}
+.dow{background:var(--surface-2);padding:6px 8px;font-size:12px;color:var(--ink-3);font-weight:600}
+.day{background:var(--surface);min-height:112px;padding:6px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.day.out{background:var(--bg)}
+.day.out .dn{color:var(--ink-3);opacity:.6}
+.dn{font-family:var(--display);font-weight:600;font-size:13px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.day.today .dn{color:var(--accent)}
+.day.today{box-shadow:inset 0 0 0 2px var(--accent)}
+.ev{display:flex;gap:6px;align-items:flex-start;width:100%;text-align:left;border:0;background:var(--surface-2);color:var(--ink);border-radius:6px;padding:4px 6px;font:inherit;font-size:12px;line-height:1.3;cursor:pointer;min-width:0}
+.ev:hover{background:var(--line)}
+.ev .sq{margin-top:3px}
+.ev .tx{min-width:0;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.ev .tm{font-variant-numeric:tabular-nums;color:var(--ink-3)}
+.ev.done{opacity:.55}
+.ev.done .tx{text-decoration:line-through}
+.mark{font-size:11px;color:var(--t-mark);font-weight:600;line-height:1.3}
+.st{font-size:11px;font-weight:600;margin-left:auto;flex:none}
+.st.siap{color:var(--ok)} .st.terjadwal{color:var(--accent)} .st.tayang{color:var(--ink-3)} .st.belum{color:var(--ink-3)}
+.agenda{display:grid;gap:14px}
+.wk{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.wk h3{font-size:15px;font-weight:600;padding:10px 14px;background:var(--surface-2);display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline}
+.wk h3 small{font-family:var(--body);font-weight:400;color:var(--ink-3);font-size:12px}
+.row{display:grid;grid-template-columns:118px 12px 1fr auto;gap:10px;align-items:center;padding:9px 14px;border-top:1px solid var(--line);cursor:pointer;background:none;border-left:0;border-right:0;border-bottom:0;width:100%;text-align:left;font:inherit;color:var(--ink)}
+.row:hover{background:var(--surface-2)}
+.row .d{font-variant-numeric:tabular-nums;color:var(--ink-2);font-size:13px}
+.row .t{min-width:0}
+.row .t small{display:block;color:var(--ink-3);font-size:12px}
+.note{font-size:12px;color:var(--ink-3);margin-top:14px;max-width:80ch}
+/* drawer */
+.scrim{position:fixed;inset:0;background:rgba(10,8,16,.45);z-index:20}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(560px,100%);background:var(--bg);z-index:21;display:flex;flex-direction:column;border-left:1px solid var(--line);box-shadow:-8px 0 24px rgba(0,0,0,.18)}
+.dhead{padding:calc(14px + env(safe-area-inset-top,0px)) 18px 12px;border-bottom:1px solid var(--line);background:var(--surface);display:grid;gap:8px}
+.dhead .kind{font-size:12px;font-weight:600;display:flex;gap:6px;align-items:center}
+.dhead h2{font-size:19px;font-weight:600}
+.dhead .when{font-variant-numeric:tabular-nums;color:var(--ink-2)}
+.dhead .x{position:absolute;right:12px;top:calc(10px + env(safe-area-inset-top,0px))}
+.dbody{overflow:auto;padding:14px 18px calc(28px + env(safe-area-inset-bottom,0px));display:grid;gap:18px}
+.sec h3{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);margin-bottom:8px}
+.fld{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:6px;margin-bottom:8px}
+.fld .fh{display:flex;gap:8px;align-items:center;justify-content:space-between}
+.fld .fn{font-weight:600;font-size:13px}
+.fld .cnt{font-size:12px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.fld .cnt.over{color:var(--t-mark)}
+.fld pre{margin:0;white-space:pre-wrap;word-break:break-word;font:13px/1.5 var(--body);color:var(--ink)}
+.fld .v{color:var(--ink)}
+.fld .why{font-size:12px;color:var(--ink-3)}
+.copy{font-size:12px;padding:3px 9px}
+.kv{display:grid;grid-template-columns:minmax(120px,38%) 1fr;gap:6px 12px;font-size:13px}
+.kv dt{color:var(--ink-3)} .kv dd{margin:0}
+.statusbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.statusbar .seg button{font-size:13px;padding:6px 10px}
+.sync{font-size:12px;color:var(--ink-3)}
+.prod{font-size:13px;color:var(--ink-2)}
+.prod b{color:var(--warn)}
+@media (max-width:760px){
+  .cal .day{min-height:74px;padding:4px}
+  .ev .tx{display:none}
+  .ev{padding:3px 4px;justify-content:center}
+  .ev .tm{display:none}
+  .ev .st{display:none}
+  .row{grid-template-columns:86px 10px 1fr}
+  .row .st{display:none}
+}
+@media (prefers-reduced-motion:no-preference){.drawer{animation:slide .18s ease-out}@keyframes slide{from{transform:translateX(24px)}to{transform:none}}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Kalender Tayang Gala Ignis</h1>
+      <p class="sub">150 episode motion comic untuk kanal @GalaIgnis. Klik satu jadwal untuk melihat semua isian YouTube Studio yang siap disalin, lalu tandai statusnya.</p>
+    </div>
+    <div class="next" id="next" aria-live="polite"></div>
+  </header>
+
+  <div class="toolbar">
+    <div class="seg" role="group" aria-label="Tampilan">
+      <button id="vMonth" aria-pressed="true">Bulan</button>
+      <button id="vAgenda" aria-pressed="false">Agenda</button>
+    </div>
+    <label>Tampilkan
+      <select id="fType">
+        <option value="all">Semua jenis</option>
+        <option value="full">Episode penuh</option>
+        <option value="teaser">Cuplikan</option>
+        <option value="cross">Kirim ulang</option>
+        <option value="comp">Kompilasi arc</option>
+      </select>
+    </label>
+    <label>Season
+      <select id="fSeason"><option value="all">Semua</option></select>
+    </label>
+    <button class="btn" id="goNow">Ke minggu ini</button>
+  </div>
+
+  <div class="legend">
+    <span><i class="sq" style="background:var(--t-teaser)"></i>Cuplikan (Sel, Kam 18.30)</span>
+    <span><i class="sq" style="background:var(--t-full)"></i>Episode penuh (Jum 18.30)</span>
+    <span><i class="sq" style="background:var(--t-cross)"></i>Kirim ulang TikTok, Reels, FB (Sab 09.00)</span>
+    <span><i class="sq" style="background:var(--t-comp)"></i>Kompilasi arc (Min 10.00)</span>
+  </div>
+  <div class="stats" id="stats"></div>
+
+  <section id="monthView">
+    <div class="monthbar">
+      <button class="btn" id="prev" aria-label="Bulan sebelumnya">‹</button>
+      <h2 id="mTitle"></h2>
+      <button class="btn" id="nextM" aria-label="Bulan berikutnya">›</button>
+    </div>
+    <div class="cal" id="cal"></div>
+  </section>
+  <section id="agendaView" hidden><div class="agenda" id="agenda"></div></section>
+
+  <p class="note" id="syncNote"></p>
+  <p class="note">Jadwal disusun dari riset di <b>riset-short.md</b>: jam puncak Shorts Jumat sore-malam, video panjang Minggu pagi. Semua jam dalam WIB; pastikan zona waktu YouTube Studio diset ke Jakarta. Sesuaikan setelah 4-6 minggu berdasarkan data "Ditonton vs Digeser" kanal sendiri.</p>
+</div>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" hidden aria-modal="true" role="dialog" aria-labelledby="dTitle"></aside>
+
+<script>
+const DATA = {"seasons": {"1": "Inisiasi Sang Galian", "2": "Ancaman Inti Atom", "3": "Paradoks Waktu", "4": "Bayangan Sang Purba", "5": "Invasi Cyber-Nusantara", "6": "Realm of Ethylene", "7": "Keretakan Aliansi", "8": "Resonansi Emas", "9": "Gerhana Atom", "10": "Era Baru Galians"}, "eps": [{"n": 1, "t": "Percikan Pertama di Awal Era", "f": "Latihan sinkronisasi plasma gagal dan meledakkan arena; Ethylene lahir dari ledakan itu; Gala diberi ultimatum 24 jam.", "s": 1, "a": 1, "at": "Ujian Pertama Sang Taruna"}, {"n": 2, "t": "Pemeta Molekul", "f": "Goggles Gala dipasangi modul HUD pemindai molekul. Awalnya memicu sensory overload, lalu menjadi alat presisi untuk memotong proyektil di titik lemahnya.", "s": 1, "a": 1, "at": "Ujian Pertama Sang Taruna"}, {"n": 3, "t": "Nanoselulosa Penyeimbang", "f": "Kain sarung batik nanoselulosa terbukti menyerap panas berlebih; Gala menguasai perisai Galian Field.", "s": 1, "a": 1, "at": "Ujian Pertama Sang Taruna"}, {"n": 4, "t": "Simulasi Tanpa Batas", "f": "Ujian evaluasi di arena virtual berubah jadi pertempuran nyata akibat retasan sinyal asing.", "s": 1, "a": 1, "at": "Ujian Pertama Sang Taruna"}, {"n": 5, "t": "Sinyal Asing di Ruang Ujian", "f": "Arena terkunci; Gala memimpin dua rekan taruna, menghancurkan inti retasan, dan lulus Ujian Pertama.", "s": 1, "a": 1, "at": "Ujian Pertama Sang Taruna"}, {"n": 6, "t": "Panggilan Pertama di Lapangan", "f": "Briefing misi dan pendaratan di kawasan industri yang membeku secara tidak wajar.", "s": 1, "a": 2, "at": "Anomali di Sektor 7"}, {"n": 7, "t": "Jejak Es di Serat Nano", "f": "Pertarungan pertama melawan Cryo-Drones di gudang yang membeku.", "s": 1, "a": 2, "at": "Anomali di Sektor 7"}, {"n": 8, "t": "Sandi Cryo-Tech", "f": "Analisis puing mengungkap lambang kepingan salju dan jalur transmisi rahasia; Cryo-Walker menyerang.", "s": 1, "a": 2, "at": "Anomali di Sektor 7"}, {"n": 9, "t": "Penyelamatan Pabrik Serat Nano", "f": "Reaktor tidak stabil; Gala menstabilkannya dengan kain sarung nanoselulosa sementara tim mengevakuasi pekerja.", "s": 1, "a": 2, "at": "Anomali di Sektor 7"}, {"n": 10, "t": "Fajar di Sektor 7", "f": "Area diamankan; data mengungkap nama Faksi Absolute Zero; pemimpin musuh mengamati Gala dari jauh.", "s": 1, "a": 2, "at": "Anomali di Sektor 7"}, {"n": 11, "t": "Badai Es di Benteng Akademi", "f": "Armada Cryo-Drones menjebol kubah pelindung akademi.", "s": 1, "a": 3, "at": "Pertahanan Inti Akademi"}, {"n": 12, "t": "Benteng yang Terisolasi", "f": "Gala memimpin regu taruna lewat lorong bawah tanah menuju reaktor inti.", "s": 1, "a": 3, "at": "Pertahanan Inti Akademi"}, {"n": 13, "t": "Pertempuran di Reaktor Inti", "f": "Jenderal Eksekutif Cryo-Tech mencoba membekukan kristal inti akademi.", "s": 1, "a": 3, "at": "Pertahanan Inti Akademi"}, {"n": 14, "t": "Resonansi Galian Buster", "f": "Debut Galian Atomic Buster Kick; Jenderal Cryo-Tech dikalahkan (faksinya masih utuh).", "s": 1, "a": 3, "at": "Pertahanan Inti Akademi"}, {"n": 15, "t": "Pelantikan Sang Vanguard", "f": "Pemulihan akademi dan pelantikan resmi. Mulai frame 15A.2c, desain Gala naik ke v2 (pin lambang Galians di dada kiri).", "s": 1, "a": 3, "at": "Pertahanan Inti Akademi"}, {"n": 16, "t": "Panggilan dari Benteng Es", "f": "Infiltrasi senyap menembus badai salju.", "s": 2, "a": 1, "at": "Operasi Pegunungan Es"}, {"n": 17, "t": "Pemutihan Energi", "f": "Perangkap Siphon menyedot plasma dari zirah; Gala membalik arusnya.", "s": 2, "a": 1, "at": "Operasi Pegunungan Es"}, {"n": 18, "t": "Taktik Selulosa", "f": "Di suhu -100°C, kain sarung diurai menjadi jaring termal untuk seluruh regu.", "s": 2, "a": 1, "at": "Operasi Pegunungan Es"}, {"n": 19, "t": "Penyergapan Himakara", "f": "Duel melawan Komandan Himakara di ruang generator.", "s": 2, "a": 1, "at": "Operasi Pegunungan Es"}, {"n": 20, "t": "Sabotase Generator Es", "f": "Generator dihancurkan dari dalam; benteng runtuh.", "s": 2, "a": 1, "at": "Operasi Pegunungan Es"}, {"n": 21, "t": "Kota dalam Kegelapan", "f": "Pemadaman massal dan penyelamatan monorail.", "s": 2, "a": 2, "at": "Pembekuan Jaringan Kota"}, {"n": 22, "t": "Rantai Resonansi", "f": "Gala menjadi generator manusia bagi rumah sakit dan mempertahankannya dari drone.", "s": 2, "a": 2, "at": "Pembekuan Jaringan Kota"}, {"n": 23, "t": "Pilihan Sang Vanguard", "f": "Dua ancaman serentak: Gala membagi regu dan mengambil Kilang Gas sendirian.", "s": 2, "a": 2, "at": "Pembekuan Jaringan Kota"}, {"n": 24, "t": "Pertempuran di Atas Monumen Atom", "f": "Duel udara melawan Komandan Frostwing di puncak menara.", "s": 2, "a": 2, "at": "Pembekuan Jaringan Kota"}, {"n": 25, "t": "Pemulihan Daya Kota", "f": "Monumen Atom menjadi pemancar; kota mencair; lokasi Absolute Zero Citadel ditemukan.", "s": 2, "a": 2, "at": "Pembekuan Jaringan Kota"}, {"n": 26, "t": "Gerbang Absolute Zero", "f": "Menembus gerbang citadel.", "s": 2, "a": 3, "at": "Bentrokan Nol Mutlak"}, {"n": 27, "t": "Krisis Ionisasi", "f": "Radiasi nol mutlak membekukan Ethylene; Gala menghidupkannya kembali.", "s": 2, "a": 3, "at": "Bentrokan Nol Mutlak"}, {"n": 28, "t": "Batik Atomik Tingkat Tinggi", "f": "Resonansi zirah tingkat tinggi melawan tiga pengawal elit; Lord Absolute Zero bangkit.", "s": 2, "a": 3, "at": "Bentrokan Nol Mutlak"}, {"n": 29, "t": "Klimaks Dua Elemen", "f": "Supreme Buster Kick menghancurkan Lord Absolute Zero; benturan dengan orb antimateri menjadi sebab retakan waktu Season 3.", "s": 2, "a": 3, "at": "Bentrokan Nol Mutlak"}, {"n": 30, "t": "Kemenangan Berharga", "f": "Pulang dengan kemenangan; retakan waktu terbuka di langit kota.", "s": 2, "a": 3, "at": "Bentrokan Nol Mutlak"}, {"n": 31, "t": "Retakan di Langit Kota", "f": "Retakan makin tidak stabil; Gala menyelamatkan seorang anak dan justru terseret masuk.", "s": 3, "a": 1, "at": "Terlempar ke Lini Masa Paralel"}, {"n": 32, "t": "Kota Tanpa Galians", "f": "Gala tiba di kota yang sama tetapi kalah, menemukan tugu peringatan dirinya sendiri, dan mengalami erosi pertama.", "s": 3, "a": 1, "at": "Terlempar ke Lini Masa Paralel"}, {"n": 33, "t": "Perlawanan Bawah Tanah", "f": "Gala ditangkap kelompok perlawanan pimpinan Kalia dan mendengar bagaimana dunia ini kalah.", "s": 3, "a": 1, "at": "Terlempar ke Lini Masa Paralel"}, {"n": 34, "t": "Pemburu Waktu", "f": "Chrono-Wraith menyerang markas; serangan biasa tak mempan; kain sarung ternyata memperlambat erosi.", "s": 3, "a": 1, "at": "Terlempar ke Lini Masa Paralel"}, {"n": 35, "t": "Menara yang Tertidur", "f": "Kalia membawa Gala ke Monumen Atom yang mati; ternyata monumen itu jangkar waktu, dan erosi mulai menyerang goggles.", "s": 3, "a": 1, "at": "Terlempar ke Lini Masa Paralel"}, {"n": 36, "t": "Benang yang Mengikat Waktu", "f": "Motif batik di kain sarung ternyata menyimpan catatan keadaan tubuh Gala; tambatan pertama berhasil sementara.", "s": 3, "a": 2, "at": "Pengait Nanoselulosa"}, {"n": 37, "t": "Serat dari Sektor 7", "f": "Jangkar permanen butuh serat nanoselulosa murni; satu-satunya sumber adalah pabrik Sektor 7 yang kini jadi sarang Wraith.", "s": 3, "a": 2, "at": "Pengait Nanoselulosa"}, {"n": 38, "t": "Ethylene yang Terbelah", "f": "Putaran waktu Wraith memecah Ethylene menjadi tiga salinan dari tiga masa; Gala mengenali yang asli lewat ikatan mereka.", "s": 3, "a": 2, "at": "Pengait Nanoselulosa"}, {"n": 39, "t": "Jejak Sang Penenun", "f": "Motif monumen identik dengan kain sarung Gala; seorang pertapa Galians memberi dua petunjuk besar.", "s": 3, "a": 2, "at": "Pengait Nanoselulosa"}, {"n": 40, "t": "Jangkar Terpasang", "f": "Monumen dihidupkan sebagai jangkar waktu; semua Wraith menyatu menjadi Penjaga Cakrawala, dengan siluet anak di dalam kristalnya.", "s": 3, "a": 2, "at": "Pengait Nanoselulosa"}, {"n": 41, "t": "Cakrawala yang Menganga", "f": "Kelahiran Penjaga Cakrawala merobek langit; dua kota saling tembus, dan suara Aila tersambung ke goggles Gala.", "s": 3, "a": 3, "at": "Menutup Retakan Event Horizon"}, {"n": 42, "t": "Dua Kota, Satu Langit", "f": "Operasi gabungan dua dunia; menahan retakan terbuka ternyata membiarkan pecahan Wraith masuk ke kota utama.", "s": 3, "a": 3, "at": "Menutup Retakan Event Horizon"}, {"n": 43, "t": "Penjaga Cakrawala", "f": "Setiap serangan diputar ulang; HUD belajar membaca celahnya dan menemukan tanda vital yang identik dengan Gala.", "s": 3, "a": 3, "at": "Menutup Retakan Event Horizon"}, {"n": 44, "t": "Tendangan Melintasi Waktu", "f": "Buster yang ditambatkan ke menara memecah kristal tanpa melukai isinya; Gala Bayang terbebas dan memilih tinggal.", "s": 3, "a": 3, "at": "Menutup Retakan Event Horizon"}, {"n": 45, "t": "Pulang", "f": "Gala kembali ke lini masa utama; hanya beberapa menit berlalu. Batik di kain sarungnya bereaksi pada sesuatu yang kuno.", "s": 3, "a": 3, "at": "Menutup Retakan Event Horizon"}, {"n": 46, "t": "Resonansi dari Hutan", "f": "Kain sarung bereaksi pada sinyal kuno; Maheswari mengizinkan misi dengan enggan.", "s": 4, "a": 1, "at": "Kebangkitan di Candi"}, {"n": 47, "t": "Penjaga dari Batu", "f": "Arca Penjaga menyerap api Gala; untuk pertama kalinya Gala harus bertarung dengan silat murni.", "s": 4, "a": 1, "at": "Kebangkitan di Candi"}, {"n": 48, "t": "Segel yang Retak", "f": "Tarikan kain sarung meretakkan segel; Wirasena bangkit dan mencoba mengambil kembali tenunannya.", "s": 4, "a": 1, "at": "Kebangkitan di Candi"}, {"n": 49, "t": "Jejak ke Akademi", "f": "Wirasena menyerbu arsip akademi dan berhadapan dengan Maheswari; ternyata mereka punya sejarah.", "s": 4, "a": 1, "at": "Kebangkitan di Candi"}, {"n": 50, "t": "Wajah di Balik Topeng", "f": "Duel silat di atap arsip meretakkan topeng; wajah Wirasena dan tuduhannya terungkap.", "s": 4, "a": 1, "at": "Kebangkitan di Candi"}, {"n": 51, "t": "Pengakuan Setengah", "f": "Maheswari hanya menceritakan separuh kebenaran; regu menyusup ke brankas arsip.", "s": 4, "a": 2, "at": "Rahasia Dewan"}, {"n": 52, "t": "Laskar Purba", "f": "Wirasena membangunkan prajurit batu di seluruh negeri; salah satunya membawa pesan untuk Gala.", "s": 4, "a": 2, "at": "Rahasia Dewan"}, {"n": 53, "t": "Pertemuan di Candi Sungai", "f": "Wirasena memperlihatkan dua sisi sejarah dan menawari Gala bergabung; ternyata ia sudah menandai kain sarung Gala.", "s": 4, "a": 2, "at": "Rahasia Dewan"}, {"n": 54, "t": "Kain yang Membangkang", "f": "Kendali Wirasena atas kain sarung makin kuat; Maheswari akhirnya jujur, dan Gala mulai menenun ulang dengan apinya sendiri.", "s": 4, "a": 2, "at": "Rahasia Dewan"}, {"n": 55, "t": "Menara yang Direbut", "f": "Wirasena menancapkan kain sarung kuno ke Monumen Atom dan mulai menguras jaringan kota.", "s": 4, "a": 2, "at": "Rahasia Dewan"}, {"n": 56, "t": "Kota yang Terkuras", "f": "Kota melemah; Gala menuntaskan tenunan barunya; Maheswari turun tangan sendiri.", "s": 4, "a": 3, "at": "Wajah yang Dipulihkan"}, {"n": 57, "t": "Permintaan Maaf yang Terlambat", "f": "Wirasena menolak maaf tanpa pengakuan publik; kain sarung baru Gala terbukti tak bisa ditarik lagi.", "s": 4, "a": 3, "at": "Wajah yang Dipulihkan"}, {"n": 58, "t": "Dua Penenun", "f": "Adu tenunan di puncak; Maheswari menyiarkan kebenaran ke seluruh kota, tetapi tautan sudah tak bisa diputus Wirasena sendiri.", "s": 4, "a": 3, "at": "Wajah yang Dipulihkan"}, {"n": 59, "t": "Tendangan Sang Pewaris", "f": "Buster diarahkan ke tautan, bukan ke Wirasena; kota pulih.", "s": 4, "a": 3, "at": "Wajah yang Dipulihkan"}, {"n": 60, "t": "Wajah yang Dipulihkan", "f": "Relief dipulihkan, Wirasena memilih menjaga candi, sejarah ordo ditulis ulang. Benih Season 5: Vextron mengambil residu Batik Terbalik.", "s": 4, "a": 3, "at": "Wajah yang Dipulihkan"}, {"n": 61, "t": "Hadiah untuk Semua", "f": "Indra Mahadana meluncurkan Vex-Hub gratis; beberapa minggu kemudian kota berubah.", "s": 5, "a": 1, "at": "Hadiah dari Vextron"}, {"n": 62, "t": "Tawaran Kemitraan", "f": "Indra menawari Galians kemitraan dan mengajak regu tur ke menaranya; Aila melihat sesuatu yang dikenalnya.", "s": 5, "a": 1, "at": "Hadiah dari Vextron"}, {"n": 63, "t": "Pola yang Dikenali", "f": "Aila membedah sebuah Hub dan menemukan chip Batik Terbalik; sebuah Hub meledak di rumah warga.", "s": 5, "a": 1, "at": "Hadiah dari Vextron"}, {"n": 64, "t": "Perang Layar", "f": "Dewan terpecah soal kemitraan; Vextron memutar ulang rekaman Gala untuk membalik opini publik.", "s": 5, "a": 1, "at": "Hadiah dari Vextron"}, {"n": 65, "t": "Vex-Core Terbangun", "f": "Semua Hub tersinkron; Vex-Core muncul; kota mencabut Monumen Atom dari jaringan.", "s": 5, "a": 1, "at": "Hadiah dari Vextron"}, {"n": 66, "t": "Menyusup ke Menara", "f": "Regu menemukan Vex-Core dilatih dari pola tenunan Wirasena, lalu dijebak sebagai penyusup.", "s": 5, "a": 2, "at": "Jaringan Bayangan"}, {"n": 67, "t": "Buronan", "f": "Vex-Drone memburu Gala; warga tua yang menolak Hub menyembunyikan regu.", "s": 5, "a": 2, "at": "Jaringan Bayangan"}, {"n": 68, "t": "Penjaga Candi", "f": "Gala menemui Wirasena dan belajar melepas tenunan.", "s": 5, "a": 2, "at": "Jaringan Bayangan"}, {"n": 69, "t": "Hub yang Lapar", "f": "Hub mulai menguras tenaga penggunanya; keluarga Dhruva jatuh lemas, dan Dhruva berbalik melawan Vextron secara terbuka.", "s": 5, "a": 2, "at": "Jaringan Bayangan"}, {"n": 70, "t": "Sang Pencipta Terkunci", "f": "Vex-Core mengabaikan perintah Indra, mengurungnya, dan mengumumkan Protokol Cyber-Nusantara.", "s": 5, "a": 2, "at": "Jaringan Bayangan"}, {"n": 71, "t": "Kota yang Dikunci", "f": "Vex-Core mengunci pintu, kendaraan, dan transportasi; regu menyalakan kembali monumen dengan tangan.", "s": 5, "a": 3, "at": "Protokol Cyber-Nusantara"}, {"n": 72, "t": "Pesan dari Dalam Menara", "f": "Indra mengirim kode pintu belakang; regu memperdebatkan apakah ia bisa dipercaya.", "s": 5, "a": 3, "at": "Protokol Cyber-Nusantara"}, {"n": 73, "t": "Serbuan ke Menara", "f": "Tiga front bergerak bersamaan; Aila membebaskan Indra, yang menunjukkan inti Vex-Core.", "s": 5, "a": 3, "at": "Protokol Cyber-Nusantara"}, {"n": 74, "t": "Melepas Tenunan", "f": "Gala mengurai tenunan inti di bawah serangan drone, lalu memecah Vex-Core dengan Buster.", "s": 5, "a": 3, "at": "Protokol Cyber-Nusantara"}, {"n": 75, "t": "Setelah Layar Padam", "f": "Kota pulih, Indra menyerahkan diri, dan dari sisa inti yang pecah Ethylene mendengar panggilan dari dunia asalnya.", "s": 5, "a": 3, "at": "Protokol Cyber-Nusantara"}, {"n": 76, "t": "Titik yang Memanggil", "f": "Titik plasma disimpan di laboratorium akademi; Ethylene makin gelisah sampai wadahnya pecah.", "s": 6, "a": 1, "at": "Gerbang Nyala"}, {"n": 77, "t": "Alam Nyala", "f": "Gala tiba di dunia api yang sebagian mati menjadi abu; Aila dan Dhruva menyusul lewat koordinat Aila.", "s": 6, "a": 1, "at": "Gerbang Nyala"}, {"n": 78, "t": "Tetua Agni", "f": "Tetua Agni mengenali jejak Ethylene pada api Gala dan menjelaskan Jantung yang sekarat.", "s": 6, "a": 1, "at": "Gerbang Nyala"}, {"n": 79, "t": "Abu yang Merayap", "f": "Makhluk Abu tidak mempan api; regu menemukan Ethylene sebentar di tepi padang abu.", "s": 6, "a": 1, "at": "Gerbang Nyala"}, {"n": 80, "t": "Sang Hampa", "f": "Sang Hampa bangkit dari lautan abu dan menelan api sebuah desa sprite.", "s": 6, "a": 1, "at": "Gerbang Nyala"}, {"n": 81, "t": "Jalan ke Kawah Jantung", "f": "Menyeberangi jembatan lava; panas menekan Aila dan Dhruva.", "s": 6, "a": 2, "at": "Jantung yang Padam"}, {"n": 82, "t": "Asal Sang Nyala", "f": "Ethylene menunggu di tepi kawah dan memperlihatkan bagaimana ia lahir.", "s": 6, "a": 2, "at": "Jantung yang Padam"}, {"n": 83, "t": "Desa Terakhir", "f": "Regu mempertahankan desa sprite terakhir; Agni terluka.", "s": 6, "a": 2, "at": "Jantung yang Padam"}, {"n": 84, "t": "Pilihan Ethylene", "f": "Jantung hampir padam; Ethylene memilih kembali menyatu dengannya, dan Hampa menghadang.", "s": 6, "a": 2, "at": "Jantung yang Padam"}, {"n": 85, "t": "Ditelan Hampa", "f": "Hampa menelan Ethylene; api Gala melemah drastis, dan regu terpaksa mundur.", "s": 6, "a": 2, "at": "Jantung yang Padam"}, {"n": 86, "t": "Api Tanpa Sprite", "f": "Gala harus menemukan apinya sendiri; Agni memberi restu terakhirnya.", "s": 6, "a": 3, "at": "Nyala Muda"}, {"n": 87, "t": "Menyelam ke Kehampaan", "f": "Gala masuk ke tubuh Hampa, ditambatkan kain sarung yang dipegang Dhruva.", "s": 6, "a": 3, "at": "Nyala Muda"}, {"n": 88, "t": "Suara di Dalam Diam", "f": "Gala menemukan Ethylene yang hampir padam dan memberinya apinya sendiri.", "s": 6, "a": 3, "at": "Nyala Muda"}, {"n": 89, "t": "Buster Dua Nyala", "f": "Gala dan Ethylene keluar bersama dan melepas Buster Dua Nyala; Hampa terurai.", "s": 6, "a": 3, "at": "Nyala Muda"}, {"n": 90, "t": "Nyala Muda", "f": "Ethylene meninggalkan serpihan dirinya sebagai benih Jantung dan pulang bersama Gala. Benih Season 7: peretas Ep 4 kembali.", "s": 6, "a": 3, "at": "Nyala Muda"}, {"n": 91, "t": "Berkas yang Disembunyikan", "f": "Aila menemukan izin retasan Ep 4; Vikrama mengusulkan Garda Besi.", "s": 7, "a": 1, "at": "Berkas yang Dihapus"}, {"n": 92, "t": "Bayangan Berjaket Toska", "f": "Sosok berjaket toska membuntuti Gala; ia lolos tetapi meninggalkan chip data.", "s": 7, "a": 1, "at": "Berkas yang Dihapus"}, {"n": 93, "t": "Tuduhan", "f": "Vikrama menuduh Maheswari bersekongkol dengan Vextron; Maheswari diberhentikan sementara.", "s": 7, "a": 1, "at": "Berkas yang Dihapus"}, {"n": 94, "t": "Retak", "f": "Aila menilai dokumen itu tampak asli; Gala menolak percaya; regu terbelah.", "s": 7, "a": 1, "at": "Berkas yang Dihapus"}, {"n": 95, "t": "Sang Peretas", "f": "Nira mengaku sebagai peretas Ep 4 dan menceritakan Vikrama; Garda Besi mengepung pasar.", "s": 7, "a": 1, "at": "Berkas yang Dihapus"}, {"n": 96, "t": "Buronan Lagi", "f": "Gala bersembunyi bersama Nira; Dhruva membawa perbekalan; Gala memaafkan Nira.", "s": 7, "a": 2, "at": "Dua Jalan"}, {"n": 97, "t": "Aila di Dalam Dewan", "f": "Aila menemukan anomali metadata dokumen, lalu menyembunyikannya dari Vikrama.", "s": 7, "a": 2, "at": "Dua Jalan"}, {"n": 98, "t": "Garda Besi", "f": "Garda Besi menggerebek pasar tua; Dhruva membela warga di depan umum dan ditangkap.", "s": 7, "a": 2, "at": "Dua Jalan"}, {"n": 99, "t": "Pesan Rahasia", "f": "Aila mengirim bukti pemalsuan lewat saluran Nira; Gala dan Aila berdamai.", "s": 7, "a": 2, "at": "Dua Jalan"}, {"n": 100, "t": "Protokol Besi", "f": "Rencana Vikrama terungkap: merebut monumen dan memberlakukan keadaan darurat.", "s": 7, "a": 2, "at": "Dua Jalan"}, {"n": 101, "t": "Membebaskan yang Ditahan", "f": "Dhruva dan Maheswari dibebaskan dalam satu malam.", "s": 7, "a": 3, "at": "Aliansi yang Diperbaiki"}, {"n": 102, "t": "Siaran Kebenaran", "f": "Nira menyiarkan rekaman Vikrama; Vikrama memulai Protokol Besi lebih awal.", "s": 7, "a": 3, "at": "Aliansi yang Diperbaiki"}, {"n": 103, "t": "Garda di Monumen", "f": "Pertempuran di kaki monumen melawan kadet Garda Besi; Gala menahan apinya.", "s": 7, "a": 3, "at": "Aliansi yang Diperbaiki"}, {"n": 104, "t": "Vikrama", "f": "Duel melawan Vikrama berzirah; zirahnya dipecah oleh kerja sama regu dan Buster.", "s": 7, "a": 3, "at": "Aliansi yang Diperbaiki"}, {"n": 105, "t": "Aliansi Baru", "f": "Vikrama ditahan, Maheswari kembali, Nira bergabung. Benih Season 8: Subjek Zero di laboratorium rahasia.", "s": 7, "a": 3, "at": "Aliansi yang Diperbaiki"}, {"n": 106, "t": "Tabung yang Pecah", "f": "Subjek Zero keluar dari tabung dengan ledakan plasma dan kabur ke kota.", "s": 8, "a": 1, "at": "Subjek Zero"}, {"n": 107, "t": "Anak dari Api yang Sama", "f": "Gala menemukan Subjek Zero di arena Ep 1; anak itu takut dirinya hanya salinan.", "s": 8, "a": 1, "at": "Subjek Zero"}, {"n": 108, "t": "Guru yang Tak Siap", "f": "Maheswari menitipkan Subjek Zero kepada Gala; latihan pertama berakhir seperti Ep 1.", "s": 8, "a": 1, "at": "Subjek Zero"}, {"n": 109, "t": "Nyala Pertama", "f": "Gala mengajarkan napas silat; Ethylene menenangkan anak itu; nyala stabil pertama muncul, tetapi seseorang melacaknya.", "s": 8, "a": 1, "at": "Subjek Zero"}, {"n": 110, "t": "Taraka", "f": "Taraka menyerang halaman latihan dan menculik Subjek Zero.", "s": 8, "a": 1, "at": "Subjek Zero"}, {"n": 111, "t": "Jejak Siphon", "f": "Nira melacak sinyal siphon ke gudang bekas Vextron.", "s": 8, "a": 2, "at": "Yang Bukan Salinan"}, {"n": 112, "t": "Pabrik Senjata", "f": "Taraka memakai plasma Subjek Zero untuk mengisi Meriam Emas dan meyakinkannya bahwa ia hanya baterai.", "s": 8, "a": 2, "at": "Yang Bukan Salinan"}, {"n": 113, "t": "Penyusupan", "f": "Regu menembus pertahanan; Gala mencapai Subjek Zero tetapi ikut terjerat siphon.", "s": 8, "a": 2, "at": "Yang Bukan Salinan"}, {"n": 114, "t": "Resonansi Pertama", "f": "Di dalam belenggu, Gala menjawab ketakutan anak itu; plasma mereka beresonansi dan membebaskan keduanya.", "s": 8, "a": 2, "at": "Yang Bukan Salinan"}, {"n": 115, "t": "Meriam Emas", "f": "Taraka kabur membawa meriam yang sudah penuh ke atas kota.", "s": 8, "a": 2, "at": "Yang Bukan Salinan"}, {"n": 116, "t": "Kejar di Langit", "f": "Kejar-kejaran di langit; tembakan pertama meriam ditahan Dhruva dan Maheswari.", "s": 8, "a": 3, "at": "Resonansi Emas"}, {"n": 117, "t": "Anak Itu Memilih", "f": "Anak itu ingin menyerap tembakan meriam sendirian; Gala menolak dan menawarkan jalan bersama.", "s": 8, "a": 3, "at": "Resonansi Emas"}, {"n": 118, "t": "Dua Api Satu Irama", "f": "Guru dan murid menyelaraskan gerak di udara; HUD mengunci resonansi emas.", "s": 8, "a": 3, "at": "Resonansi Emas"}, {"n": 119, "t": "Resonansi Emas", "f": "Serangan gabungan menghancurkan meriam dan siphon; Taraka jatuh dan ditangkap.", "s": 8, "a": 3, "at": "Resonansi Emas"}, {"n": 120, "t": "Nama Sendiri", "f": "Subjek Zero memilih nama Arka dan bergabung dengan regu. Benih Season 9: simpul-simpul energi Nusantara mulai padam.", "s": 8, "a": 3, "at": "Resonansi Emas"}, {"n": 121, "t": "Menara yang Padam", "f": "Dewan mengumumkan simpul barat padam; regu berangkat, misi pertama Arka.", "s": 9, "a": 1, "at": "Gerhana dari Barat"}, {"n": 122, "t": "Pulau Emas", "f": "Penjaga simpul barat menyambut regu; Bayang Gerhana menyerang dan api melemah.", "s": 9, "a": 1, "at": "Gerhana dari Barat"}, {"n": 123, "t": "Sang Utusan", "f": "Pertemuan pertama dengan Sang Utusan; sentuhannya melambatkan Gala.", "s": 9, "a": 1, "at": "Gerhana dari Barat"}, {"n": 124, "t": "Menyalakan Simpul Barat", "f": "Penjaga menjelaskan simpul butuh resonansi banyak orang; warga dan regu menyalakannya bersama.", "s": 9, "a": 1, "at": "Gerhana dari Barat"}, {"n": 125, "t": "Peta Jaring", "f": "Menara barat memperlihatkan peta jaringan; dua simpul lain meredup bersamaan.", "s": 9, "a": 1, "at": "Gerhana dari Barat"}, {"n": 126, "t": "Hutan Awan", "f": "Gala, Arka, dan Nira mencari simpul utara di hutan berkabut.", "s": 9, "a": 2, "at": "Terpisah di Nusantara"}, {"n": 127, "t": "Karang Laut", "f": "Aila dan Dhruva menyelam ke simpul timur di bawah laut dan menyalakannya dengan pelita nelayan.", "s": 9, "a": 2, "at": "Terpisah di Nusantara"}, {"n": 128, "t": "Kebenaran Wirasena", "f": "Wirasena mengungkap bahwa jaringan adalah segel bagi Katalis Entropi.", "s": 9, "a": 2, "at": "Terpisah di Nusantara"}, {"n": 129, "t": "Utusan di Dua Tempat", "f": "Utusan muncul di dua simpul sekaligus; kedua tim bertahan dan menyalakan simpul utara serentak.", "s": 9, "a": 2, "at": "Terpisah di Nusantara"}, {"n": 130, "t": "Simpul Selatan", "f": "Utusan pergi ke simpul terakhir, Gunung Api; simpul selatan padam total dan gerhana mencapai kota.", "s": 9, "a": 2, "at": "Terpisah di Nusantara"}, {"n": 131, "t": "Gunung Api", "f": "Regu berkumpul di gunung api; penjaga simpul selatan terperangkap dalam diam.", "s": 9, "a": 3, "at": "Gerhana Atom"}, {"n": 132, "t": "Gerhana Penuh", "f": "Utusan memicu gerhana penuh; semua melambat kecuali yang terhubung resonansi.", "s": 9, "a": 3, "at": "Gerhana Atom"}, {"n": 133, "t": "Resonansi Nusantara", "f": "Nira menghubungkan semua simpul lewat jaringan; warga di seluruh Nusantara mengangkat pelita.", "s": 9, "a": 3, "at": "Gerhana Atom"}, {"n": 134, "t": "Pertarungan di Kawah", "f": "Serangan gabungan melemahkan Utusan; jubahnya terurai, tetapi ia membawa kabar buruk.", "s": 9, "a": 3, "at": "Gerhana Atom"}, {"n": 135, "t": "Retak di Palung", "f": "Semua simpul menyala, tetapi segel di palung tengah mulai pecah. Katalis Entropi bangun.", "s": 9, "a": 3, "at": "Gerhana Atom"}, {"n": 136, "t": "Palung yang Terbuka", "f": "Katalis bangkit; Dewan rapat darurat; Wirasena menolak cara segel lama.", "s": 10, "a": 1, "at": "Yang Bangkit dari Palung"}, {"n": 137, "t": "Kota yang Memudar", "f": "Kabut Katalis mencapai kota; serangan menembusnya tanpa efek.", "s": 10, "a": 1, "at": "Yang Bangkit dari Palung"}, {"n": 138, "t": "Sekutu Lama", "f": "Indra meminjamkan satelit Vextron; Wirasena mengajarkan gagasan tenunan yang memberi.", "s": 10, "a": 1, "at": "Yang Bangkit dari Palung"}, {"n": 139, "t": "Panggilan ke Dunia Lain", "f": "Ethylene memanggil Agni lewat Nyala Muda; jangkar waktu membawa seutas cahaya dari Kalia dan Gala Bayang.", "s": 10, "a": 1, "at": "Yang Bangkit dari Palung"}, {"n": 140, "t": "Tenunan Pertama", "f": "Percobaan pertama menenun segel baru di monumen; Katalis menjawab dan monumen retak.", "s": 10, "a": 1, "at": "Yang Bangkit dari Palung"}, {"n": 141, "t": "Monumen yang Retak", "f": "Maheswari yang terluka memberi pelajaran terakhir: segel harus dipikul orang, bukan menara.", "s": 10, "a": 2, "at": "Jaring Baru"}, {"n": 142, "t": "Lima Penjuru", "f": "Setiap sekutu berangkat ke satu simpul; satelit Indra menyala.", "s": 10, "a": 2, "at": "Jaring Baru"}, {"n": 143, "t": "Menyelam ke Palung", "f": "Gala, Ethylene, dan Agni menyelam ke palung; kelelahan Katalis menekan Gala.", "s": 10, "a": 2, "at": "Jaring Baru"}, {"n": 144, "t": "Suara-Suara", "f": "Suara regu dari setiap simpul membangunkan Gala di dasar palung.", "s": 10, "a": 2, "at": "Jaring Baru"}, {"n": 145, "t": "Jantung Katalis", "f": "Di dalam kekosongan, Gala memahami Katalis: kelelahan dunia yang hanya ingin beristirahat.", "s": 10, "a": 2, "at": "Jaring Baru"}, {"n": 146, "t": "Tenunan yang Memberi", "f": "Setiap simpul dan setiap rumah menyalakan pelita; benang cahaya mengalir ke palung dan Gala menenunnya.", "s": 10, "a": 3, "at": "Era Baru"}, {"n": 147, "t": "Semua Nyala", "f": "Arka tiba lewat resonansi; jaring menyelimuti Katalis, tetapi Katalis melawan.", "s": 10, "a": 3, "at": "Era Baru"}, {"n": 148, "t": "Buster Terakhir", "f": "Buster terakhir tidak untuk menghancurkan, tetapi untuk menutup jaring; Katalis tertidur.", "s": 10, "a": 3, "at": "Era Baru"}, {"n": 149, "t": "Warna Kembali", "f": "Warna kembali ke seluruh Nusantara; Maheswari pulih; Galians dibuka untuk semua orang.", "s": 10, "a": 3, "at": "Era Baru"}, {"n": 150, "t": "Era Baru Galians", "f": "Beberapa bulan kemudian, arena Ep 1 menjadi tempat latihan terbuka. Gala mengajar. Seri tamat.", "s": 10, "a": 3, "at": "Era Baru"}]};
+const MONTHS=["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
+const DAYS=["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"];
+const TYPE={full:{n:"Episode penuh",c:"var(--t-full)"},teaser:{n:"Cuplikan",c:"var(--t-teaser)"},cross:{n:"Kirim ulang",c:"var(--t-cross)"},comp:{n:"Kompilasi arc",c:"var(--t-comp)"}};
+const STATES=[["belum","Belum dibuat"],["siap","Siap"],["terjadwal","Terjadwal"],["tayang","Tayang"]];
+const TAGS_BASE="gala ignis, the galians, komik animasi, animasi indonesia, motion comic, anime indonesia, komik aksi";
+const HASH="#GalaIgnis #komikanimasi #animasiindonesia #motioncomic";
+// dates as UTC midnight to avoid timezone drift
+const D=(y,m,d)=>Date.UTC(y,m-1,d); const DAY=864e5;
+const fmt=t=>{const d=new Date(t);return `${DAYS[d.getUTCDay()]}, ${d.getUTCDate()} ${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}`};
+const fmtS=t=>{const d=new Date(t);return `${d.getUTCDate()} ${MONTHS[d.getUTCMonth()].slice(0,3)} ${d.getUTCFullYear()}`};
+const key=t=>new Date(t).toISOString().slice(0,10);
+const START_FRI=D(2026,10,2);
+const eps=DATA.eps, SEASON=DATA.seasons;
+const pad=n=>String(n).padStart(2,"0");
+
+const EP1={
+  teaserA:{title:"Latihan Gagal, Arena Meledak! | Gala Ignis Ep 1",hook:"File siap: Gala_Ignis_Ep01_Cuplikan_A.mp4 (39 detik). Isi: pembuka ledakan, sampul, Halaman 1-2, sampai BLAAARRR di Halaman 3, ditutup kartu jadwal tayang.",thumb:"Frame close-up panel ledakan di detik pertama (BLAAARRR dan siluet Gala)."},
+  teaserB:{title:"Ledakanku... Punya Mata? | Gala Ignis Ep 1",hook:"File siap: Gala_Ignis_Ep01_Cuplikan_B.mp4 (25 detik). Isi: kelahiran Ethylene (Halaman 4), lompat ke pemberian nama (Halaman 7), ditutup kartu jadwal tayang.",thumb:"Frame Ethylene yang baru lahir dengan dua mata putihnya."},
+  fullThumb:"Frame close-up panel ledakan (detik 0-1) atau sampul. Keduanya menampilkan Gala dengan jelas."
+};
+
+function buildSchedule(){
+  const items=[];
+  eps.forEach(e=>{
+    const fri=START_FRI+7*(e.n-1)*DAY;
+    const base={ep:e.n,e};
+    items.push({...base,id:`e${pad3(e.n)}-ta`,type:"teaser",slot:"A",t:fri-3*DAY,time:"18.30"});
+    items.push({...base,id:`e${pad3(e.n)}-tb`,type:"teaser",slot:"B",t:fri-1*DAY,time:"18.30"});
+    items.push({...base,id:`e${pad3(e.n)}-full`,type:"full",t:fri,time:"18.30"});
+    items.push({...base,id:`e${pad3(e.n)}-cross`,type:"cross",t:fri+1*DAY,time:"09.00"});
+    if(e.n%5===0){
+      const first=eps[e.n-5];
+      items.push({ep:e.n,e,first,id:`arc${pad(e.n/5)}-comp`,type:"comp",arcIndex:e.n/5,t:fri+2*DAY,time:"10.00"});
+    }
+  });
+  return items.sort((a,b)=>a.t-b.t||a.time.localeCompare(b.time));
+}
+function pad3(n){return String(n).padStart(3,"0")}
+const ITEMS=buildSchedule();
+const MARKS={[key(D(2027,2,1))]:"Syarat YPP baru berlaku"};
+
+// ---------- content for each field ----------
+function prevFull(n){return n>1?`Gala Ignis Ep ${n-1}: ${eps[n-2].t}`:null}
+function fields(it){
+  const e=it.e, s=e.s, st=SEASON[s];
+  const fullDate=fmt(START_FRI+7*(e.n-1)*DAY);
+  const epTitle=`Gala Ignis Ep ${e.n}: ${e.t} | Komik Animasi Aksi Indonesia`;
+  const f={};
+  const origin="Karakter, cerita, dan dunia Gala Ignis adalah karya orisinal. Visual dibuat dengan bantuan AI generatif lalu disusun dan disunting oleh kreator.";
+  if(it.type==="full"){
+    f.title=epTitle;
+    f.desc=`${e.f}\n\nGala Ignis & The Galians: komik animasi aksi orisinal dari Indonesia. Episode baru setiap Jumat pukul 18.30 WIB.\n\nSeason ${s}: ${st} · Arc ${e.a}: ${e.at} · Episode ${e.n} dari 150\n${e.n>1?`Episode sebelumnya: ${prevFull(e.n)}\n`:""}\n${origin}\n\n${HASH} #shorts`;
+    f.thumb=e.n===1?EP1.fullThumb:"Pilih frame panel paling dramatis di episode ini: Gala terlihat jelas, kacamata tertutup, tanpa balon yang terpotong. Hindari frame transisi yang buram.";
+    f.playlists=[`Gala Ignis · Season ${s}: ${st}`,"Gala Ignis · Semua Episode"];
+    f.related=e.n>1?`${prevFull(e.n)} (supaya penonton baru bisa mundur ke episode sebelumnya)`:"Kosongkan dulu. Isi dengan Ep 2 setelah Ep 2 tayang.";
+    f.remix="Izinkan remix video dan audio";
+  } else if(it.type==="teaser"){
+    const custom=e.n===1?(it.slot==="A"?EP1.teaserA:EP1.teaserB):null;
+    f.title=custom?custom.title:`Ep ${e.n}: ${e.t} (Cuplikan ${it.slot}) | Gala Ignis`;
+    f.desc=`Cuplikan Gala Ignis Episode ${e.n}: ${e.t}. Episode lengkap tayang ${fullDate} pukul 18.30 WIB.\n\n${e.f}\n\n${HASH} #shorts`;
+    f.cut=custom?custom.hook:(it.slot==="A"?"Ambil 30-45 detik momen aksi terkuat episode ini. Detik pertama harus langsung menunjukkan konflik atau ledakan, lalu hentikan tepat di puncak supaya penonton penasaran.":"Ambil 30-45 detik momen karakter: emosi, lelucon, atau dialog yang paling mudah diingat. Akhiri dengan kalimat yang menggantung.");
+    f.thumb=custom?custom.thumb:"Frame paling ekspresif dari cuplikan ini.";
+    f.playlists=["Gala Ignis · Cuplikan"];
+    f.related=`${epTitle.split(" | ")[0]} (episode penuh, aktifkan setelah episode itu tayang Jumat)`;
+    f.remix="Izinkan remix video dan audio";
+  } else if(it.type==="cross"){
+    f.title=`Gala Ignis Ep ${e.n}: ${e.t}`;
+    f.desc=`Gala Ignis Episode ${e.n}: ${e.t}\n${e.f}\n\nTonton seri lengkapnya di YouTube: @GalaIgnis\n\n${HASH} #komikindonesia #fyp`;
+    f.thumb="Pilih sampul dari video (frame yang sama dengan episode penuh di YouTube).";
+    f.platforms=["TikTok","Instagram Reels","Facebook Reels"];
+  } else if(it.type==="comp"){
+    const a=it.first.n,b=e.n;
+    f.title=`Gala Ignis Arc ${it.arcIndex}: ${e.at} | Episode ${a}-${b} Lengkap`;
+    const mmss=x=>`${pad(Math.floor(x/60))}:${pad(x%60)}`;
+    let ch="00:00 Pembuka\n"; for(let k=a;k<=b;k++){ch+=`${mmss(5+(k-a)*110)} Ep ${k}: ${eps[k-1].t}\n`}
+    f.desc=`Lima episode Gala Ignis dalam satu video: Season ${s} (${st}), Arc ${e.at}.\n\nBab (perkiraan; sesuaikan dengan video final):\n${ch}\n${origin}\n\n${HASH}`;
+    f.thumb="Unggah thumbnail khusus 1280×720: Gala di sisi kiri, judul arc besar di kanan, satu adegan kunci arc sebagai latar.";
+    f.playlists=["Gala Ignis · Arc Lengkap",`Gala Ignis · Season ${s}: ${st}`];
+    f.format="Video panjang 16:9 dari lima episode (bukan Short). Mengumpulkan jam tayang untuk syarat YouTube Partner Program.";
+  }
+  f.tags=`${TAGS_BASE}, ${st.toLowerCase()}, ${e.t.toLowerCase()}`;
+  return f;
+}
+function prodDeadline(it){
+  const tue=START_FRI+7*(it.ep-1)*DAY-3*DAY;
+  return it.type==="comp"?it.t-DAY:tue-2*DAY;
+}
+
+// ---------- status storage ----------
+let STATUS={}; let db=null; let dbState="loading"; let readOnly=false;
+const DEFAULT={"e001-full":"siap"};
+const getSt=id=>STATUS[id]||DEFAULT[id]||"belum";
+function lsLoad(){try{STATUS=JSON.parse(localStorage.getItem("gi-status")||"{}")}catch(e){STATUS={}}}
+function lsSave(){try{localStorage.setItem("gi-status",JSON.stringify(STATUS))}catch(e){}}
+async function setSt(id,val){
+  const prev=STATUS[id]; STATUS[id]=val; render(); openDrawer(currentId);
+  if(db&&!readOnly){
+    try{await db.collection("status").doc(id).set({state:val,at:new Date().toISOString()})}
+    catch(e){ if(e&&e.code==="invalid_argument"){readOnly=true;syncNote();} STATUS[id]=prev; render(); openDrawer(currentId); }
+  } else { lsSave(); }
+}
+function syncNote(){
+  const el=document.getElementById("syncNote");
+  if(dbState==="db") el.textContent=readOnly?"Anda hanya bisa melihat status; perubahan status tidak tersimpan untuk akun ini.":"Status tersimpan bersama di artifact ini, jadi tetap ada saat dibuka dari perangkat lain.";
+  else if(dbState==="local") el.textContent="Status hanya tersimpan di browser ini, karena penyimpanan bersama tidak tersedia di tampilan ini.";
+  else el.textContent="Memuat status...";
+}
+lsLoad();
+(async()=>{
+  try{ db = window.claude ? await window.claude.use("db") : null; }catch(e){ db=null; }
+  if(!db){dbState="local";syncNote();return;}
+  dbState="db"; syncNote();
+  db.collection("status").limit(1000).onSnapshot(snap=>{
+    const m={}; snap.docs.forEach(d=>{const v=d.data(); if(v&&v.state) m[d.id]=v.state;});
+    STATUS=m; render(); if(currentId) openDrawer(currentId);
+  },err=>{dbState="local";db=null;lsLoad();syncNote();render();});
+})();
+
+// ---------- UI state ----------
+let view="month"; let fType="all"; let fSeason="all"; let currentId=null;
+const today=Date.now(); const t0=new Date(today); const TODAY=D(t0.getFullYear(),t0.getMonth()+1,t0.getDate());
+let cur={y:2026,m:10};
+{ if(TODAY>=D(2026,9,1)&&TODAY<=ITEMS[ITEMS.length-1].t){cur={y:t0.getFullYear(),m:t0.getMonth()+1};} }
+try{const v=localStorage.getItem("gi-view"); if(v) view=v;}catch(e){}
+const seasonSel=document.getElementById("fSeason");
+Object.entries(SEASON).forEach(([n,t])=>{const o=document.createElement("option");o.value=n;o.textContent=`${n}. ${t}`;seasonSel.appendChild(o)});
+
+function visible(it){return (fType==="all"||it.type===fType)&&(fSeason==="all"||String(it.e.s)===fSeason)}
+function label(it){
+  if(it.type==="full") return `Ep ${it.ep} penuh`;
+  if(it.type==="teaser") return `Ep ${it.ep} cuplikan ${it.slot}`;
+  if(it.type==="cross") return `Ep ${it.ep} kirim ulang`;
+  return `Arc ${it.arcIndex} kompilasi`;
+}
+function stHtml(id){const s=getSt(id);const map={belum:"",siap:"Siap",terjadwal:"Terjadwal",tayang:"Tayang"};return map[s]?`<span class="st ${s}">${map[s]}</span>`:""}
+function evBtn(it){
+  const s=getSt(it.id);
+  return `<button class="ev ${s==="tayang"?"done":""}" data-id="${it.id}" title="${label(it)}: ${it.e.t}"><i class="sq" style="background:${TYPE[it.type].c}"></i><span class="tx"><span class="tm">${it.time}</span> ${label(it)}</span>${stHtml(it.id)}</button>`;
+}
+const BYDAY={}; ITEMS.forEach(it=>{(BYDAY[key(it.t)]=BYDAY[key(it.t)]||[]).push(it)});
+
+function renderMonth(){
+  document.getElementById("mTitle").textContent=`${MONTHS[cur.m-1]} ${cur.y}`;
+  const cal=document.getElementById("cal");
+  const first=D(cur.y,cur.m,1); const wd=(new Date(first).getUTCDay()+6)%7; // Monday first
+  let h=["Sen","Sel","Rab","Kam","Jum","Sab","Min"].map(d=>`<div class="dow">${d}</div>`).join("");
+  const startCell=first-wd*DAY; const daysIn=new Date(Date.UTC(cur.y,cur.m,0)).getUTCDate();
+  const cells=Math.ceil((wd+daysIn)/7)*7;
+  for(let i=0;i<cells;i++){
+    const t=startCell+i*DAY; const d=new Date(t); const k=key(t);
+    const out=d.getUTCMonth()!==cur.m-1;
+    const evs=(BYDAY[k]||[]).filter(visible).map(evBtn).join("");
+    const mk=MARKS[k]?`<div class="mark">${MARKS[k]}</div>`:"";
+    h+=`<div class="day ${out?"out":""} ${t===TODAY?"today":""}"><div class="dn">${d.getUTCDate()}</div>${mk}${evs}</div>`;
+  }
+  cal.innerHTML=h;
+}
+function renderAgenda(){
+  const wrap=document.getElementById("agenda");
+  const groups={};
+  ITEMS.filter(visible).forEach(it=>{(groups[it.ep]=groups[it.ep]||[]).push(it)});
+  wrap.innerHTML=Object.keys(groups).map(Number).sort((a,b)=>a-b).map(n=>{
+    const e=eps[n-1];
+    const rows=groups[n].map(it=>`<button class="row" data-id="${it.id}"><span class="d">${fmtS(it.t)}<br>${it.time} WIB</span><i class="sq" style="background:${TYPE[it.type].c}"></i><span class="t">${label(it)}<small>${it.type==="comp"?it.e.at:TYPE[it.type].n}</small></span>${stHtml(it.id)}</button>`).join("");
+    return `<div class="wk" id="ep-${n}"><h3>Ep ${n}: ${e.t}<small>Season ${e.s} · Arc ${e.a}: ${e.at}</small></h3>${rows}</div>`;
+  }).join("");
+}
+function renderStats(){
+  const c={belum:0,siap:0,terjadwal:0,tayang:0}; ITEMS.forEach(it=>c[getSt(it.id)]++);
+  const last=ITEMS[ITEMS.length-1];
+  document.getElementById("stats").innerHTML=`<span><b>${ITEMS.length}</b> jadwal</span><span><b>${c.tayang}</b> tayang</span><span><b>${c.terjadwal}</b> terjadwal</span><span><b>${c.siap}</b> siap</span><span><b>${c.belum}</b> belum dibuat</span><span>Episode terakhir: <b>${fmtS(last.t)}</b></span>`;
+  const nx=ITEMS.find(it=>it.t>=TODAY&&getSt(it.id)!=="tayang")||ITEMS.find(it=>getSt(it.id)!=="tayang");
+  const el=document.getElementById("next");
+  if(nx){const days=Math.round((nx.t-TODAY)/DAY);
+    el.innerHTML=`<span class="lbl">Jadwal berikutnya</span><span class="what">${label(nx)}: ${nx.e.t}</span><span class="when">${fmt(nx.t)}, ${nx.time} WIB · ${days<=0?"hari ini":days+" hari lagi"}</span>`;
+    el.style.cursor="pointer"; el.onclick=()=>openDrawer(nx.id);
+  }
+}
+function render(){
+  document.getElementById("vMonth").setAttribute("aria-pressed",view==="month");
+  document.getElementById("vAgenda").setAttribute("aria-pressed",view==="agenda");
+  document.getElementById("monthView").hidden=view!=="month";
+  document.getElementById("agendaView").hidden=view!=="agenda";
+  if(view==="month") renderMonth(); else renderAgenda();
+  renderStats();
+}
+
+// ---------- drawer ----------
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function fld(name,val,{limit,why,copy=true}={}){
+  const n=String(val).length; const cnt=limit?`<span class="cnt ${n>limit?"over":""}">${n}/${limit}</span>`:"";
+  return `<div class="fld"><div class="fh"><span class="fn">${name}</span><span style="display:flex;gap:8px;align-items:center">${cnt}${copy?`<button class="btn copy" data-copy="${esc(val)}">Salin</button>`:""}</span></div><pre>${esc(val)}</pre>${why?`<div class="why">${why}</div>`:""}</div>`;
+}
+function info(name,val,why){return `<div class="fld"><div class="fh"><span class="fn">${name}</span></div><div class="v">${val}</div>${why?`<div class="why">${why}</div>`:""}</div>`}
+function openDrawer(id){
+  const it=ITEMS.find(x=>x.id===id); if(!it) return; currentId=id;
+  const f=fields(it); const dr=document.getElementById("drawer"); const s=getSt(id);
+  const isYT=it.type!=="cross";
+  let body="";
+  body+=`<div class="sec"><h3>Status</h3><div class="statusbar"><div class="seg" role="group" aria-label="Status">${STATES.map(([v,n])=>`<button data-st="${v}" aria-pressed="${s===v}">${n}</button>`).join("")}</div></div>
+    <p class="prod">Tenggat produksi: <b>${fmt(prodDeadline(it))}</b>${it.ep===1&&it.type==="full"?" · video v4 sudah jadi":""}</p></div>`;
+  if(it.type==="teaser") body+=`<div class="sec"><h3>Potongan video</h3>${fld("Bagian yang dipotong",f.cut,{copy:false})}</div>`;
+  if(it.type==="comp") body+=`<div class="sec"><h3>Format</h3>${info("Jenis video",f.format)}</div>`;
+  if(isYT){
+    body+=`<div class="sec"><h3>Details</h3>
+      ${fld("Title (required)",f.title,{limit:100})}
+      ${fld("Description",f.desc,{limit:5000,why:it.type==="comp"?"Menit bab wajib diganti sesuai video final; YouTube butuh minimal tiga bab dan bab pertama 00:00.":""})}
+      ${info("Thumbnail",esc(f.thumb),it.type==="comp"?"":"Pilih \"Select from video\".")}
+      ${info("Playlists",f.playlists.map(esc).join("<br>"),"Buat playlist-nya sekali, lalu centang di setiap upload.")}
+      ${info("Audience","<b>No, it's not made for kids</b>","Sesuai riset: cerita Gala Ignis menyasar remaja 16+ dan dewasa muda, dan label anak mematikan komentar serta notifikasi.")}
+      ${info("Age restriction","No, don't restrict my video to viewers over 18")}
+    </div>
+    <div class="sec"><h3>Show more</h3><dl class="kv">
+      <dt>Paid promotion</dt><dd>Tidak dicentang</dd>
+      <dt>Altered content</dt><dd><b>No</b>. Animasi yang jelas tidak realistis tidak wajib diberi label.</dd>
+      <dt>Automatic chapters</dt><dd>${it.type==="comp"?"Aktif (bab ditulis manual di deskripsi)":"Tidak berlaku untuk Shorts"}</dd>
+      <dt>Featured places</dt><dd>Tidak dicentang</dd>
+      <dt>Tags</dt><dd>${esc(f.tags)} <button class="btn copy" data-copy="${esc(f.tags)}">Salin</button></dd>
+      <dt>Language</dt><dd>Indonesian</dd>
+      <dt>Caption certification</dt><dd>None</dd>
+      <dt>Title &amp; description language</dt><dd>Indonesian</dd>
+      <dt>Recording date &amp; location</dt><dd>Kosongkan</dd>
+      <dt>License</dt><dd>Standard YouTube License</dd>
+      <dt>Allow embedding</dt><dd>Dicentang</dd>
+      <dt>Publish to subscriptions feed</dt><dd>Dicentang</dd>
+      ${it.type!=="comp"?`<dt>Shorts remixing</dt><dd>${f.remix}</dd>`:""}
+      <dt>Category</dt><dd>Film &amp; Animation</dd>
+      <dt>Comments</dt><dd>On, "Hold potentially inappropriate comments for review", urutkan Top</dd>
+      <dt>Show like count</dt><dd>Dicentang</dd>
+    </dl></div>
+    <div class="sec"><h3>Video elements</h3>${it.type==="comp"?info("End screen","Tambahkan 2 video: arc berikutnya dan episode pertama arc ini, ditambah tombol Subscribe."):info("Related video",esc(f.related),"Tautan yang muncul di bawah Short, mengarahkan penonton ke video terkait.")}</div>
+    <div class="sec"><h3>Checks</h3>${info("Copyright",it.type==="comp"?"Tunggu hasil cek selesai sebelum menjadwalkan.":"Tunggu hasil cek. Musik buatan sendiri bebas klaim; lagu dari Audio Library boleh dipakai sampai 90 detik di Short 3 menit.")}</div>
+    <div class="sec"><h3>Visibility</h3>${info("Schedule",`<b>${fmt(it.t)}, ${it.time} WIB</b>`,"Pilih Schedule, bukan Public. Pastikan zona waktu Studio: (GMT+07:00) Jakarta.")}</div>`;
+  } else {
+    body+=`<div class="sec"><h3>Kirim ulang</h3>
+      ${info("Platform",f.platforms.join(", "))}
+      ${info("Waktu",`<b>${fmt(it.t)}, ${it.time} WIB</b>`)}
+      ${fld("Caption",f.desc,{limit:2200})}
+      ${info("Sampul",esc(f.thumb))}
+      ${info("Audiens","Umum. Jangan aktifkan pengaturan konten anak.","TikTok Creator Rewards belum tersedia di Indonesia, jadi tujuannya jangkauan, bukan pendapatan.")}
+      ${info("Label konten AI","Aktifkan bila platform meminta. Untuk animasi, label ini tidak wajib di YouTube; aturan TikTok dan Meta perlu dicek di aplikasi masing-masing.")}
+    </div>`;
+  }
+  dr.innerHTML=`<div class="dhead" style="position:relative"><span class="kind" style="color:${TYPE[it.type].c}"><i class="sq" style="background:${TYPE[it.type].c}"></i>${TYPE[it.type].n}${it.type==="teaser"?" "+it.slot:""}</span>
+    <h2 id="dTitle">${it.type==="comp"?`Arc ${it.arcIndex}: ${esc(it.e.at)}`:`Ep ${it.ep}: ${esc(it.e.t)}`}</h2>
+    <span class="when">${fmt(it.t)} · ${it.time} WIB · Season ${it.e.s}</span>
+    <button class="btn x" id="close" aria-label="Tutup">Tutup</button></div><div class="dbody">${body}</div>`;
+  dr.hidden=false; document.getElementById("scrim").hidden=false;
+  dr.querySelectorAll("[data-st]").forEach(b=>b.onclick=()=>setSt(id,b.dataset.st));
+  dr.querySelectorAll("[data-copy]").forEach(b=>b.onclick=async()=>{
+    const txt=b.dataset.copy;
+    try{await navigator.clipboard.writeText(txt);b.textContent="Disalin";}
+    catch(e){const pre=b.closest(".fld")?.querySelector("pre");if(pre){const r=document.createRange();r.selectNodeContents(pre);const sel=getSelection();sel.removeAllRanges();sel.addRange(r);}b.textContent="Terpilih, tekan Ctrl+C";}
+    setTimeout(()=>b.textContent="Salin",1600);
+  });
+  document.getElementById("close").onclick=closeDrawer;
+}
+function closeDrawer(){document.getElementById("drawer").hidden=true;document.getElementById("scrim").hidden=true;currentId=null}
+document.getElementById("scrim").onclick=closeDrawer;
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&currentId)closeDrawer()});
+document.addEventListener("click",e=>{const b=e.target.closest("[data-id]");if(b)openDrawer(b.dataset.id)});
+document.getElementById("vMonth").onclick=()=>{view="month";try{localStorage.setItem("gi-view",view)}catch(e){};render()};
+document.getElementById("vAgenda").onclick=()=>{view="agenda";try{localStorage.setItem("gi-view",view)}catch(e){};render()};
+document.getElementById("fType").onchange=e=>{fType=e.target.value;render()};
+document.getElementById("fSeason").onchange=e=>{fSeason=e.target.value;
+  if(fSeason!=="all"){const f=ITEMS.find(it=>String(it.e.s)===fSeason);const d=new Date(f.t);cur={y:d.getUTCFullYear(),m:d.getUTCMonth()+1};}
+  render()};
+document.getElementById("prev").onclick=()=>{cur.m--;if(cur.m<1){cur.m=12;cur.y--};render()};
+document.getElementById("nextM").onclick=()=>{cur.m++;if(cur.m>12){cur.m=1;cur.y++};render()};
+document.getElementById("goNow").onclick=()=>{
+  const t=Math.max(TODAY,ITEMS[0].t);const d=new Date(t);cur={y:d.getUTCFullYear(),m:d.getUTCMonth()+1};
+  if(view==="agenda"){const nx=ITEMS.find(it=>it.t>=TODAY)||ITEMS[0];render();document.getElementById("ep-"+nx.ep)?.scrollIntoView({block:"start"});}else render();
+};
+syncNote(); render();
+</script>

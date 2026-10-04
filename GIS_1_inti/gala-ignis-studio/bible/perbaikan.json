@@ -1,0 +1,728 @@
+{
+ "frames": {
+  "2A.1a": [
+   "Medium Shot (Lab Intro)",
+   "Di laboratorium teknologi, Instruktur Ketiga menyodorkan chip pemindai molekul kecil berukir batik, sementara layar dinding di belakangnya menghitung mundur ultimatum: 'EVALUATION - 21 HOURS REMAINING'.",
+   "Inside a futuristic tech lab, the Third Instructor holds out a small molecular-scanner chip engraved with batik lines toward Gala; glowing pedestals and holograms behind them, and a red wall display counting down 'EVALUATION - 21 HOURS REMAINING'.",
+   "G"
+  ],
+  "3A.2d": [
+   "Over-the-Shoulder (Observation Deck)",
+   "Dari balik kaca observasi, instruktur mencatat kurva disipasi panas yang stabil di samping penghitung mundur ultimatum 'EVALUATION - 6 HOURS REMAINING'.",
+   "Over-the-shoulder from a glass observation deck: instructors watch Gala below, holograms showing a stable heat-dissipation curve beside a red countdown panel reading 'EVALUATION - 6 HOURS REMAINING'.",
+   ""
+  ],
+  "4A.1a": [
+   "Medium Shot",
+   "Tepat saat tenggat ultimatum habis, Gala duduk di kursi simulasi untuk ujian evaluasi; kabel optik Nerve-Link terhubung ke sisi bingkai goggles dan layar kapsul menampilkan 'EVALUATION - 0 HOURS REMAINING'.",
+   "Gala sits reclined in the padded seat inside an open white egg-shaped simulation pod, glowing optical cables connecting to the side of his goggle frame, calm expression; a small red display on the pod rim reads 'EVALUATION - 0 HOURS REMAINING'.",
+   "G"
+  ],
+  "5A.1b": [
+   "Medium Shot",
+   "Kapsul simulasi Gala dan dua kapsul taruna lain di sebelahnya, yang sedang menjalani ujian yang sama, tersegel dengan indikator kunci merah.",
+   "Three simulation pods in a row sealed shut, Gala's pod in front and two other cadets' pods beside it, all with glowing red lock indicators, steam venting, reinforced glass windows fogged so no one inside is visible.",
+   ""
+  ],
+  "5A.2a": [
+   "Medium Wide Shot",
+   "Aila dan Dhruva, dua taruna yang kapsulnya ikut terkunci dalam ujian yang sama, termaterialisasi di alun-alun dan membentuk formasi segitiga di belakang Gala.",
+   "Aila and Dhruva, two fellow cadets whose pods were locked into the same exam, materialize in the virtual plaza in a shimmer of particles and form a three-cadet triangle formation behind Gala, who stands at the point.",
+   "GAD"
+  ],
+  "5B.1c": [
+   "First-Person POV (Target Lock)",
+   "HUD mengunci inti kristal merah di pemancar yang dipegang siluet peretas di puncak gedung: 'CORE HACK NODE DETECTED'.",
+   "HUD locks a target reticle onto a red crystal transmitter core held by the dark silhouetted hacker figure on the skyscraper rooftop: 'CORE HACK NODE DETECTED'.",
+   ""
+  ],
+  "5B.2a": [
+   "Wide Epic Shot",
+   "Gelombang pemulihan emas menyapu kota virtual, dan siluet peretas di puncak gedung pecah menjadi piksel lalu lenyap karena sambungannya terputus sebelum wajahnya terlihat.",
+   "A golden purge wave sweeps across the virtual city, dissolving corrupted drones and restoring the blue sky; on the rooftop the dark hacker silhouette breaks apart into pixels and vanishes as its connection is cut, face never revealed.",
+   ""
+  ],
+  "8A.1a": [
+   "Medium Shot",
+   "Sementara Aila dan Dhruva di latar belakang berusaha membuka pintu ruang samping yang terkunci es, Gala memindai lambang kepingan salju di puing drone.",
+   "Gala kneels over drone wreckage, goggles scanning a blue snowflake emblem engraved on the metal, while in the background Aila and Dhruva work to break the thick ice sealing the frosted side-room door where the workers are still trapped.",
+   "GAD"
+  ],
+  "19B.1d": [
+   "Wide Shot",
+   "Himakara pecah menjadi embun beku dan musnah; zirah kosongnya runtuh dengan inti bahu yang padam.",
+   "Himakara shatters into frost dust and is gone for good; his empty cracked armor collapses on the catwalk, the shoulder core node dark, as Gala recoils.",
+   "G"
+  ],
+  "20A.1d": [
+   "Wide Shot",
+   "Gala menarik kembali kain sarungnya dan memerintahkan evakuasi; Aila dan Dhruva melepas kedua gerbang dan berlari ke ramp keluar.",
+   "Gala pulls his sash free and waves his squad out; Aila and Dhruva break away from the two side gates and sprint up the exit ramp as overload sparks drive the Cryo-Guards back.",
+   "GAD"
+  ],
+  "22B.2a": [
+   "Medium Shot",
+   "Setelah petugas kota mengambil alih penjagaan warga di stasiun, Aila dan Dhruva tiba di atap rumah sakit; regu berkumpul kembali.",
+   "With city patrol officers now guarding the crowd at the station, Aila and Dhruva land on the hospital rooftop, regrouping with Gala.",
+   "GAD"
+  ],
+  "27A.2d": [
+   "Medium Shot",
+   "Pintu singgasana tampak di ujung aula, tetapi Gala berbalik mencari regunya.",
+   "With the sprite back at his shoulder, Gala sees a giant dark door at the end of the hall, but turns back to look for Aila and Dhruva.",
+   "GS"
+  ],
+  "35A.1c": [
+   "Medium Shot",
+   "Gala mengencangkan lilitan kain sarung di lengannya; simpulnya tetap di pinggang.",
+   "Gala tightens the loose end of his batik sash wrapped around his forearm, the gold threads glowing faintly; the sash stays knotted at his waist.",
+   "G"
+  ],
+  "35B.1c": [
+   "Close-Up",
+   "Gala menekan gauntlet ke soket; soket mati menyedot pijar emas dari lilitan kain sarung di lengannya, percikan samar, lalu padam.",
+   "Close-up: Gala presses his gauntlets into the socket; the dead socket drains the gold glow out of the sash wrapped around his forearm, faint gold sparks, then nothing, the batik threads left dark.",
+   "G"
+  ],
+  "38A.2d": [
+   "Medium Shot",
+   "Kalia memperingatkan: hanya satu yang berasal dari masa ini, dua lainnya gema dari masa lain yang dipecah putaran waktu Wraith.",
+   "Kalia warns Gala, gauntlet raised toward the three sprites: only one belongs to this moment, the other two are echoes of the same sprite from other times, split off by the Wraith's rewind.",
+   "GK"
+  ],
+  "38B.1c": [
+   "Close-Up",
+   "Dua salinan dari masa lain membeku menjadi kaca jam, lalu retak.",
+   "Close-up: the two sprite copies from other times, the tiny newborn spark and the ice-crusted one, freeze into clock glass and crack.",
+   ""
+  ],
+  "40A.2d": [
+   "Medium Shot",
+   "Ethylene melesat keluar dari soket yang menyala dan hinggap di bahu Gala; Kalia tertawa lega dan meninju bahu Gala pelan.",
+   "The sprite darts back out of the glowing socket and settles on Gala's shoulder as Kalia laughs with relief and lightly punches his other shoulder.",
+   "GSK"
+  ],
+  "44A.1b": [
+   "Close-Up",
+   "Garis emas mengalir dari menara ke kain sarung, merajut rapat kembali serat yang berjumbai, lalu ke zirah.",
+   "Close-up: gold light flows from the spire into the sash, reweaving its frayed, thinned fibers until they are tight and whole again, then runs up into Gala's armor.",
+   "G"
+  ],
+  "49B.2c": [
+   "Impact Shot",
+   "Gala memadamkan apinya dan menendang dengan silat murni; tendangannya kena dan Wirasena terdorong ke jendela.",
+   "Gala lets his flames die out and lands a flameless pure silat kick on Wirasena, driving him back toward the window.",
+   "GW"
+  ],
+  "52B.2d": [
+   "Medium Shot",
+   "Aila akhirnya mengalah; Gala mengangguk pada keduanya: ia masuk sendirian, mereka berdua menunggu di batas hutan.",
+   "Aila gives in with a reluctant sigh and Gala nods to both of them: he will go in alone while Aila and Dhruva wait together at the forest edge.",
+   "GAD"
+  ],
+  "53B.2d": [
+   "Medium Shot",
+   "Aila dan Dhruva berlari dari batas hutan dan menarik Gala keluar dari air.",
+   "Aila and Dhruva come running from the forest edge where they were waiting and pull a soaked Gala out of the water.",
+   "GAD"
+  ],
+  "58A.1c": [
+   "Wide Action Shot",
+   "Kain sarung Gala dan benang hitam-ungu yang menjulur dari kain kuno di soket saling membelit di udara.",
+   "Gala's sash tangles in mid-air with black-violet threads that Wirasena pulls out of his ancient sash, which stays planted in the core socket.",
+   "GV"
+  ],
+  "58A.2b": [
+   "Medium Shot",
+   "Maheswari memasang kristal rekaman dari brankas arsip ke konsol siaran kota lalu berbicara.",
+   "Maheswari slots a sealed record crystal from the archive vault into a city broadcast console and speaks into the camera.",
+   "M"
+  ],
+  "58A.2c": [
+   "Wide Shot",
+   "Layar kota memutar rekaman brankas: relief asli dengan wajah utuh sebelum dipahat para pendiri.",
+   "Screens across the city play the vault recording: the original relief with its face intact, before the founders chiseled it away.",
+   ""
+  ],
+  "59A.1c": [
+   "Close-Up",
+   "Ethylene menyatu ke boots Gala; apinya kini berpola motif emas tenunan baru.",
+   "Close-up: the sprite merges into Gala's boot as flame, and the fire takes on the gold batik pattern of his newly rewoven sash.",
+   "GS"
+  ],
+  "59A.1d": [
+   "Action Shot",
+   "Gala menerjang; benang hitam-ungu mencambuk boots-nya tetapi api tenunan baru tidak terserap.",
+   "Gala charges toward the socket; black-violet threads lash at his flaming boot but cannot absorb the gold-patterned fire and burn away.",
+   "G"
+  ],
+  "69B.1a": [
+   "Medium Shot",
+   "Ibu Dhruva terbaring lemas di samping Hub pengganti yang baru dikirim Vextron, kotak kirimannya masih terbuka di lantai.",
+   "Dhruva's mother, a kind woman in a rust-colored headscarf lies weakly on a couch beside a glowing replacement Vex-Hub, a sleek palm-sized black glass device with thin violet circuit lines. An opened grey Vextron delivery box sits on the floor next to it.",
+   ""
+  ],
+  "70B.2a": [
+   "Medium Shot",
+   "Regu berkumpul di atap pasar tua di distrik lama, tempat yang tidak terjangkau Hub.",
+   "The squad gathers on the roof of the old market in the old district, lit by oil lamps with no violet lights anywhere nearby.",
+   "GAD"
+  ],
+  "71A.2d": [
+   "Wide Shot",
+   "Maheswari dan pengawal menunggu di monumen; ia merobek selebaran buronan Gala di depan mereka.",
+   "Maheswari and council guards wait at the monument. She tears a 'WANTED: GALA IGNIS' poster in half in front of the guards.",
+   "M"
+  ],
+  "74B.1b": [
+   "Action Shot",
+   "Dhruva, yang naik lewat poros lift setelah Vex-Guard di lobi roboh bersama terurainya tenunan, menerobos masuk dan menangkis dengan perisai.",
+   "Dhruva bursts in from the open elevator shaft doorway, his armor scuffed from the lobby fight, and blocks the diving drones with his shield.",
+   "D"
+  ],
+  "81B.2d": [
+   "Medium Close-Up",
+   "Selagi yang lain beristirahat di ceruk, Gala melangkah sendirian ke tepi kawah tepat di atas kemah; tekad makin kuat.",
+   "While the others rest in the cooled alcove behind him, Gala walks off alone toward the crater rim just above the camp, resolve hardening.",
+   "G"
+  ],
+  "82B.2a": [
+   "Medium Shot",
+   "Aila dan Dhruva menyusul dari kemah bersama Agni.",
+   "Aila and Dhruva catch up from the camp below with Agni, inside a thin golden heat veil cast by Gala's sash.",
+   "ADa"
+  ],
+  "82B.1b": [
+   "Close-Up",
+   "Ethylene menatap Jantung yang redup, lalu melayang turun ke kawah untuk menjaganya.",
+   "Close-up: the sprite gazes at the dim Heart below, then drifts down into the crater to stay beside it.",
+   "S"
+  ],
+  "84A.1a": [
+   "Wide Shot",
+   "Regu menuruni dinding kawah; Agni yang terluka tinggal di ceruk di tepi kawah.",
+   "The squad climbs down the crater wall, leaving the wounded, dim Agni resting in a rock alcove at the crater rim above them.",
+   "GADa"
+  ],
+  "85B.1a": [
+   "Wide Shot",
+   "Regu bersembunyi di ceruk di tepi kawah tempat Agni yang redup menunggu.",
+   "The squad hides in the alcove at the crater rim where the dim Agni has been waiting.",
+   "GADa"
+  ],
+  "87A.1b": [
+   "Close-Up",
+   "Gala menyerahkan ujung kain sarung ke Dhruva; simpul tetap di pinggang dan ujung itu tetap memancarkan selubung emas.",
+   "Close-up: Gala hands the end of his sash to Dhruva, the knot staying at his waist. The sash end in Dhruva's hands keeps casting the thin golden heat veil.",
+   "GD"
+  ],
+  "87A.2c": [
+   "Medium Shot",
+   "Dhruva menahan kain sarung dengan kedua tangan; selubung emas dari ujungnya tetap menaungi dia dan Aila.",
+   "Dhruva braces, holding the sash with both hands, the thin golden heat veil cast by the sash end still covering him and Aila's position beside him.",
+   "D"
+  ],
+  "90B.1b": [
+   "Wide Shot",
+   "Jantung yang pulih menembakkan titik plasma ke langit, dan pusaran pulang terbuka.",
+   "The restored Heart sends a point of pure plasma up into the sky, where it swells into a swirling ring of fire: the way home.",
+   ""
+  ],
+  "94B.1d": [
+   "Close-Up",
+   "Ethylene melayang di atas kasur Aila yang kosong.",
+   "Close-up: the sprite hovers above Aila's empty bunk, the one empty bed in the dorm room.",
+   "S"
+  ],
+  "96A.2a": [
+   "Wide Shot",
+   "Dipandu pesan lokasi yang dikirim Gala ke komlinknya, Dhruva menyelinap masuk membawa ransel.",
+   "Dhruva slips into the warehouse carrying a heavy pack, his wrist comm still glowing with the location message Gala sent him.",
+   "D"
+  ],
+  "98B.2d": [
+   "Wide Shot",
+   "Di barisan komite, Aila melihat semuanya, lalu mendongak dan mengenali Gala bersama sosok berjaket toska di atap.",
+   "In the committee's ranks, Aila sees everything, then looks up and spots Gala and Nira, the hooded figure with cyan jacket lining, as small figures on the rooftop.",
+   "AGn"
+  ],
+  "99A.1b": [
+   "Close-Up",
+   "Melihat kilau toska emitter Nira yang mengawasi dari atap seberang, ia menyelipkan chip ke lubang ventilasi.",
+   "Close-up: a cyan glint from the roof across the way reflects in Aila's visor as she slips the chip into an air vent.",
+   "A"
+  ],
+  "99A.1d": [
+   "Close-Up",
+   "Chip keluar di atap seberang tempat Nira berjaga, dan Nira menangkapnya dengan kaget.",
+   "Close-up: the chip pops out of a duct on the roof where Nira has been keeping watch, and Nira catches it in her hand, startled.",
+   "n"
+  ],
+  "112A.1b": [
+   "Medium Shot",
+   "Subjek Zero terikat di rangka pengisi, visor putihnya retak dan sompal di satu sudut.",
+   "The boy strapped into a charging harness, still wearing his white visor band, now cracked with one corner broken off.",
+   "k"
+  ],
+  "114B.2a": [
+   "Action Shot",
+   "Ledakan rangka memutus daya kunci, dinding baja terbuka dan regu masuk.",
+   "The harness explosion cuts power to the locks, so the steel walls slide open and Aila, Dhruva and Nira rush in.",
+   "ADn"
+  ],
+  "115A.1d": [
+   "Action Shot",
+   "Dhruva menangkap Aila, yang terguncang tapi tidak terluka.",
+   "Dhruva catches Aila in mid-fall; she is shaken and winded but unhurt, her wind fins flickering.",
+   "AD"
+  ],
+  "115A.2d": [
+   "Medium Shot",
+   "Maheswari memerintahkan evakuasi dan mengirim Dhruva lebih dulu menjaga monumen.",
+   "Maheswari orders an evacuation over comms and sends Dhruva ahead to guard the atomic monument, a map of the monument glowing beside her.",
+   "M"
+  ],
+  "117B.1b": [
+   "Medium Shot",
+   "Aila, sudah pulih dan terbang lagi, bergabung bersama Nira.",
+   "Aila, recovered and flying again on steady wind fins, lands beside them together with Nira.",
+   "An"
+  ],
+  "118B.2b": [
+   "Close-Up",
+   "Plasma anak itu membungkus kedua kepalan tangannya.",
+   "Close-up: gold plasma wraps the boy's bare clenched fists.",
+   "k"
+  ],
+  "123B.2d": [
+   "Wide Shot",
+   "Utusan tidak mengejar; ia berbalik dan berjalan pergi meninggalkan menara.",
+   "Sang Utusan does not follow; it turns and walks away from the spire, leaving the foot of the spire empty.",
+   "u"
+  ],
+  "124B.2d": [
+   "Medium Shot",
+   "Regu bersorak bersama warga; bercak kelabu di perisai Dhruva pulih berwarna lagi.",
+   "The squad cheers with the villagers; the grey patch on Dhruva's shield floods back to its full color as he lifts it.",
+   "GADk"
+  ],
+  "129B.1b": [
+   "Split Screen",
+   "Gala di utara menempelkan tangan ke simpul pohon, Aila di timur menyelam dalam gelembung udara dan menempelkan tangan ke menara laut, bersamaan.",
+   "Split screen: Gala in the north presses his hand to the node inside the giant tree, while Aila in the east, having dived to the seabed inside an air bubble, presses her hand to the sea spire at the same moment.",
+   "GA"
+  ],
+  "130B.1d": [
+   "Close-Up",
+   "Nira, di kapal terpisah yang membawanya pulang ke akademi: kalau monumen padam, segel lepas.",
+   "Close-up: Nira, alone aboard a separate transport flying back to the academy, looks up from her emitter, pale.",
+   "n"
+  ],
+  "135B.2a": [
+   "Medium Shot",
+   "Regu berdiri di tepi kawah menatap utara, ke arah laut tengah.",
+   "The squad stands at the crater's rim, facing north toward the central sea.",
+   "GADk"
+  ],
+  "147A.1a": [
+   "Close-Up",
+   "Arka menyerahkan obornya kepada tetua Hutan Awan yang tetap menjaga simpul bersama warga, lalu menutup visor dan bernapas seirama.",
+   "Close-up: Arka in the cloud forest hands his lit torch to a village elder, who holds it high among the villagers' torches to keep the node burning. Arka then closes his visor and breathes in rhythm.",
+   "k"
+  ],
+  "146A.1d": [
+   "Wide Shot",
+   "Kota: di dalam lingkar cahaya monumen retak yang masih menahan kelabu, ribuan warga mengangkat pelita.",
+   "The city: inside the ring of light that the cracked monument still holds against the grey haze pressing at its edge, thousands of people holding up oil lamps and lanterns, moving at normal speed.",
+   ""
+  ],
+  "139A.2d": [
+   "Close-Up",
+   "Anak berjas hujan kuning menangkap sprite di telapak tangannya.",
+   "Close-up: the boy in the yellow raincoat, older now, catches a tiny sprite in his palm.",
+   ""
+  ],
+  "144A.2d": [
+   "Close-Up",
+   "Anak berjas hujan kuning mengangkat pelita, sprite kecil yang ditangkapnya bertengger di bahunya.",
+   "Close-up: the boy in the yellow raincoat, older now, raises a lamp, the tiny sprite he caught perched on his shoulder.",
+   ""
+  ]
+ },
+ "ringkasan": {
+  "15": "Pemulihan akademi dan pelantikan resmi. Mulai frame 15A.2c, desain Gala naik ke v2 (pin lambang Galians di dada kanan atas, disematkan di 15A.2b).",
+  "99": "Aila mengirim bukti pemalsuan kepada Nira lewat ventilasi; Gala dan Aila berdamai."
+ },
+ "catatan": [
+  {
+   "episode": 1,
+   "frame": "1B.2d",
+   "tindakan": "Hitung mundur ultimatum ditambahkan sebagai layar di 2A.1a (21 jam), 3A.2d (6 jam), dan 4A.1a (0 jam, ujian evaluasi dimulai) sehingga tenggat terbawa sampai kelulusan di 5B.2c.",
+   "frame_diubah": [
+    "2A.1a",
+    "3A.2d",
+    "4A.1a"
+   ]
+  },
+  {
+   "episode": 4,
+   "frame": "4B.2d",
+   "tindakan": "5B.1c menaruh inti kristal di pemancar yang dipegang siluet peretas, dan 5B.2a menunjukkan siluet itu pecah menjadi piksel dan lenyap saat sambungan terputus tanpa membuka identitasnya.",
+   "frame_diubah": [
+    "5B.1c",
+    "5B.2a"
+   ]
+  },
+  {
+   "episode": 5,
+   "frame": "5A.2a",
+   "tindakan": "5A.1b kini memperlihatkan tiga kapsul yang ikut terkunci dan 5A.2a menamai kedua rekan sebagai Aila dan Dhruva yang termaterialisasi dari ujian yang sama, sehingga cara masuk dan perkenalan mereka terjawab sebelum 6B.1c.",
+   "frame_diubah": [
+    "5A.1b",
+    "5A.2a"
+   ]
+  },
+  {
+   "episode": 8,
+   "frame": "8A.1a",
+   "tindakan": "8A.1a ditambah Aila dan Dhruva di latar belakang yang berusaha membuka pintu ruang samping yang terkunci es, sehingga pekerja tidak diabaikan dan pembebasan di 8B.2c tetap masuk akal setelah serangan Cryo-Walker memotong upaya itu.",
+   "frame_diubah": [
+    "8A.1a"
+   ]
+  },
+  {
+   "episode": 15,
+   "frame": "15A.2b",
+   "tindakan": "Frame sudah benar sesuai desain terkunci (pin di dada kanan atas), jadi ringkasan Episode 15 yang dibetulkan dari kiri ke kanan atas dan diberi keterangan bahwa pin disematkan di 15A.2b sehingga v2 tampil mulai 15A.2c.",
+   "frame_diubah": []
+  },
+  {
+   "episode": 19,
+   "frame": "19B.1d",
+   "tindakan": "Menegaskan di 19B.1d bahwa Himakara musnah dan hanya zirah kosong dengan inti padam yang tersisa, sehingga nasibnya tidak menggantung.",
+   "frame_diubah": [
+    "19B.1d"
+   ]
+  },
+  {
+   "episode": 20,
+   "frame": "20A.2c",
+   "tindakan": "Menambah klausa di 20A.1d bahwa Aila dan Dhruva melepas kedua gerbang dan berlari ke ramp saat evakuasi, sehingga lompatan di 20A.2c punya sebab.",
+   "frame_diubah": [
+    "20A.1d"
+   ]
+  },
+  {
+   "episode": 22,
+   "frame": "22B.2a",
+   "tindakan": "Menambah klausa di 22B.2a bahwa petugas kota mengambil alih penjagaan warga di stasiun sebelum Aila dan Dhruva tiba.",
+   "frame_diubah": [
+    "22B.2a"
+   ]
+  },
+  {
+   "episode": 27,
+   "frame": "27A.2d",
+   "tindakan": "Mengubah 27A.2d sehingga Gala hanya melihat pintu singgasana lalu berbalik mencari regunya, jadi pembebasan di 27B.1 terjadi sebelum ia menuju pintu di 27B.2d.",
+   "frame_diubah": [
+    "27A.2d"
+   ]
+  },
+  {
+   "episode": 27,
+   "frame": "27A.1b",
+   "frame_diubah": [],
+   "tindakan": "Tidak diubah: episode 27 memang tentang Ethylene yang membeku lalu hidup kembali, jadi kehadirannya benar. Catatan plot yang menyebut ia absen keliru dan sudah dibetulkan."
+  },
+  {
+   "episode": 35,
+   "frame": "35A.1c",
+   "tindakan": "Gala tidak lagi melepas lilitan melainkan mengencangkannya, dan ketukan gagal 35B.1c diberi sebab: soket mati menyedot pijar emas lilitan itu sehingga erosi ke goggles dan angka 58 persen punya alasan.",
+   "frame_diubah": [
+    "35A.1c",
+    "35B.1c"
+   ]
+  },
+  {
+   "episode": 38,
+   "frame": "38A.2d",
+   "tindakan": "Peringatan Kalia diganti menjadi dua gema Ethylene dari masa lain (bukan tiruan Wraith), dan 38B.1c menyebut kedua salinan masa lain itu membeku jadi kaca jam lalu retak sehingga cocok dengan ringkasan, 38A.2a, dan pecahan kaca di 38B.1d.",
+   "frame_diubah": [
+    "38A.2d",
+    "38B.1c"
+   ]
+  },
+  {
+   "episode": 43,
+   "frame": "43B.1d",
+   "tindakan": "43B.1d tidak diubah; 40A.2d kini menunjukkan Ethylene keluar dari soket dan hinggap di bahu Gala setelah menara menyala (flags ditambah S).",
+   "frame_diubah": [
+    "40A.2d"
+   ]
+  },
+  {
+   "episode": 44,
+   "frame": "44A.1a",
+   "tindakan": "Ketukan gagal 44A.1a dibiarkan; 44A.1b ditambah klausa bahwa cahaya menara merajut kembali serat kain sarung yang berjumbai sebelum Buster dilepas.",
+   "frame_diubah": [
+    "44A.1b"
+   ]
+  },
+  {
+   "episode": 45,
+   "frame": "45A.2b",
+   "frame_diubah": [],
+   "tindakan": "Tidak diubah: hanya beberapa menit berlalu adalah inti paradoks waktu season ini dan judul sub-episodenya. Kalau adegan lini masa utama di episode 42 terasa terlalu panjang, yang dipadatkan adalah episode 42."
+  },
+  {
+   "episode": 49,
+   "frame": "49B.2c",
+   "tindakan": "Tendangan Gala dijadikan silat murni tanpa api, sesuai pelajaran di 47B.1c, dan tetap mendorong Wirasena ke jendela untuk 49B.2d.",
+   "frame_diubah": [
+    "49B.2c"
+   ]
+  },
+  {
+   "episode": 53,
+   "frame": "53B.2d",
+   "tindakan": "Di 52B.2d Aila dibuat mengalah dan ikut menunggu di batas hutan bersama Dhruva, lalu 53B.2d menyebut keduanya datang berlari dari batas hutan.",
+   "frame_diubah": [
+    "52B.2d",
+    "53B.2d"
+   ]
+  },
+  {
+   "episode": 58,
+   "frame": "58A.1c",
+   "tindakan": "Yang membelit kain sarung Gala kini benang hitam-ungu yang menjulur dari kain kuno, sedangkan kain kuno tetap tertancap di soket sesuai 55A.2c dan 59A.2a.",
+   "frame_diubah": [
+    "58A.1c"
+   ]
+  },
+  {
+   "episode": 58,
+   "frame": "58A.2c",
+   "tindakan": "Sumber gambar dijelaskan: Maheswari memasang kristal rekaman brankas arsip (51B.1d sampai 51B.2b) ke konsol siaran dan layar kota memutar rekaman itu.",
+   "frame_diubah": [
+    "58A.2b",
+    "58A.2c"
+   ]
+  },
+  {
+   "episode": 59,
+   "frame": "59A.2a",
+   "tindakan": "Ditambahkan sebab sebelum tendangan: api di boots berpola tenunan baru dan benang hitam-ungu terlihat gagal menyerapnya, sejalan dengan override 0% di 57A.2d; 59A.2a sendiri tidak diubah.",
+   "frame_diubah": [
+    "59A.1c",
+    "59A.1d"
+   ]
+  },
+  {
+   "episode": 69,
+   "frame": "69B.1a",
+   "tindakan": "Hub di samping ibu Dhruva dijelaskan sebagai Hub pengganti yang baru dikirim Vextron, sehingga tidak bentrok dengan Hub pertama yang dibongkar Aila di 63A.1a.",
+   "frame_diubah": [
+    "69B.1a"
+   ]
+  },
+  {
+   "episode": 70,
+   "frame": "70B.2a",
+   "tindakan": "Tempat berkumpul dipindah dari atap rumah Dhruva ke atap pasar tua di distrik lama yang bebas Hub (sudah mapan sebagai tempat aman di episode 67); 70B.2d tetap cocok karena hanya menyebut atap.",
+   "frame_diubah": [
+    "70B.2a"
+   ]
+  },
+  {
+   "episode": 71,
+   "frame": "71A.2d",
+   "tindakan": "Ditambahkan Maheswari merobek selebaran buronan Gala, sehingga dewan terlihat menolak status buronan sebelum bekerja sama dengannya; permintaan maaf publik di 75A.2a tetap berlaku.",
+   "frame_diubah": [
+    "71A.2d"
+   ]
+  },
+  {
+   "episode": 74,
+   "frame": "74B.1b",
+   "tindakan": "Ditambahkan klausa bahwa Dhruva naik lewat poros lift setelah Vex-Guard di lobi roboh saat tenunan terurai di 74A.2c, sehingga kedatangannya di ruang puncak punya sebab.",
+   "frame_diubah": [
+    "74B.1b"
+   ]
+  },
+  {
+   "episode": 82,
+   "frame": "82B.2a",
+   "tindakan": "81B.2d kini menunjukkan Gala berangkat sendirian ke tepi kawah selagi yang lain beristirahat di ceruk yang didinginkan Agni, dan 82B.2a menyebut Aila dan Dhruva menyusul dari kemah.",
+   "frame_diubah": [
+    "81B.2d",
+    "82B.2a"
+   ]
+  },
+  {
+   "episode": 83,
+   "frame": "83A.1a",
+   "tindakan": "82B.1b ditambah klausa Ethylene melayang turun ke kawah untuk menjaga Jantung, sehingga ketidakhadirannya di episode 83 dan posisinya di 84A.1d terjelaskan.",
+   "frame_diubah": [
+    "82B.1b"
+   ]
+  },
+  {
+   "episode": 85,
+   "frame": "85B.1a",
+   "tindakan": "84A.1a kini menunjukkan Agni yang terluka ditinggal di ceruk di tepi kawah, dan 85B.1a menyebut regu mundur ke ceruk tempat Agni menunggu.",
+   "frame_diubah": [
+    "84A.1a",
+    "85B.1a"
+   ]
+  },
+  {
+   "episode": 87,
+   "frame": "87A.1b",
+   "tindakan": "87A.1b dan 87A.2c menjelaskan bahwa ujung kain sarung yang dipegang Dhruva tetap memancarkan selubung emas yang melindungi dia dan Aila.",
+   "frame_diubah": [
+    "87A.1b",
+    "87A.2c"
+   ]
+  },
+  {
+   "episode": 90,
+   "frame": "90B.1b",
+   "tindakan": "90B.1b kini menunjukkan Jantung yang pulih menembakkan titik plasma yang melebar menjadi pusaran pulang, sejalan dengan asal pusaran di 76B.1c.",
+   "frame_diubah": [
+    "90B.1b"
+   ]
+  },
+  {
+   "episode": 94,
+   "frame": "94B.1d",
+   "tindakan": "Mengganti dua kasur kosong menjadi satu kasur kosong milik Aila karena Gala dan Dhruva masih di kamar.",
+   "frame_diubah": [
+    "94B.1d"
+   ]
+  },
+  {
+   "episode": 96,
+   "frame": "96A.2a",
+   "tindakan": "Menambah klausa di 96A.2a bahwa Dhruva datang dipandu pesan lokasi yang dikirim Gala ke komlinknya.",
+   "frame_diubah": [
+    "96A.2a"
+   ]
+  },
+  {
+   "episode": 99,
+   "frame": "99A.1d",
+   "tindakan": "Aila kini mengenali Nira bersama Gala di atap pada 98B.2d, lalu di 99A.1b melihat kilau emitter Nira yang mengawasi dari atap seberang sehingga chip sengaja dikirim ke sana dan di 99A.1d Nira menangkapnya tanpa janji sebelumnya; ringkasan Ep 99 disesuaikan karena tidak ada saluran yang disepakati.",
+   "frame_diubah": [
+    "98B.2d",
+    "99A.1b",
+    "99A.1d"
+   ]
+  },
+  {
+   "episode": 112,
+   "frame": "112A.1b",
+   "tindakan": "Frame 112A.1b kini menyebut anak itu masih memakai visor putihnya yang retak dan sompal di satu sudut, sesuai serpihan yang tertinggal di 110B.2b.",
+   "frame_diubah": [
+    "112A.1b"
+   ]
+  },
+  {
+   "episode": 114,
+   "frame": "114B.2a",
+   "tindakan": "Frame 114B.2a kini menyebut ledakan rangka di 114B.1c memutus daya kunci sehingga dinding baja terbuka.",
+   "frame_diubah": [
+    "114B.2a"
+   ]
+  },
+  {
+   "episode": 116,
+   "frame": "116B.1b",
+   "tindakan": "Frame 115A.2d ditambah klausa Maheswari mengirim Dhruva lebih dulu ke monumen, sehingga kehadirannya di 116B.1b punya sebab.",
+   "frame_diubah": [
+    "115A.2d"
+   ]
+  },
+  {
+   "episode": 117,
+   "frame": "117B.1b",
+   "tindakan": "Frame 115A.1d menegaskan Aila hanya terguncang dan tidak terluka, dan 117B.1b memperlihatkan ia sudah pulih dan terbang lagi.",
+   "frame_diubah": [
+    "115A.1d",
+    "117B.1b"
+   ]
+  },
+  {
+   "episode": 118,
+   "frame": "118B.2b",
+   "tindakan": "Gauntlet di 118B.2b diganti kepalan tangan kosong karena anak itu tidak pernah diberi perlengkapan.",
+   "frame_diubah": [
+    "118B.2b"
+   ]
+  },
+  {
+   "episode": 124,
+   "frame": "124B.1a",
+   "tindakan": "Menambah klausa di 123B.2d bahwa Utusan berbalik dan pergi meninggalkan menara, sehingga kaki menara kosong saat warga mengelilinginya di episode 124 dan selaras dengan 125B.2b (Utusan menonton dari bukit jauh).",
+   "frame_diubah": [
+    "123B.2d"
+   ]
+  },
+  {
+   "episode": 127,
+   "frame": "127B.1b",
+   "tindakan": "Menambah klausa di 124B.2d yang memperlihatkan warna perisai Dhruva pulih saat simpul barat menyala, sehingga pemakaiannya di 127B.1b wajar tanpa mengubah frame itu.",
+   "frame_diubah": [
+    "124B.2d"
+   ]
+  },
+  {
+   "episode": 129,
+   "frame": "129B.1b",
+   "tindakan": "Menulis ulang 129B.1b agar Aila menyelam dengan gelembung udara ke menara laut sebelum menempelkan tangan, dan Gala disebut menyentuh simpul di dalam pohon.",
+   "frame_diubah": [
+    "129B.1b"
+   ]
+  },
+  {
+   "episode": 133,
+   "frame": "133A.1a",
+   "tindakan": "Menambah keterangan di 130B.1d bahwa Nira berada di kapal terpisah yang pulang ke akademi, sehingga kepindahannya dari hutan awan ke pusat komunikasi terjelaskan dan cocok dengan ketidakhadirannya di gunung api (episode 131).",
+   "frame_diubah": [
+    "130B.1d"
+   ]
+  },
+  {
+   "episode": 135,
+   "frame": "135B.2a",
+   "tindakan": "Membetulkan arah di 135B.2a dari selatan menjadi utara ke arah laut tengah, dan menyamakan deskripsi Inggrisnya.",
+   "frame_diubah": [
+    "135B.2a"
+   ]
+  },
+  {
+   "episode": 144,
+   "frame": "144A.2d",
+   "tindakan": "Menegaskan anak di 139A.2d sebagai anak berjas hujan kuning dan menambahkan sprite kecil tangkapannya di bahunya pada 144A.2d, sehingga ia sudah diperkenalkan di season ini sebelum 144 dan 150.",
+   "frame_diubah": [
+    "139A.2d",
+    "144A.2d"
+   ]
+  },
+  {
+   "episode": 146,
+   "frame": "146A.1d",
+   "tindakan": "Menulis ulang 146A.1d agar warga kota berdiri di dalam lingkar cahaya monumen yang masih menahan kelabu (sesuai 137A.1c), sehingga mereka bisa bergerak normal walau kelabu sudah mencapai monumen.",
+   "frame_diubah": [
+    "146A.1d"
+   ]
+  },
+  {
+   "episode": 147,
+   "frame": "147A.1a",
+   "tindakan": "Menambah klausa di 147A.1a bahwa Arka menyerahkan obornya kepada tetua Hutan Awan yang tetap menjaga simpul bersama warga sebelum ia berangkat, sehingga simpul tidak kosong.",
+   "frame_diubah": [
+    "147A.1a"
+   ]
+  }
+ ]
+}

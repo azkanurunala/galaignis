@@ -1,0 +1,5 @@
+google-genai>=1.0
+pillow>=10
+numpy
+pyyaml
+scipy

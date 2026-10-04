@@ -1,0 +1,1360 @@
+{
+ "K01": {
+  "nama": "Gala Ignis (v1, sebelum pin)",
+  "jenis": "karakter",
+  "file": "refs/karakter/K01_Gala_Ignis_v1.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Gala Ignis, a stylized 3D chibi boy warrior with chibi proportions, a large head about one third of his height: spiky dark purple hair; dark tactical goggles always worn fixed over his eyes (eyes never visible); fitted green tactical shirt; purple armor plates with gold batik engravings on chest, shoulders and forearms; green-and-purple armored gauntlets; brown batik cloth sash tied at the waist; black pants; green-and-purple combat boots.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nGala Ignis, a stylized 3D chibi boy warrior with chibi proportions, a large head about one third of his height: spiky dark purple hair; dark tactical goggles always worn fixed over his eyes (eyes never visible); fitted green tactical shirt; purple armor plates with gold batik engravings on chest, shoulders and forearms; green-and-purple armored gauntlets; brown batik cloth sash tied at the waist; black pants; green-and-purple combat boots.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K01 GALA IGNIS\"."
+ },
+ "K02": {
+  "nama": "Gala Ignis (v2, dengan pin lambang)",
+  "jenis": "karakter",
+  "file": "refs/karakter/K02_Gala_Ignis_v2_pin.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Gala Ignis, a stylized 3D chibi boy warrior with chibi proportions, a large head about one third of his height: spiky dark purple hair; dark tactical goggles always worn fixed over his eyes (eyes never visible); fitted green tactical shirt; purple armor plates with gold batik engravings on chest, shoulders and forearms; green-and-purple armored gauntlets; brown batik cloth sash tied at the waist; black pants; green-and-purple combat boots; a small round gold rosette pin with a red gem center and two tiny ribbon tails on the upper right chest.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nGala Ignis, a stylized 3D chibi boy warrior with chibi proportions, a large head about one third of his height: spiky dark purple hair; dark tactical goggles always worn fixed over his eyes (eyes never visible); fitted green tactical shirt; purple armor plates with gold batik engravings on chest, shoulders and forearms; green-and-purple armored gauntlets; brown batik cloth sash tied at the waist; black pants; green-and-purple combat boots; a small round gold rosette pin with a red gem center and two tiny ribbon tails on the upper right chest.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K02 GALA IGNIS\"."
+ },
+ "K03": {
+  "nama": "Ethylene",
+  "jenis": "karakter",
+  "file": "refs/karakter/K03_Ethylene.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Ethylene, his fist-sized fire sprite: a perfectly round glossy glowing amber orb with a small flickering flame crown on top, two small flame wisps on its sides like tiny wings and a thin flame tail; two simple glowing white dot eyes; no mouth, no limbs.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nEthylene, his fist-sized fire sprite: a perfectly round glossy glowing amber orb with a small flickering flame crown on top, two small flame wisps on its sides like tiny wings and a thin flame tail; two simple glowing white dot eyes; no mouth, no limbs.\nShow it from the front, from the side, and in one expressive pose, with a small silhouette of a child next to it for scale.\nLabel the sheet with one small clean caption: \"K03 ETHYLENE\"."
+ },
+ "K04": {
+  "nama": "Aila",
+  "jenis": "karakter",
+  "file": "refs/karakter/K04_Aila.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Aila, Gala's squadmate, a stylized 3D chibi girl scout: short silver-white bob hair with one thin braid; a clear teal visor over her eyes; fitted teal-and-silver light armor; slim wind fins mounted on both wrists; white pants; light silver boots.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nAila, Gala's squadmate, a stylized 3D chibi girl scout: short silver-white bob hair with one thin braid; a clear teal visor over her eyes; fitted teal-and-silver light armor; slim wind fins mounted on both wrists; white pants; light silver boots.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K04 AILA\"."
+ },
+ "K05": {
+  "nama": "Dhruva",
+  "jenis": "karakter",
+  "file": "refs/karakter/K05_Dhruva.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Dhruva, Gala's squadmate, a stylized 3D chibi boy guardian, broader and a head taller than Gala: short black hair shaved at the sides; open determined face with thick eyebrows; rust-red and dark bronze heavy armor; a large rectangular tower shield engraved with a kawung batik pattern; dark brown pants; heavy bronze boots.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nDhruva, Gala's squadmate, a stylized 3D chibi boy guardian, broader and a head taller than Gala: short black hair shaved at the sides; open determined face with thick eyebrows; rust-red and dark bronze heavy armor; a large rectangular tower shield engraved with a kawung batik pattern; dark brown pants; heavy bronze boots.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K05 DHRUVA\"."
+ },
+ "K06": {
+  "nama": "Kalia",
+  "jenis": "karakter",
+  "file": "refs/karakter/K06_Kalia.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Kalia, leader of the resistance in the parallel timeline, a stylized 3D chibi young woman: long ash-grey hair tied high; calm face with sharp eyebrows; a patched indigo coat stitched from salvaged batik scraps; a brass clockwork gauntlet on her left arm; dark grey pants; worn brown boots.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nKalia, leader of the resistance in the parallel timeline, a stylized 3D chibi young woman: long ash-grey hair tied high; calm face with sharp eyebrows; a patched indigo coat stitched from salvaged batik scraps; a brass clockwork gauntlet on her left arm; dark grey pants; worn brown boots.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K06 KALIA\"."
+ },
+ "K07": {
+  "nama": "Gala Bayang",
+  "jenis": "karakter",
+  "file": "refs/karakter/K07_Gala_Bayang.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Gala Bayang, Gala Ignis's alternate-timeline self, a stylized 3D chibi boy of the same size: ash-white spiky hair; cracked dark goggles over his eyes with a faint purple glow in the cracks; no armor; a scorched, faded green shirt; a torn plain grey sash with no batik pattern; black pants; plain grey boots.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nGala Bayang, Gala Ignis's alternate-timeline self, a stylized 3D chibi boy of the same size: ash-white spiky hair; cracked dark goggles over his eyes with a faint purple glow in the cracks; no armor; a scorched, faded green shirt; a torn plain grey sash with no batik pattern; black pants; plain grey boots.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K07 GALA BAYANG\"."
+ },
+ "K08": {
+  "nama": "Wirasena (bertopeng)",
+  "jenis": "karakter",
+  "file": "refs/karakter/K08_Wirasena_bertopeng.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Wirasena, an ancient exiled Galian commander, a stylized 3D chibi figure much taller than Gala: long white hair; weathered bronze-and-stone armor cracked with glowing black-violet batik lines; a long ragged cloak of tattered black batik; a frayed ancient brown batik sash wrapped around his left forearm; a rigid, smooth, cracked grey stone mask covering his whole face, its features chiseled away: no mouth, only two shallow dark eye hollows.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nWirasena, an ancient exiled Galian commander, a stylized 3D chibi figure much taller than Gala: long white hair; weathered bronze-and-stone armor cracked with glowing black-violet batik lines; a long ragged cloak of tattered black batik; a frayed ancient brown batik sash wrapped around his left forearm; a rigid, smooth, cracked grey stone mask covering his whole face, its features chiseled away: no mouth, only two shallow dark eye hollows.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K08 WIRASENA\"."
+ },
+ "K09": {
+  "nama": "Wirasena (tanpa topeng)",
+  "jenis": "karakter",
+  "file": "refs/karakter/K09_Wirasena_tanpa_topeng.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Wirasena, an ancient exiled Galian commander, a stylized 3D chibi figure much taller than Gala: long white hair; weathered bronze-and-stone armor cracked with glowing black-violet batik lines; a long ragged cloak of tattered black batik; a frayed ancient brown batik sash wrapped around his left forearm; no mask; a stern old face with a deep scar across the right brow and tired dark eyes.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nWirasena, an ancient exiled Galian commander, a stylized 3D chibi figure much taller than Gala: long white hair; weathered bronze-and-stone armor cracked with glowing black-violet batik lines; a long ragged cloak of tattered black batik; a frayed ancient brown batik sash wrapped around his left forearm; no mask; a stern old face with a deep scar across the right brow and tired dark eyes.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K09 WIRASENA\"."
+ },
+ "K10": {
+  "nama": "Maheswari",
+  "jenis": "karakter",
+  "file": "refs/karakter/K10_Maheswari.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Maheswari, head of the Galians High Council, a stylized 3D chibi elderly woman: silver hair in a tall bun with a gold hairpin; a ceremonial deep green robe with gold parang batik trim; a gold Galians crest brooch; a carved wooden staff.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nMaheswari, head of the Galians High Council, a stylized 3D chibi elderly woman: silver hair in a tall bun with a gold hairpin; a ceremonial deep green robe with gold parang batik trim; a gold Galians crest brooch; a carved wooden staff.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K10 MAHESWARI\"."
+ },
+ "K11": {
+  "nama": "Indra Mahadana",
+  "jenis": "karakter",
+  "file": "refs/karakter/K11_Indra_Mahadana.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Indra Mahadana, founder and CEO of Vextron, a stylized 3D chibi adult man: slicked-back black hair with a single silver streak; rimless smart-glasses with violet-tinted lenses; a tailored charcoal suit with thin violet circuit lines on the lapels; a small glowing violet V-shaped Vextron pin; polished black shoes.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nIndra Mahadana, founder and CEO of Vextron, a stylized 3D chibi adult man: slicked-back black hair with a single silver streak; rimless smart-glasses with violet-tinted lenses; a tailored charcoal suit with thin violet circuit lines on the lapels; a small glowing violet V-shaped Vextron pin; polished black shoes.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K11 INDRA MAHADANA\"."
+ },
+ "K12": {
+  "nama": "Tetua Agni",
+  "jenis": "karakter",
+  "file": "refs/karakter/K12_Tetua_Agni.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Tetua Agni, an ancient fire sprite the size of a child: a deep crimson glowing core, a flowing mane of flame, two simple white dot eyes, three thin gold rings slowly orbiting its body.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nTetua Agni, an ancient fire sprite the size of a child: a deep crimson glowing core, a flowing mane of flame, two simple white dot eyes, three thin gold rings slowly orbiting its body.\nShow it from the front, from the side, and in one expressive pose, with a small silhouette of a child next to it for scale.\nLabel the sheet with one small clean caption: \"K12 TETUA AGNI\"."
+ },
+ "K13": {
+  "nama": "Sang Hampa",
+  "jenis": "karakter",
+  "file": "refs/karakter/K13_Sang_Hampa.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Sang Hampa, a towering hollow silhouette of pure darkness with edges fizzing with cold white static, two pinpoint white lights for eyes, no other features.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nSang Hampa, a towering hollow silhouette of pure darkness with edges fizzing with cold white static, two pinpoint white lights for eyes, no other features.\nShow it as one large full view and one close-up of its defining feature, with a tiny human silhouette for scale.\nLabel the sheet with one small clean caption: \"K13 SANG HAMPA\"."
+ },
+ "K14": {
+  "nama": "Vikrama (berjubah)",
+  "jenis": "karakter",
+  "file": "refs/karakter/K14_Vikrama_berjubah.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Vikrama, deputy of the Galians High Council, a stylized 3D chibi middle-aged man: close-cropped grey hair; a square jaw with a trimmed grey beard; a dark steel-grey council robe with sharp angular shoulder plates; a red sash of office across one shoulder; black gloves.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nVikrama, deputy of the Galians High Council, a stylized 3D chibi middle-aged man: close-cropped grey hair; a square jaw with a trimmed grey beard; a dark steel-grey council robe with sharp angular shoulder plates; a red sash of office across one shoulder; black gloves.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K14 VIKRAMA\"."
+ },
+ "K15": {
+  "nama": "Vikrama (berzirah besi)",
+  "jenis": "karakter",
+  "file": "refs/karakter/K15_Vikrama_berzirah.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Vikrama, deputy of the Galians High Council, a stylized 3D chibi middle-aged man: close-cropped grey hair; a square jaw with a trimmed grey beard; wearing heavy steel-grey powered exo-armor over his council robe, a glowing red core in the chest plate, a red sash of office still across one shoulder; black gloves.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nVikrama, deputy of the Galians High Council, a stylized 3D chibi middle-aged man: close-cropped grey hair; a square jaw with a trimmed grey beard; wearing heavy steel-grey powered exo-armor over his council robe, a glowing red core in the chest plate, a red sash of office still across one shoulder; black gloves.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K15 VIKRAMA\"."
+ },
+ "K16": {
+  "nama": "Nira",
+  "jenis": "karakter",
+  "file": "refs/karakter/K16_Nira.png",
+  "lolos": false,
+  "catatan": "BELUM: poni harus menutup mata kanan",
+  "anchor": "Nira, a former cadet turned hacker, a stylized 3D chibi teen girl: short black asymmetrical hair covering her right eye; a dark hooded jacket with glowing cyan data-lining; fingerless black gloves; a small wrist-mounted hologram emitter; dark cargo pants; black sneakers.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nNira, a former cadet turned hacker, a stylized 3D chibi teen girl: short black asymmetrical hair covering her right eye; a dark hooded jacket with glowing cyan data-lining; fingerless black gloves; a small wrist-mounted hologram emitter; dark cargo pants; black sneakers.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K16 NIRA\"."
+ },
+ "K17": {
+  "nama": "Arka (Subjek Zero)",
+  "jenis": "karakter",
+  "file": "refs/karakter/K17_Arka_Subjek_Zero.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Arka (Subject Zero), a stylized 3D chibi boy slightly smaller than Gala: short spiky pale-gold hair; a thin white visor band covering his eyes; a white-and-gold bodysuit with glowing gold vein lines; orange-gold gauntlets; white boots; no sash, no goggles.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nArka (Subject Zero), a stylized 3D chibi boy slightly smaller than Gala: short spiky pale-gold hair; a thin white visor band covering his eyes; a white-and-gold bodysuit with glowing gold vein lines; orange-gold gauntlets; white boots; no sash, no goggles.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K17 ARKA\"."
+ },
+ "K18": {
+  "nama": "Komandan Taraka",
+  "jenis": "karakter",
+  "file": "refs/karakter/K18_Komandan_Taraka.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Taraka, a rogue Garda Besi commander, a stylized 3D chibi lean adult man: shaved head with a thin red circuit tattoo along the scalp; a red monocle visor over his left eye; a long black-and-steel coat; a mechanical left arm ending in a clamp-shaped plasma siphon.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nTaraka, a rogue Garda Besi commander, a stylized 3D chibi lean adult man: shaved head with a thin red circuit tattoo along the scalp; a red monocle visor over his left eye; a long black-and-steel coat; a mechanical left arm ending in a clamp-shaped plasma siphon.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K18 KOMANDAN TARAKA\"."
+ },
+ "K19": {
+  "nama": "Sang Utusan",
+  "jenis": "karakter",
+  "file": "refs/karakter/K19_Sang_Utusan.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Sang Utusan, envoy of the Entropy Catalyst, a stylized 3D chibi tall slender figure: a long white-grey hooded robe whose hem dissolves into drifting grey particles; a smooth porcelain-white face with no mouth and two thin horizontal eye slits glowing faint grey; long thin grey hands.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nSang Utusan, envoy of the Entropy Catalyst, a stylized 3D chibi tall slender figure: a long white-grey hooded robe whose hem dissolves into drifting grey particles; a smooth porcelain-white face with no mouth and two thin horizontal eye slits glowing faint grey; long thin grey hands.\nShow the full body in front view, three-quarter view and back view, plus three head close-ups: neutral, happy, determined. Show expressions only with eyebrows and mouth whenever the eyes are covered by goggles, a visor or a mask.\nLabel the sheet with one small clean caption: \"K19 SANG UTUSAN\"."
+ },
+ "K20": {
+  "nama": "Katalis Entropi",
+  "jenis": "karakter",
+  "file": "refs/karakter/K20_Katalis_Entropi.png",
+  "lolos": false,
+  "catatan": "BELUM: generate ulang tanpa teks liar",
+  "anchor": "Katalis Entropi (the Entropy Catalyst), a colossal formless shape of grey-white mist with pale rings turning slowly around it and a single hollow white void at its center; everything near it is drained of color.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nKatalis Entropi (the Entropy Catalyst), a colossal formless shape of grey-white mist with pale rings turning slowly around it and a single hollow white void at its center; everything near it is drained of color.\nShow it as one large full view and one close-up of its defining feature, with a tiny human silhouette for scale.\nLabel the sheet with one small clean caption: \"K20 KATALIS ENTROPI\"."
+ },
+ "K30": {
+  "nama": "Tiga Instruktur Akademi",
+  "jenis": "karakter",
+  "file": "refs/karakter/K30_Tiga_Instruktur_Akademi.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "The three academy instructors, adult proportions, about twice Gala's height, in identical dark navy sci-fi uniforms with thin gold trim: Lead Instructor, tall stern man, grey buzz cut, sharp jaw; Second Instructor, stocky man, thick black mustache; Third Instructor, woman, short black bob, round glasses.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nThe three academy instructors, adult proportions, about twice Gala's height, in identical dark navy sci-fi uniforms with thin gold trim: Lead Instructor, tall stern man, grey buzz cut, sharp jaw; Second Instructor, stocky man, thick black mustache; Third Instructor, woman, short black bob, round glasses.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K30 TIGA INSTRUKTUR AKADEMI\"."
+ },
+ "K31": {
+  "nama": "Komandan Akademi",
+  "jenis": "karakter",
+  "file": "refs/karakter/K31_Komandan_Akademi.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "The Academy Commander: an adult woman in her fifties with short grey-streaked black hair, a dark navy command uniform with gold epaulettes and a gold Galians crest on the chest.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nThe Academy Commander: an adult woman in her fifties with short grey-streaked black hair, a dark navy command uniform with gold epaulettes and a gold Galians crest on the chest.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K31 KOMANDAN AKADEMI\"."
+ },
+ "K32": {
+  "nama": "Komandan Lapangan",
+  "jenis": "karakter",
+  "file": "refs/karakter/K32_Komandan_Lapangan.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "A senior Galians field commander: a broad-shouldered adult man with a grey beard in dark green field armor with a gold crest.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nA senior Galians field commander: a broad-shouldered adult man with a grey beard in dark green field armor with a gold crest.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K32 KOMANDAN LAPANGAN\"."
+ },
+ "K33": {
+  "nama": "Drone Tempur AI (simulasi)",
+  "jenis": "karakter",
+  "file": "refs/karakter/K33_Drone_Tempur_AI.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Hexagon-armored AI combat drones: child-height humanoid training robots with hexagon plating and a single sensor eye, blue when normal and red when corrupted.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nHexagon-armored AI combat drones: child-height humanoid training robots with hexagon plating and a single sensor eye, blue when normal and red when corrupted.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K33 DRONE TEMPUR AI (SIMULASI)\"."
+ },
+ "K34": {
+  "nama": "Cryo-Drone",
+  "jenis": "karakter",
+  "file": "refs/karakter/K34_Cryo-Drone.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Cryo-Drones: hovering spherical combat drones the size of a beach ball, white-and-ice-blue frosted armor plates, a single glowing ice-blue sensor eye, two small frost cannons.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nCryo-Drones: hovering spherical combat drones the size of a beach ball, white-and-ice-blue frosted armor plates, a single glowing ice-blue sensor eye, two small frost cannons.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K34 CRYO-DRONE\"."
+ },
+ "K35": {
+  "nama": "Cryo-Walker",
+  "jenis": "karakter",
+  "file": "refs/karakter/K35_Cryo-Walker.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "The Cryo-Walker: a giant four-legged walking tank of white-and-ice-blue armor with twin frost cannons on its back and a single blue sensor eye.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nThe Cryo-Walker: a giant four-legged walking tank of white-and-ice-blue armor with twin frost cannons on its back and a single blue sensor eye.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K35 CRYO-WALKER\"."
+ },
+ "K36": {
+  "nama": "Cryo-Berserker",
+  "jenis": "karakter",
+  "file": "refs/karakter/K36_Cryo-Berserker.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Cryo-Berserkers: hulking humanoid robots in thick frost armor with glowing blue eyes, each wielding a glowing ice axe.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nCryo-Berserkers: hulking humanoid robots in thick frost armor with glowing blue eyes, each wielding a glowing ice axe.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K36 CRYO-BERSERKER\"."
+ },
+ "K37": {
+  "nama": "Jenderal Eksekutif Cryo-Tech",
+  "jenis": "karakter",
+  "file": "refs/karakter/K37_Jenderal_Eksekutif_Cryo-Tech.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "The Cryo-Tech Executive General: a towering humanoid in jagged frost armor with a torn ice cape, a glowing blue visor and a long ice spear.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nThe Cryo-Tech Executive General: a towering humanoid in jagged frost armor with a torn ice cape, a glowing blue visor and a long ice spear.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K37 JENDERAL EKSEKUTIF CRYO-TECH\"."
+ },
+ "K38": {
+  "nama": "Cryo-Guard",
+  "jenis": "karakter",
+  "file": "refs/karakter/K38_Cryo-Guard.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Cryo-Guards: humanoid soldiers in heavy white-and-ice-blue armor with blue visors and frost rifles.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nCryo-Guards: humanoid soldiers in heavy white-and-ice-blue armor with blue visors and frost rifles.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K38 CRYO-GUARD\"."
+ },
+ "K39": {
+  "nama": "Komandan Himakara",
+  "jenis": "karakter",
+  "file": "refs/karakter/K39_Komandan_Himakara.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Commander Himakara: a tall humanoid with pale blue-tinted skin and a stern bare face, in spiked blue crystal armor with a horned ice helmet that leaves his face uncovered, twin glowing frost swords, frost canisters on his back, no cape.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nCommander Himakara: a tall humanoid with pale blue-tinted skin and a stern bare face, in spiked blue crystal armor with a horned ice helmet that leaves his face uncovered, twin glowing frost swords, frost canisters on his back, no cape.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K39 KOMANDAN HIMAKARA\"."
+ },
+ "K40": {
+  "nama": "Komandan Frostwing",
+  "jenis": "karakter",
+  "file": "refs/karakter/K40_Komandan_Frostwing.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Commander Frostwing: a lean humanoid in sleek ice armor with huge mechanical wings made of ice blades and a heavy frost cannon.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nCommander Frostwing: a lean humanoid in sleek ice armor with huge mechanical wings made of ice blades and a heavy frost cannon.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K40 KOMANDAN FROSTWING\"."
+ },
+ "K41": {
+  "nama": "Pengawal Elit Absolute Zero",
+  "jenis": "karakter",
+  "file": "refs/karakter/K41_Pengawal_Elit_Absolute_Zero.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Elite Absolute Zero Guards: towering knights in black-and-deep-blue crystal armor wielding ice halberds.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nElite Absolute Zero Guards: towering knights in black-and-deep-blue crystal armor wielding ice halberds.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K41 PENGAWAL ELIT ABSOLUTE ZERO\"."
+ },
+ "K42": {
+  "nama": "Lord Absolute Zero",
+  "jenis": "karakter",
+  "file": "refs/karakter/K42_Lord_Absolute_Zero.png",
+  "lolos": true,
+  "catatan": "Lolos (crop kotak kosong kiri bawah)",
+  "anchor": "Lord Absolute Zero: a massive figure in black and deep-blue spiked ice armor, a crown of ice spikes, a glowing crystal core in his chest, a dark blue anti-matter orb floating above one palm.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nLord Absolute Zero: a massive figure in black and deep-blue spiked ice armor, a crown of ice spikes, a glowing crystal core in his chest, a dark blue anti-matter orb floating above one palm.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K42 LORD ABSOLUTE ZERO\"."
+ },
+ "K43": {
+  "nama": "Pejuang Perlawanan",
+  "jenis": "karakter",
+  "file": "refs/karakter/K43_Pejuang_Perlawanan.png",
+  "lolos": false,
+  "catatan": "BELUM: ganti senapan realistis jadi senapan energi rakitan",
+  "anchor": "Resistance fighters: people in hooded patched coats of faded indigo and grey, carrying makeshift rifles.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nResistance fighters: people in hooded patched coats of faded indigo and grey, carrying makeshift rifles.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K43 PEJUANG PERLAWANAN\"."
+ },
+ "K44": {
+  "nama": "Insinyur Tua Perlawanan",
+  "jenis": "karakter",
+  "file": "refs/karakter/K44_Insinyur_Tua_Perlawanan.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "An elderly resistance engineer with a white beard and a brass magnifying monocle, in a patched brown work apron.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nAn elderly resistance engineer with a white beard and a brass magnifying monocle, in a patched brown work apron.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K44 INSINYUR TUA PERLAWANAN\"."
+ },
+ "K45": {
+  "nama": "Pertapa Galians",
+  "jenis": "karakter",
+  "file": "refs/karakter/K45_Pertapa_Galians.png",
+  "lolos": false,
+  "catatan": "BELUM: hapus monokel di potret netral",
+  "anchor": "An old hermit in a faded Galians robe with a long grey braid, carrying a lantern.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nAn old hermit in a faded Galians robe with a long grey braid, carrying a lantern.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K45 PERTAPA GALIANS\"."
+ },
+ "K46": {
+  "nama": "Chrono-Wraith",
+  "jenis": "karakter",
+  "file": "refs/karakter/K46_Chrono-Wraith.png",
+  "lolos": false,
+  "catatan": "BELUM: generate ulang, gaya animasi, tanpa tengkorak",
+  "anchor": "A Chrono-Wraith: a gaunt humanoid made of shattered clock glass and bent clock hands, trailing purple-silver afterimages, with long glass claws.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nA Chrono-Wraith: a gaunt humanoid made of shattered clock glass and bent clock hands, trailing purple-silver afterimages, with long glass claws.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K46 CHRONO-WRAITH\"."
+ },
+ "K47": {
+  "nama": "Penjaga Cakrawala",
+  "jenis": "karakter",
+  "file": "refs/karakter/K47_Penjaga_Cakrawala.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "The Horizon Warden: a towering giant made of clock glass with slowly turning brass gears on its back and a clear purple crystal in its chest.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nThe Horizon Warden: a towering giant made of clock glass with slowly turning brass gears on its back and a clear purple crystal in its chest.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K47 PENJAGA CAKRAWALA\"."
+ },
+ "K48": {
+  "nama": "Anak Berjas Hujan Kuning",
+  "jenis": "karakter",
+  "file": "refs/karakter/K48_Anak_Berjas_Hujan_Kuning.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "A small boy with short black hair in a bright yellow raincoat with the hood down, a grey-and-white striped shirt, dark jeans, red rubber rain boots and a small tan backpack.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nA small boy with short black hair in a bright yellow raincoat with the hood down, a grey-and-white striped shirt, dark jeans, red rubber rain boots and a small tan backpack.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K48 ANAK BERJAS HUJAN KUNING\"."
+ },
+ "K49": {
+  "nama": "Arca Penjaga",
+  "jenis": "karakter",
+  "file": "refs/karakter/K49_Arca_Penjaga.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Stone guardian statues: tall carved mossy green-grey stone warriors with crested helmets, batik-patterned armor and stone staffs, black-violet glowing batik lines and glowing eyes.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nStone guardian statues: tall carved mossy green-grey stone warriors with crested helmets, batik-patterned armor and stone staffs, black-violet glowing batik lines and glowing eyes.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K49 ARCA PENJAGA\"."
+ },
+ "K50": {
+  "nama": "Laskar Purba",
+  "jenis": "karakter",
+  "file": "refs/karakter/K50_Laskar_Purba.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Stone warriors: ancient warrior statues of plain grey sandstone with no moss, with black-violet glowing batik lines across their bodies, carrying stone spears.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nStone warriors: ancient warrior statues of plain grey sandstone with no moss, with black-violet glowing batik lines across their bodies, carrying stone spears.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K50 LASKAR PURBA\"."
+ },
+ "K51": {
+  "nama": "Lima Pendiri Dewan",
+  "jenis": "karakter",
+  "file": "refs/karakter/K51_Lima_Pendiri_Dewan.png",
+  "lolos": false,
+  "catatan": "BELUM: harus lima wajah berbeda",
+  "anchor": "The five founders of the Council: elders in ancient ceremonial robes of deep green and gold, their faces stern.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nThe five founders of the Council: elders in ancient ceremonial robes of deep green and gold, their faces stern.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K51 LIMA PENDIRI DEWAN\"."
+ },
+ "K52": {
+  "nama": "Staf Vextron",
+  "jenis": "karakter",
+  "file": "refs/karakter/K52_Staf_Vextron.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Vextron staff: people in sleek grey suits with thin violet circuit collars.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nVextron staff: people in sleek grey suits with thin violet circuit collars.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K52 STAF VEXTRON\"."
+ },
+ "K53": {
+  "nama": "Vex-Guard",
+  "jenis": "karakter",
+  "file": "refs/karakter/K53_Vex-Guard.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Vex-Guards: sleek white humanoid androids with glossy armor, thin violet circuit lines and violet visors.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nVex-Guards: sleek white humanoid androids with glossy armor, thin violet circuit lines and violet visors.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K53 VEX-GUARD\"."
+ },
+ "K54": {
+  "nama": "Vex-Drone",
+  "jenis": "karakter",
+  "file": "refs/karakter/K54_Vex-Drone.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Vex-Drones: small white-and-violet quadcopter drones with a glowing violet sensor ring.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nVex-Drones: small white-and-violet quadcopter drones with a glowing violet sensor ring.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K54 VEX-DRONE\"."
+ },
+ "K55": {
+  "nama": "Vex-Core",
+  "jenis": "karakter",
+  "file": "refs/karakter/K55_Vex-Core.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Vex-Core: a floating hologram of a faceless geometric head made of violet light.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nVex-Core: a floating hologram of a faceless geometric head made of violet light.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K55 VEX-CORE\"."
+ },
+ "K56": {
+  "nama": "Ibu dan Adik Dhruva",
+  "jenis": "karakter",
+  "file": "refs/karakter/K56_Ibu_dan_Adik_Dhruva.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Dhruva's mother, a kind woman in a rust-colored headscarf, and his little sister with her hair in twin buns.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nDhruva's mother, a kind woman in a rust-colored headscarf, and his little sister with her hair in twin buns.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K56 IBU DAN ADIK DHRUVA\"."
+ },
+ "K57": {
+  "nama": "Nenek Penjual Jamu",
+  "jenis": "karakter",
+  "file": "refs/karakter/K57_Nenek_Penjual_Jamu.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "The old herbal-drink seller: an elderly woman in a faded batik kebaya and a simple headscarf, carrying a woven basket of herbal-drink bottles.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nThe old herbal-drink seller: an elderly woman in a faded batik kebaya and a simple headscarf, carrying a woven basket of herbal-drink bottles.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K57 NENEK PENJUAL JAMU\"."
+ },
+ "K58": {
+  "nama": "Sprite Desa Alam Nyala",
+  "jenis": "karakter",
+  "file": "refs/karakter/K58_Sprite_Desa_Alam_Nyala.png",
+  "lolos": false,
+  "catatan": "BELUM: generate ulang 3D, bola api tanpa kaki",
+  "anchor": "Small fire sprites of various warm colors: tiny glowing orbs of red, amber and yellow flame with two white dot eyes each.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nSmall fire sprites of various warm colors: tiny glowing orbs of red, amber and yellow flame with two white dot eyes each.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K58 SPRITE DESA ALAM NYALA\"."
+ },
+ "K59": {
+  "nama": "Makhluk Abu",
+  "jenis": "karakter",
+  "file": "refs/karakter/K59_Makhluk_Abu.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Ash creatures: faceless humanoid shapes made of drifting grey ash.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nAsh creatures: faceless humanoid shapes made of drifting grey ash.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K59 MAKHLUK ABU\"."
+ },
+ "K60": {
+  "nama": "Garda Besi",
+  "jenis": "karakter",
+  "file": "refs/karakter/K60_Garda_Besi.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Garda Besi cadets: teenage cadets in steel-grey armor with red visors.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nGarda Besi cadets: teenage cadets in steel-grey armor with red visors.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K60 GARDA BESI\"."
+ },
+ "K61": {
+  "nama": "Penjaga Bersenjata Siphon",
+  "jenis": "karakter",
+  "file": "refs/karakter/K61_Penjaga_Bersenjata_Siphon.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Taraka's guards: soldiers in black-and-steel uniforms with red visors carrying small siphon rifles.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nTaraka's guards: soldiers in black-and-steel uniforms with red visors carrying small siphon rifles.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K61 PENJAGA BERSENJATA SIPHON\"."
+ },
+ "K62": {
+  "nama": "Penjaga Simpul Barat",
+  "jenis": "karakter",
+  "file": "refs/karakter/K62_Penjaga_Simpul_Barat.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "The western node keeper: an old woman in a faded brown kebaya with a woven shawl and a bamboo staff.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nThe western node keeper: an old woman in a faded brown kebaya with a woven shawl and a bamboo staff.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K62 PENJAGA SIMPUL BARAT\"."
+ },
+ "K63": {
+  "nama": "Penjaga Simpul Utara",
+  "jenis": "karakter",
+  "file": "refs/karakter/K63_Penjaga_Simpul_Utara.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "The northern node keeper: an old man in a wide woven bamboo hat and a green sarong.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nThe northern node keeper: an old man in a wide woven bamboo hat and a green sarong.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K63 PENJAGA SIMPUL UTARA\"."
+ },
+ "K64": {
+  "nama": "Penjaga Simpul Timur",
+  "jenis": "karakter",
+  "file": "refs/karakter/K64_Penjaga_Simpul_Timur.png",
+  "lolos": false,
+  "catatan": "BELUM: ganti tongkat dengan jaring ikan",
+  "anchor": "The eastern node keeper: an old fisherman with a white beard, a straw hat and a faded blue shirt.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nThe eastern node keeper: an old fisherman with a white beard, a straw hat and a faded blue shirt.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K64 PENJAGA SIMPUL TIMUR\"."
+ },
+ "K65": {
+  "nama": "Penjaga Simpul Selatan",
+  "jenis": "karakter",
+  "file": "refs/karakter/K65_Penjaga_Simpul_Selatan.png",
+  "lolos": false,
+  "catatan": "BELUM: hapus tongkat",
+  "anchor": "The southern node keeper: a very old thin man with long white hair in a simple grey robe.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nThe southern node keeper: a very old thin man with long white hair in a simple grey robe.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K65 PENJAGA SIMPUL SELATAN\"."
+ },
+ "K66": {
+  "nama": "Bayang Gerhana",
+  "jenis": "karakter",
+  "file": "refs/karakter/K66_Bayang_Gerhana.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Eclipse shades: wolf-like shadow creatures outlined with a thin white corona.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nEclipse shades: wolf-like shadow creatures outlined with a thin white corona.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K66 BAYANG GERHANA\"."
+ },
+ "K67": {
+  "nama": "Pengawal Dewan",
+  "jenis": "karakter",
+  "file": "refs/karakter/K67_Pengawal_Dewan.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Council guards: guards in dark green ceremonial armor with gold trim, carrying long staffs.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nCouncil guards: guards in dark green ceremonial armor with gold trim, carrying long staffs.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K67 PENGAWAL DEWAN\"."
+ },
+ "K68": {
+  "nama": "Kapal Angkut Galians",
+  "jenis": "karakter",
+  "file": "refs/auto/K68.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The Galians transport ship: a sleek rounded dropship about the size of a city bus, glossy white hull with purple accent stripes, a gold winged Galians crest on each side, a tinted dark cockpit canopy at the front, two short swept-back wings each ending in a downward-angled engine pod glowing cyan, and a rear loading ramp.",
+  "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nThe Galians transport ship: a sleek rounded dropship about the size of a city bus, glossy white hull with purple accent stripes, a gold winged Galians crest on each side, a tinted dark cockpit canopy at the front, two short swept-back wings each ending in a downward-angled engine pod glowing cyan, and a rear loading ramp.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K68 KAPAL ANGKUT GALIANS\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L01": {
+  "nama": "Arena 7 Akademi",
+  "jenis": "latar",
+  "file": "refs/latar/L01_Arena_7_Akademi.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "Arena 7, the academy training arena: a large hexagonal hall; walls of dark gunmetal hexagon panels; two horizontal cyan-blue neon strips around the walls, one at waist height and one near the ceiling; a polished dark floor with a large faint glowing hexagon emblem at the center; a wide blast door with yellow-and-black hazard stripes on the left wall; a tinted observation window high on the back wall.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Arena 7, the academy training arena: a large hexagonal hall; walls of dark gunmetal hexagon panels; two horizontal cyan-blue neon strips around the walls, one at waist height and one near the ceiling; a polished dark floor with a large faint glowing hexagon emblem at the center; a wide blast door with yellow-and-black hazard stripes on the left wall; a tinted observation window high on the back wall.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L01 ARENA 7 AKADEMI\"."
+ },
+ "L02": {
+  "nama": "Laboratorium Teknologi Akademi",
+  "jenis": "latar",
+  "file": "refs/latar/L02_Laboratorium_Teknologi_Akademi.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "The academy tech lab: a bright white-and-teal room with curved walls, a central workbench under a large circular ring light; two rows of glowing teal hologram pedestals on the left and right; tall glass containment cylinders of glowing teal liquid along the back wall and the right wall; a sliding white door with a teal light strip in the middle of the front wall and a second identical door on the left wall.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy tech lab: a bright white-and-teal room with curved walls, a central workbench under a large circular ring light; two rows of glowing teal hologram pedestals on the left and right; tall glass containment cylinders of glowing teal liquid along the back wall and the right wall; a sliding white door with a teal light strip in the middle of the front wall and a second identical door on the left wall.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L02 LABORATORIUM TEKNOLOGI AKADEMI\"."
+ },
+ "L03": {
+  "nama": "Lorong Tembak Akademi",
+  "jenis": "latar",
+  "file": "refs/latar/L03_Lorong_Tembak_Akademi.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "The academy firing corridor: a long narrow gunmetal corridor with orange guide lights along the floor and five robotic plasma cannons mounted in a row on the far wall; at the near end, a wide wall display screen above the entrance door.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy firing corridor: a long narrow gunmetal corridor with orange guide lights along the floor and five robotic plasma cannons mounted in a row on the far wall; at the near end, a wide wall display screen above the entrance door.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L03 LORONG TEMBAK AKADEMI\"."
+ },
+ "L04": {
+  "nama": "Ruang Simulasi dan Kontrol",
+  "jenis": "latar",
+  "file": "refs/latar/L04_Ruang_Simulasi_dan_Kontrol.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "The simulation control room: a dim room with a row of four white egg-shaped simulation pods on the left, each with a reclined padded seat inside and a hinged reinforced-glass hatch; a curved wall of technician terminals with blue screens on the right; a large wall display screen on the back wall.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The simulation control room: a dim room with a row of four white egg-shaped simulation pods on the left, each with a reclined padded seat inside and a hinged reinforced-glass hatch; a curved wall of technician terminals with blue screens on the right; a large wall display screen on the back wall.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L04 RUANG SIMULASI DAN KONTROL\"."
+ },
+ "L05": {
+  "nama": "Kota Virtual Nusantara",
+  "jenis": "latar",
+  "file": "refs/latar/L05_Kota_Virtual_Nusantara.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "The virtual Nusantara city: a clean digital city of glowing towers with joglo-style tiered rooftops around a wide stone plaza, faint grid lines visible across the sky.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The virtual Nusantara city: a clean digital city of glowing towers with joglo-style tiered rooftops around a wide stone plaza, faint grid lines visible across the sky.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L05 KOTA VIRTUAL NUSANTARA\"."
+ },
+ "L06": {
+  "nama": "War Room Akademi",
+  "jenis": "latar",
+  "file": "refs/latar/L06_War_Room_Akademi.png",
+  "lolos": true,
+  "catatan": "Lolos",
+  "anchor": "The academy war room: a dark circular room with a large round tactical table projecting a 3D hologram, a ring of blue-lit screens around the curved walls, a heavy double door with a large gold Galians crest above it (a pair of gold wings around a round emblem with a flame at its center).",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy war room: a dark circular room with a large round tactical table projecting a 3D hologram, a ring of blue-lit screens around the curved walls, a heavy double door with a large gold Galians crest above it (a pair of gold wings around a round emblem with a flame at its center).\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L06 WAR ROOM AKADEMI\"."
+ },
+ "L07": {
+  "nama": "Hanggar Akademi",
+  "jenis": "latar",
+  "file": "refs/auto/L07.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The academy hangar: a tall hangar with a sleek white-and-purple Galians transport ship on a landing pad, yellow floor markings, a huge sliding door open to the mountain sky.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy hangar: a tall hangar with a sleek white-and-purple Galians transport ship on a landing pad, yellow floor markings, a huge sliding door open to the mountain sky.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L07 HANGGAR AKADEMI\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L08": {
+  "nama": "Halaman Akademi",
+  "jenis": "latar",
+  "file": "refs/auto/L08.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The academy courtyard: a wide stone courtyard ringed by tiered academy buildings with joglo-style rooftops and gold trim on a mountainside, a golden dome shield faintly visible overhead.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy courtyard: a wide stone courtyard ringed by tiered academy buildings with joglo-style rooftops and gold trim on a mountainside, a golden dome shield faintly visible overhead.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L08 HALAMAN AKADEMI\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L09": {
+  "nama": "Lorong Bawah Tanah Akademi",
+  "jenis": "latar",
+  "file": "refs/auto/L09.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The academy underground tunnels: narrow riveted metal tunnels with pipes along the ceiling and caged amber work lights.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy underground tunnels: narrow riveted metal tunnels with pipes along the ceiling and caged amber work lights.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L09 LORONG BAWAH TANAH AKADEMI\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L10": {
+  "nama": "Ruang Inti Akademi",
+  "jenis": "latar",
+  "file": "refs/auto/L10.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The academy core chamber: a vast round chamber with a colossal floating atomic crystal above a pool of golden plasma, metal catwalks ringing it.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy core chamber: a vast round chamber with a colossal floating atomic crystal above a pool of golden plasma, metal catwalks ringing it.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L10 RUANG INTI AKADEMI\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L11": {
+  "nama": "Aula Upacara",
+  "jenis": "latar",
+  "file": "refs/auto/L11.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The academy ceremonial hall: tall pillars carved with gold batik, a long red aisle leading to a raised council altar, gold banners bearing the Galians crest.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy ceremonial hall: tall pillars carved with gold batik, a long red aisle leading to a raised council altar, gold banners bearing the Galians crest.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L11 AULA UPACARA\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L12": {
+  "nama": "Kamar dan Balkon Gala",
+  "jenis": "latar",
+  "file": "refs/auto/L12.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "Gala's dorm room and balcony: a small room with a bunk bed and a desk by the window, opening onto a stone balcony that overlooks the city.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Gala's dorm room and balcony: a small room with a bunk bed and a desk by the window, opening onto a stone balcony that overlooks the city.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L12 KAMAR DAN BALKON GALA\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L13": {
+  "nama": "Ruang Dewan",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The council chamber: a semicircular chamber with tiered wooden seats, a raised council bench of dark wood with gold parang batik inlay, a public gallery above, a holographic projector in the center.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The council chamber: a semicircular chamber with tiered wooden seats, a raised council bench of dark wood with gold parang batik inlay, a public gallery above, a holographic projector in the center.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L13 RUANG DEWAN\"."
+ },
+ "L14": {
+  "nama": "Menara Arsip Akademi",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The academy archive tower: a tall round library with spiral shelves of scrolls and glowing record crystals, a vault door with a batik-patterned lock at the lowest level, a domed roof on top.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy archive tower: a tall round library with spiral shelves of scrolls and glowing record crystals, a vault door with a batik-patterned lock at the lowest level, a domed roof on top.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L14 MENARA ARSIP AKADEMI\"."
+ },
+ "L15": {
+  "nama": "Ruang Medis Akademi",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The academy medbay: a quiet white room with rounded beds, soft green monitor lights and tall windows.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy medbay: a quiet white room with rounded beds, soft green monitor lights and tall windows.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L15 RUANG MEDIS AKADEMI\"."
+ },
+ "L16": {
+  "nama": "Sel Tahanan",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The holding cells: a clean grey corridor of cells closed with glowing blue energy bars.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The holding cells: a clean grey corridor of cells closed with glowing blue energy bars.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L16 SEL TAHANAN\"."
+ },
+ "L17": {
+  "nama": "Bengkel Akademi",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The academy workshop: tool racks, a large workbench under hanging lamps, disassembled gadgets and floating holographic schematics.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy workshop: tool racks, a large workbench under hanging lamps, disassembled gadgets and floating holographic schematics.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L17 BENGKEL AKADEMI\"."
+ },
+ "L18": {
+  "nama": "Pusat Komunikasi Akademi",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The academy comm center: a dark room full of curved screens showing maps and signal lines around one central console chair.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy comm center: a dark room full of curved screens showing maps and signal lines around one central console chair.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L18 PUSAT KOMUNIKASI AKADEMI\"."
+ },
+ "L19": {
+  "nama": "Kawasan Pabrik Sektor 7",
+  "jenis": "latar",
+  "file": "refs/auto/L19.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The Sector 7 nano-fiber factory complex: grey factory blocks, tall smokestacks, a wide courtyard, a huge warehouse door.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The Sector 7 nano-fiber factory complex: grey factory blocks, tall smokestacks, a wide courtyard, a huge warehouse door.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L19 KAWASAN PABRIK SEKTOR 7\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L20": {
+  "nama": "Gudang Pabrik Sektor 7",
+  "jenis": "latar",
+  "file": "refs/auto/L20.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "Inside the Sector 7 factory warehouse: towering fiber spools, conveyor belts and thick pipes, a broken skylight in the roof, a side room with frosted glass walls.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Inside the Sector 7 factory warehouse: towering fiber spools, conveyor belts and thick pipes, a broken skylight in the roof, a side room with frosted glass walls.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L20 GUDANG PABRIK SEKTOR 7\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L21": {
+  "nama": "Ruang Reaktor Sektor 7",
+  "jenis": "latar",
+  "file": "refs/auto/L21.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The Sector 7 reactor room: a round room built around a tall cylindrical reactor core, a control console at its base.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The Sector 7 reactor room: a round room built around a tall cylindrical reactor core, a control console at its base.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L21 RUANG REAKTOR SEKTOR 7\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L22": {
+  "nama": "Kota Nusantara",
+  "jenis": "latar",
+  "file": "refs/auto/L22.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The city of Nusantara: futuristic towers with joglo-style tiered rooftops and glowing gold batik light lines, elevated monorail tracks, greenery on terraces.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The city of Nusantara: futuristic towers with joglo-style tiered rooftops and glowing gold batik light lines, elevated monorail tracks, greenery on terraces.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L22 KOTA NUSANTARA\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L23": {
+  "nama": "Alun-Alun Monumen Atom",
+  "jenis": "latar",
+  "file": "refs/auto/L23.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The monument plaza: a wide circular stone plaza at the foot of the Atomic Monument, a 300-meter spire engraved with glowing gold batik lines.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The monument plaza: a wide circular stone plaza at the foot of the Atomic Monument, a 300-meter spire engraved with glowing gold batik lines.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L23 ALUN-ALUN MONUMEN ATOM\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [
+    "Tidak ada masalah."
+   ],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L24": {
+  "nama": "Puncak Monumen Atom",
+  "jenis": "latar",
+  "file": "refs/auto/L24.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The top of the Atomic Monument: a narrow circular platform around the spire tip with a glowing core socket at the center, the whole city far below.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The top of the Atomic Monument: a narrow circular platform around the spire tip with a glowing core socket at the center, the whole city far below.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L24 PUNCAK MONUMEN ATOM\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L25": {
+  "nama": "Rumah Sakit Kota",
+  "jenis": "latar",
+  "file": "refs/auto/L25.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The city hospital: a white futuristic hospital with rounded wards of medical pods, a basement battery room and a rooftop with a radar tower.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The city hospital: a white futuristic hospital with rounded wards of medical pods, a basement battery room and a rooftop with a radar tower.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L25 RUMAH SAKIT KOTA\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L26": {
+  "nama": "Kilang Gas Atom",
+  "jenis": "latar",
+  "file": "refs/auto/L26.png",
+  "lolos": false,
+  "catatan": "GAGAL QC: Gaya visual terlalu industrial dan berkarat, tidak konsisten dengan gaya bersih dan futuristik yang sudah disetujui.",
+  "anchor": "The atomic gas plant: a maze of giant pipes, valve wheels and metal platforms.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The atomic gas plant: a maze of giant pipes, valve wheels and metal platforms.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L26 KILANG GAS ATOM\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": false,
+   "skor": 6.0,
+   "gagal": [],
+   "masalah": [
+    "Gaya visual terlalu industrial dan berkarat, tidak konsisten dengan gaya bersih dan futuristik yang sudah disetujui."
+   ],
+   "perbaikan": "Reduce the rust and weathering effects to better align with the clean, established house style."
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L27": {
+  "nama": "Pasar Tua",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The old market: a narrow lane of wooden stalls under patched tarps lit by oil lamps, an herbal-drink stall at the corner.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The old market: a narrow lane of wooden stalls under patched tarps lit by oil lamps, an herbal-drink stall at the corner.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L27 PASAR TUA\"."
+ },
+ "L28": {
+  "nama": "Rumah Keluarga Dhruva",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "Dhruva's family home: a small modest house in the east district with a flat rooftop and a living room with a worn couch.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Dhruva's family home: a small modest house in the east district with a flat rooftop and a living room with a worn couch.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L28 RUMAH KELUARGA DHRUVA\"."
+ },
+ "L29": {
+  "nama": "Menara Vextron",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The Vextron Tower: a black glass skyscraper with thin violet circuit lines; inside, a black-glass lobby, an executive office with glass walls, server floors of violet-lit racks and a domed top chamber.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The Vextron Tower: a black glass skyscraper with thin violet circuit lines; inside, a black-glass lobby, an executive office with glass walls, server floors of violet-lit racks and a domed top chamber.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L29 MENARA VEXTRON\"."
+ },
+ "L30": {
+  "nama": "Gudang Persembunyian Nira",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "Nira's hideout: an old warehouse full of electronic scrap with a scrap-built terminal in the middle.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Nira's hideout: an old warehouse full of electronic scrap with a scrap-built terminal in the middle.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L30 GUDANG PERSEMBUNYIAN NIRA\"."
+ },
+ "L31": {
+  "nama": "Pelabuhan Timur dan Gudang 9",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The east docks: cranes and shipping containers, and Warehouse 9, a large former Vextron warehouse with a retractable roof.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The east docks: cranes and shipping containers, and Warehouse 9, a large former Vextron warehouse with a retractable roof.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L31 PELABUHAN TIMUR DAN GUDANG 9\"."
+ },
+ "L32": {
+  "nama": "Menara Siaran Kota",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The city broadcast tower control room: rows of cameras and broadcast screens with a wide window over the city.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The city broadcast tower control room: rows of cameras and broadcast screens with a wide window over the city.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L32 MENARA SIARAN KOTA\"."
+ },
+ "L33": {
+  "nama": "Atap-Atap Kota",
+  "jenis": "latar",
+  "file": "refs/auto/L33.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The city rooftops: flat rooftops with water tanks, antennas and billboards, joglo-style tower roofs in the background.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The city rooftops: flat rooftops with water tanks, antennas and billboards, joglo-style tower roofs in the background.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L33 ATAP-ATAP KOTA\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L34": {
+  "nama": "Pegunungan Es dan Benteng Cryo-Tech",
+  "jenis": "latar",
+  "file": "refs/auto/L34.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The ice mountains: jagged icy peaks, and a dark mechanical fortress built into the frozen cliffs.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The ice mountains: jagged icy peaks, and a dark mechanical fortress built into the frozen cliffs.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L34 PEGUNUNGAN ES DAN BENTENG CRYO-TECH\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L35": {
+  "nama": "Interior Benteng Cryo-Tech",
+  "jenis": "latar",
+  "file": "refs/auto/L35.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "Inside the Cryo-Tech fortress: long frozen metal corridors with blue lights and ice-crusted walls and pipes.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Inside the Cryo-Tech fortress: long frozen metal corridors with blue lights and ice-crusted walls and pipes.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L35 INTERIOR BENTENG CRYO-TECH\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L36": {
+  "nama": "Ruang Generator Es",
+  "jenis": "latar",
+  "file": "refs/auto/L36.png",
+  "lolos": false,
+  "catatan": "GAGAL QC: Jumlah catwalk yang mengelilingi generator tidak sesuai deskripsi (hanya ada satu, bukan tiga).",
+  "anchor": "The fortress generator room: a colossal room with a giant blue ice crystal spinning inside a metal ring, three catwalks circling it.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The fortress generator room: a colossal room with a giant blue ice crystal spinning inside a metal ring, three catwalks circling it.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L36 RUANG GENERATOR ES\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": false,
+   "skor": 7.0,
+   "gagal": [
+    "sesuai_deskripsi"
+   ],
+   "masalah": [
+    "Jumlah catwalk yang mengelilingi generator tidak sesuai deskripsi (hanya ada satu, bukan tiga)."
+   ],
+   "perbaikan": "Add two more distinct circular catwalks around the central generator to match the description."
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L37": {
+  "nama": "Absolute Zero Citadel",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The Absolute Zero Citadel: a massive dark crystal citadel in a frozen black valley under a perpetual blizzard.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The Absolute Zero Citadel: a massive dark crystal citadel in a frozen black valley under a perpetual blizzard.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L37 ABSOLUTE ZERO CITADEL\"."
+ },
+ "L38": {
+  "nama": "Aula Citadel",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The citadel halls: grand halls of dark blue crystal with lines glowing beneath crystal floors.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The citadel halls: grand halls of dark blue crystal with lines glowing beneath crystal floors.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L38 AULA CITADEL\"."
+ },
+ "L39": {
+  "nama": "Ruang Singgasana",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The citadel throne room: a dark crystal throne room with a black crystal throne atop tall stairs.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The citadel throne room: a dark crystal throne room with a black crystal throne atop tall stairs.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L39 RUANG SINGGASANA\"."
+ },
+ "L40": {
+  "nama": "Kabin Kapal Angkut Galians",
+  "jenis": "latar",
+  "file": "refs/auto/L40.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "Inside the Galians transport: a compact cabin with fold-down seats along both walls, round windows and an overhead grab rail.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Inside the Galians transport: a compact cabin with fold-down seats along both walls, round windows and an overhead grab rail.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L40 KABIN KAPAL ANGKUT GALIANS\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L41": {
+  "nama": "Kota Cermin (lini masa paralel)",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The mirror city: the same city layout, but dark, abandoned and snowbound, no lights anywhere, faded blue snowflake banners on ruined towers.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The mirror city: the same city layout, but dark, abandoned and snowbound, no lights anywhere, faded blue snowflake banners on ruined towers.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L41 KOTA CERMIN (LINI MASA PARALEL)\"."
+ },
+ "L42": {
+  "nama": "Reruntuhan Akademi (lini masa paralel)",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The academy ruins of the parallel timeline: shattered academy buildings buried in snow, the scorched hexagonal arena open to the sky.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy ruins of the parallel timeline: shattered academy buildings buried in snow, the scorched hexagonal arena open to the sky.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L42 RERUNTUHAN AKADEMI (LINI MASA PARALEL)\"."
+ },
+ "L43": {
+  "nama": "Markas Perlawanan Bawah Tanah",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The resistance base: an underground metro station with tiled walls, old train cars, lanterns built from salvaged batik panels and scrap workbenches.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The resistance base: an underground metro station with tiled walls, old train cars, lanterns built from salvaged batik panels and scrap workbenches.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L43 MARKAS PERLAWANAN BAWAH TANAH\"."
+ },
+ "L44": {
+  "nama": "Monumen Mati (lini masa paralel)",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The dead monument of the parallel timeline: the same Atomic Monument encased in dark ice, its batik lines unlit, a cracked dark core socket at its base.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The dead monument of the parallel timeline: the same Atomic Monument encased in dark ice, its batik lines unlit, a cracked dark core socket at its base.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L44 MONUMEN MATI (LINI MASA PARALEL)\"."
+ },
+ "L45": {
+  "nama": "Sektor 7 Paralel",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The defeated Sector 7: snowbound factories and broken smokestacks; inside the warehouse, hanging cocoons of clock glass.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The defeated Sector 7: snowbound factories and broken smokestacks; inside the warehouse, hanging cocoons of clock glass.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L45 SEKTOR 7 PARALEL\"."
+ },
+ "L46": {
+  "nama": "Kuil Bukit Utara",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The hermit's shrine: a small stone shrine on a snowy hill with a single lantern at the door and an ancient wall relief inside.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The hermit's shrine: a small stone shrine on a snowy hill with a single lantern at the door and an ancient wall relief inside.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L46 KUIL BUKIT UTARA\"."
+ },
+ "L47": {
+  "nama": "Candi Kuno Hutan Selatan",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The ancient temple in the southern jungle: a stone temple rising from misty jungle, walls carved with reliefs of batik-sashed warriors, a carved stone gate at the top of the steps.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The ancient temple in the southern jungle: a stone temple rising from misty jungle, walls carved with reliefs of batik-sashed warriors, a carved stone gate at the top of the steps.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L47 CANDI KUNO HUTAN SELATAN\"."
+ },
+ "L48": {
+  "nama": "Interior Candi Kuno",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "Inside the ancient temple: a corridor lined with stone guardian statues leading to a tomb chamber with a chained sarcophagus beneath a giant relief.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Inside the ancient temple: a corridor lined with stone guardian statues leading to a tomb chamber with a chained sarcophagus beneath a giant relief.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L48 INTERIOR CANDI KUNO\"."
+ },
+ "L49": {
+  "nama": "Desa dan Candi Kecil",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "A countryside village of wooden houses around a small village temple with stone statues.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: A countryside village of wooden houses around a small village temple with stone statues.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L49 DESA DAN CANDI KECIL\"."
+ },
+ "L50": {
+  "nama": "Candi Sungai",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The river temple: a small stone temple on stepping stones in a misty river.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The river temple: a small stone temple on stepping stones in a misty river.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L50 CANDI SUNGAI\"."
+ },
+ "L51": {
+  "nama": "Alam Nyala",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The realm of flame: a red-gold sky, rivers of glowing lava, floating stone islands and warm stone plains.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The realm of flame: a red-gold sky, rivers of glowing lava, floating stone islands and warm stone plains.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L51 ALAM NYALA\"."
+ },
+ "L52": {
+  "nama": "Gua Bara Agni",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "Agni's ember cave: a cave with glowing red crystal walls and floating embers.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Agni's ember cave: a cave with glowing red crystal walls and floating embers.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L52 GUA BARA AGNI\"."
+ },
+ "L53": {
+  "nama": "Padang Abu",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The ash fields: a silent grey field of dead ash under a dull sky, all color drained.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The ash fields: a silent grey field of dead ash under a dull sky, all color drained.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L53 PADANG ABU\"."
+ },
+ "L54": {
+  "nama": "Desa Sprite",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The sprite village: small round huts of glowing stone perched on tall stone pillars.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The sprite village: small round huts of glowing stone perched on tall stone pillars.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L54 DESA SPRITE\"."
+ },
+ "L55": {
+  "nama": "Jembatan Lava dan Ceruk Batu",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The lava bridges: narrow stone bridges over rivers of lava, and a cooler rock alcove used for shelter.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The lava bridges: narrow stone bridges over rivers of lava, and a cooler rock alcove used for shelter.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L55 JEMBATAN LAVA DAN CERUK BATU\"."
+ },
+ "L56": {
+  "nama": "Kawah Jantung",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The Heart Crater: a vast crater with steep glowing walls and a giant pulsing Heart of fire at its bottom.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The Heart Crater: a vast crater with steep glowing walls and a giant pulsing Heart of fire at its bottom.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L56 KAWAH JANTUNG\"."
+ },
+ "L57": {
+  "nama": "Bagian Dalam Sang Hampa",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "Inside Sang Hampa: an endless silent void of white static.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Inside Sang Hampa: an endless silent void of white static.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L57 BAGIAN DALAM SANG HAMPA\"."
+ },
+ "L58": {
+  "nama": "Pulau Emas (Simpul Barat)",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The golden terraces: stepped rice terraces on a hillside, a village on the slope and an ancient stone spire on the hilltop.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The golden terraces: stepped rice terraces on a hillside, a village on the slope and an ancient stone spire on the hilltop.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L58 PULAU EMAS (SIMPUL BARAT)\"."
+ },
+ "L59": {
+  "nama": "Hutan Awan (Simpul Utara)",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The cloud forest: giant ancient trees wrapped in mist, huge roots used as walkways, a node glowing inside the largest trunk.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The cloud forest: giant ancient trees wrapped in mist, huge roots used as walkways, a node glowing inside the largest trunk.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L59 HUTAN AWAN (SIMPUL UTARA)\"."
+ },
+ "L60": {
+  "nama": "Karang Laut (Simpul Timur)",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The coral sea: a fishing village on stilts above clear water, a stone spire standing on the coral seabed below.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The coral sea: a fishing village on stilts above clear water, a stone spire standing on the coral seabed below.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L60 KARANG LAUT (SIMPUL TIMUR)\"."
+ },
+ "L61": {
+  "nama": "Gunung Api (Simpul Selatan)",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The volcano: steep lava-rock slopes and a summit crater with an ancient stone spire at its rim.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The volcano: steep lava-rock slopes and a summit crater with an ancient stone spire at its rim.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L61 GUNUNG API (SIMPUL SELATAN)\"."
+ },
+ "L62": {
+  "nama": "Palung Tengah",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The central sea: open sea above a deep trench whose steep dark walls descend into darkness.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The central sea: open sea above a deep trench whose steep dark walls descend into darkness.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L62 PALUNG TENGAH\"."
+ },
+ "L63": {
+  "nama": "Bagian Dalam Katalis",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "Inside the Entropy Catalyst: an endless silent white space.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Inside the Entropy Catalyst: an endless silent white space.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L63 BAGIAN DALAM KATALIS\"."
+ },
+ "L64": {
+  "nama": "Dermaga Kota",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "The city pier: a long wooden-and-steel pier facing the open sea.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The city pier: a long wooden-and-steel pier facing the open sea.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L64 DERMAGA KOTA\"."
+ },
+ "L65": {
+  "nama": "Laboratorium Rahasia Vikrama",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "Vikrama's secret lab: a dark hidden lab behind a sliding bookshelf, with rows of glowing liquid tanks.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Vikrama's secret lab: a dark hidden lab behind a sliding bookshelf, with rows of glowing liquid tanks.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L65 LABORATORIUM RAHASIA VIKRAMA\"."
+ },
+ "L66": {
+  "nama": "Jalur Monorail",
+  "jenis": "latar",
+  "file": "refs/auto/L66.png",
+  "lolos": false,
+  "catatan": "Lolos QC model, menunggu persetujuan manusia",
+  "anchor": "The elevated monorail line: a sleek monorail on a high track above the city streets.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The elevated monorail line: a sleek monorail on a high track above the city streets.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L66 JALUR MONORAIL\".",
+  "sumber": "auto",
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "Belum ada"
+ },
+ "L67": {
+  "nama": "Rumah Maheswari",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "Maheswari's house: a traditional joglo-style wooden house with an open pendopo veranda and a quiet garden.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Maheswari's house: a traditional joglo-style wooden house with an open pendopo veranda and a quiet garden.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L67 RUMAH MAHESWARI\"."
+ },
+ "L68": {
+  "nama": "Kantor Vikrama",
+  "jenis": "latar",
+  "file": null,
+  "lolos": false,
+  "catatan": "Belum ada",
+  "anchor": "Vikrama's office: a severe grey office with tall shelves, a large dark desk and a wall screen.",
+  "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: Vikrama's office: a severe grey office with tall shelves, a large dark desk and a wall screen.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L68 KANTOR VIKRAMA\"."
+ },
+ "K30_ketiga": {
+  "nama": "Instruktur Ketiga (potongan)",
+  "jenis": "potongan",
+  "lolos": true,
+  "catatan": "Potongan dari K30",
+  "file": "refs/karakter/K30_Instruktur_Ketiga_potongan.png",
+  "anchor": "",
+  "prompt_sheet": ""
+ },
+ "L03_pintu": {
+  "nama": "Lorong Tembak, ujung pintu (potongan)",
+  "jenis": "potongan",
+  "lolos": true,
+  "catatan": "Potongan dari L03",
+  "file": "refs/latar/L03_Lorong_Tembak_ujung_pintu_potongan.png",
+  "anchor": "",
+  "prompt_sheet": ""
+ }
+}

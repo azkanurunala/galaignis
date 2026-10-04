@@ -1,0 +1,35 @@
+# Semua setelan pipeline. ID model bisa berubah; jalankan `python run.py doctor` untuk melihat model yang tersedia di project Anda.
+vertex:
+  project: ""          # atau set env GOOGLE_CLOUD_PROJECT
+  location: "global"
+models:
+  image: "gemini-3-pro-image"   # model gambar yang menerima gambar referensi
+  text: "gemini-2.5-flash"          # penulis naskah narasi dan dialog
+  judge: "gemini-2.5-pro"           # pemeriksa mutu (melihat gambar)
+  tts: "gemini-2.5-flash-preview-tts"   # tidak dipakai selama narasi_suara false
+  video: "veo-3.1-generate-preview"   # pembuka bergerak; cek ID yang tersedia lewat doctor
+produksi:
+  wajib_semua_referensi: true   # tidak ada episode yang dibuat sebelum SEMUA sheet tokoh dan latar lolos dan disetujui
+panel:
+  aspect: "4:5"
+  max_tokoh_ref: 4       # paling banyak sheet tokoh per panel
+  max_attempts: 3        # generate ulang kalau gagal QC
+  ref_max_side: 1536     # referensi dikecilkan sebelum dikirim
+qc:
+  min_skor: 7
+  naskah_attempts: 3
+video:
+  w: 1080
+  h: 1920
+  fps: 30
+  detik_min: 2.6         # durasi minimum per frame
+  detik_per_kata: 0.38
+  narasi_suara: false    # seri ini tanpa narator: cerita lewat balon percakapan, musik, dan efek suara
+  suara: "Kore"
+  zoom: 0.06
+  musik: true            # musik dan efek suara sintetis
+  veo_pembuka: true      # klip pembuka bergerak (Veo) per Short; kalau gagal, dipakai gambar diam
+  veo_detik: 6
+retry:
+  tries: 5
+  jeda: 4
