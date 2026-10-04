@@ -31,7 +31,7 @@ def _gcloud_creds():
 
         def refresh(self, request):
             self.token = subprocess.check_output(f"gcloud auth print-access-token --account={acc}", shell=True, text=True).strip()
-            self.expiry = datetime.datetime.utcnow() + datetime.timedelta(minutes=50)
+            self.expiry = datetime.datetime.utcnow() + datetime.timedelta(minutes=5)
     return Gcloud()
 
 
