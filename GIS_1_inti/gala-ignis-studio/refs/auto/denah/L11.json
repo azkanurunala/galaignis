@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The Candi Stone Altar",
+  "kanan": "The Holographic Windows",
+  "belakang": "The Grand Teak Doors",
+  "kiri": "The Galians Crest Banners"
+ },
+ "sisi": {
+  "depan": "A raised council altar of polished black candi stone is set before a wall featuring inset glowing gold filigree and flanked by two large, frameless holographic data screens.",
+  "kanan": "A colonnade of tall, square teak pillars carved with luminous gold batik motifs lines the wall, interspersed with tall, narrow windows made of smart-glass displaying abstract light forms.",
+  "belakang": "Two immense, intricately carved teak wood doors form the main entrance, set beneath a suspended observation gallery with a polished stone balustrade.",
+  "kiri": "Massive gold fabric banners, each digitally embroidered with the Galians crest of golden wings flanking a circle containing a flame, hang between an identical colonnade of carved teak pillars."
+ },
+ "tengah": "A long, crimson runner carpet forms a central aisle leading to the altar, flanked by a series of low-profile, floor-mounted uplights that project soft beams onto the ceiling.",
+ "atas": "A high, multi-tiered joglo-style ceiling is constructed from dark wood beams with recessed strips of warm light, culminating in a central, hexagonal smart-glass skylight showing celestial data."
+}

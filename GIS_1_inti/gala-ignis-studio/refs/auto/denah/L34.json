@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Fortress Gate",
+  "kanan": "Glacier Spire",
+  "belakang": "Ice Archway",
+  "kiri": "Frozen Waterfall"
+ },
+ "sisi": {
+  "depan": "The massive, gear-shaped fortress gate is flanked by two glowing red observation windows and a steam-venting exhaust port built directly into the dark metal wall.",
+  "kanan": "A towering glacier spire pierces the sky, with a rickety rope bridge connecting to a small watchtower and a single searchlight sweeping across the snow.",
+  "belakang": "Behind the viewpoint, a natural ice archway frames a distant view of a blizzard-swept mountain range, with a discarded supply crate resting nearby.",
+  "kiri": "A colossal frozen waterfall cascades down a sheer cliff face, at its base lies a collapsed ice cave entrance and a flickering signal beacon."
+ },
+ "tengah": "A rusted, automated turret faces the fortress gate, and next to it sits an overturned snow-crawler vehicle.",
+ "atas": "A dark, starless sky is filled with swirling snow flurries, illuminated by the cold glow of a fractured moon."
+}

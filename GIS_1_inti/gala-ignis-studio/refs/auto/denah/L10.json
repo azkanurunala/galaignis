@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The main gateway",
+  "kanan": "The observation alcove",
+  "belakang": "The wide entryway",
+  "kiri": "The secondary doors"
+ },
+ "sisi": {
+  "depan": "The far wall is dominated by a grand, non-Roman arched gateway of polished black metal leading to the main academy hall, flanked by two floor-to-ceiling teak panels intricately carved with geometric patterns that pulse with light from internal data conduits.",
+  "kanan": "The curved right wall features a recessed observation alcove with a low, carved teak railing, containing a holographic projection table that displays swirling energy patterns.",
+  "belakang": "Behind the camera position is a single wide entryway into the chamber, bordered by two large, black stone urns inlaid with the golden Galians crest from which a faint, cool mist emanates.",
+  "kiri": "The curved left wall contains a set of sliding secondary doors made of dark metal with a gold-trimmed parang batik motif, located next to a wall-mounted control console housed in polished dark wood."
+ },
+ "tengah": "In the center of the chamber, a colossal, multi-faceted atomic crystal several times taller than a person floats high above a recessed circular pool of roiling golden plasma, and a dark metal catwalk with a perforated floor forms a complete ring around this central feature.",
+ "atas": "A vast, domed ceiling is constructed with a tiered structure of dark metal beams reminiscent of a joglo roof, with a large, circular energy vent glowing with a faint blue light at its apex directly above the crystal."
+}

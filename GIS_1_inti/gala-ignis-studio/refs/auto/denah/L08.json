@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Grand Assembly Hall Entrance",
+  "kanan": "Elevated Training Platform",
+  "belakang": "Main Courtyard Gate",
+  "kiri": "Library Wing Archway"
+ },
+ "sisi": {
+  "depan": "At the far end, a grand tiered joglo hall with massive carved teakwood doors is flanked by holographic projectors displaying abstract geometric batik patterns and illuminated by glowing candi-stone lanterns.",
+  "kanan": "To the right, an open-air pavilion with a tiered roof features an elevated training platform with a glowing force-field perimeter, while a wide stone staircase leads up to a second-story balcony with white-and-teal paneling.",
+  "belakang": "Behind the viewpoint, the courtyard is entered through a massive candi-style gate flanked by two smaller, tiered-roof guard posts.",
+  "kiri": "On the left, a long academy wing has a wide archway leading to the library gardens, its walls inset with floor-to-ceiling smart-glass windows that shift in opacity, and a distant view of a waterfall cascading down the mountainside."
+ },
+ "tengah": "In the center of the stone-paved courtyard sits a large, circular reflecting pool with a single, intricately carved stone monolith at its heart from which a low hum emanates.",
+ "atas": "Overhead, the faint, shimmering gold lattice of a planetary energy shield is visible against the clear mountain sky, with the tiered joglo rooftops of the surrounding halls trimmed in gold jutting into view."
+}

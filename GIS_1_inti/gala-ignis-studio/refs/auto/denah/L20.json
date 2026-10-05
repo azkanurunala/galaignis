@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Towering fiber spools",
+  "kanan": "Frosted glass room",
+  "belakang": "Large bay door",
+  "kiri": "Thick industrial pipes"
+ },
+ "sisi": {
+  "depan": "Towering spools of synthetic fiber are stacked high against the far wall.",
+  "kanan": "A side room with frosted glass walls and a single metal door is built into the right wall.",
+  "belakang": "A massive, corrugated metal roll-up door, currently closed, serves as the main entrance on the back wall.",
+  "kiri": "Thick, grimy pipes of various diameters run vertically up the left wall, venting steam from several nozzles."
+ },
+ "tengah": "A long, stationary conveyor belt loaded with discarded machine parts runs from left to right across the center of the floor, facing away from the camera.",
+ "atas": "The high ceiling is a network of steel rafters and conduits, with a single broken skylight allowing a beam of dusty light to shine down."
+}

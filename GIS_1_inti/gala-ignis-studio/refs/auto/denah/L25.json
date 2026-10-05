@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Main hospital entrance",
+  "kanan": "Ambulance sky-port",
+  "belakang": "Public transit station",
+  "kiri": "Tiered residential tower"
+ },
+ "sisi": {
+  "depan": "The main hospital building has a wide, glowing entrance framed by intricate, laser-carved white paneling, flanked by towering, curved sections showing rows of softly lit medical pods through translucent walls.",
+  "kanan": "To the right, a multi-level sky-port for automated medical transports has glowing landing pads and a covered walkway connecting to the main hospital.",
+  "belakang": "Behind the viewpoint, the open plaza is bordered by the sweeping, organic canopy of a public sky-train station.",
+  "kiri": "On the left stands a tall, slender residential tower with a series of stacked, pagoda-like roofs and balconies adorned with holographic batik patterns."
+ },
+ "tengah": "In the middle of the plaza, a large, polished stone planter holds a single, massive banyan tree with glowing filaments woven into its branches, and several low, backless benches made of dark, carved wood face the hospital entrance.",
+ "atas": "Above, the sky is filled with silent, gliding sky-vehicles, and the hospital's rooftop is visible, featuring a tall, slender communications tower with a slowly rotating dish."
+}

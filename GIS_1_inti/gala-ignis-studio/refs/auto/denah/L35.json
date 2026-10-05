@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Massive hexagonal blast door",
+  "kanan": "Rectangular sliding door",
+  "belakang": "Jagged metal archway",
+  "kiri": "Thick ice-covered pipes"
+ },
+ "sisi": {
+  "depan": "At the far end of the corridor is a massive hexagonal blast door sealed shut, with a glowing blue status panel to its side and a small, frosted observation window set high above.",
+  "kanan": "The right wall features a rectangular sliding door leading to a side passage, a wall-mounted ventilation fan encrusted with frost, and a cluster of frozen conduits branching out from the floor.",
+  "belakang": "Behind the camera, the corridor begins from a jagged metal archway, with a damaged wall section nearby revealing frozen inner circuitry.",
+  "kiri": "Along the left wall runs a series of thick, ice-covered pipes, a recessed alcove holding a frozen maintenance console, and a single flickering blue strip light."
+ },
+ "tengah": "A low-profile automated sentry drone hovers silently in the middle distance facing forward, and patches of black ice slick the grated metal floor.",
+ "atas": "The ceiling consists of a central spine of overhead cable trays coated in rime ice and several recessed hexagonal light panels that cast a cold blue glow."
+}

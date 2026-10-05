@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The primary reactor housing",
+  "kanan": "The coolant control station",
+  "belakang": "The main access airlock",
+  "kiri": "The vertical pipe array"
+ },
+ "sisi": {
+  "depan": "The far wall is dominated by a massive, cylindrical reactor housing glowing with a soft blue light, from which two enormous, polished bronze pipes extend horizontally.",
+  "kanan": "On the right is a coolant control station featuring a bank of large, lotus-shaped valve wheels and a single, wide observation window looking into a chamber of swirling vapor.",
+  "belakang": "A colossal, circular airlock door sealed with heavy, interlocking geometric latches is set into the rear wall, flanked by two vertical strips of amber status lights.",
+  "kiri": "The left wall consists of a dense, vertical array of interwoven pipes in various metallic sheens and a maintenance lift with a cage of woven carbon fiber mesh."
+ },
+ "tengah": "A central, free-standing holographic control console faces the primary reactor, situated on a raised metal walkway whose floor grating has a stylized repeating geometric pattern.",
+ "atas": "The high ceiling is a complex grid of smaller conduits and illuminated cable trays, with several large, inverted bell-shaped light fixtures suspended downwards."
+}

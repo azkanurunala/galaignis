@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Open hangar door",
+  "kanan": "Metal staircase",
+  "belakang": "Control-room window",
+  "kiri": "Refueling pumps"
+ },
+ "sisi": {
+  "depan": "A huge, open sliding hangar door reveals a view of a clear sky and distant snow-capped mountains.",
+  "kanan": "A metal staircase runs up the right wall to a high gantry walkway that extends towards the back of the hangar.",
+  "belakang": "The back wall features a large, elevated control-room window set above a set of metallic double doors.",
+  "kiri": "The left wall is lined with large, industrial refueling pumps and coiled hoses hanging on wall-mounted brackets."
+ },
+ "tengah": "A rounded, bus-sized Galians transport dropship with a glossy white hull, purple stripes, and a gold crest of wings flanking a flame circle on its side rests on a circular landing pad outlined with yellow floor markings; its nose points toward the open hangar door and its rear loading ramp is lowered.",
+ "atas": "High above, the ceiling is a network of steel support beams and girders, with several large, bright industrial floodlights illuminating the space below."
+}

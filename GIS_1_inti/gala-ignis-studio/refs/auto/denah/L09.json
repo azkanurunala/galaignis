@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Sealed bulkhead door",
+  "kanan": "Hissing steam valve",
+  "belakang": "Grated floor drain",
+  "kiri": "Electrical junction box"
+ },
+ "sisi": {
+  "depan": "A long, narrow riveted metal tunnel recedes into the distance, ending at a heavy, sealed bulkhead door with a large wheel lock.",
+  "kanan": "The right wall features a hissing steam valve mounted on a thick pipe and a small, barred side passage leading into darkness.",
+  "belakang": "Behind the viewpoint, the tunnel continues for a short distance before being blocked by a recent rockfall, with a large grated floor drain in the foreground.",
+  "kiri": "Along the left wall is a sparking, open-faced electrical junction box and a rusted maintenance ladder bolted to the curved metal."
+ },
+ "tengah": "An overturned, rusted wheelbarrow lies on its side, its single wheel pointing towards the left wall.",
+ "atas": "Thick, bundled pipes run the length of the curved ceiling, interspersed with flickering, caged amber work lights that cast long shadows."
+}

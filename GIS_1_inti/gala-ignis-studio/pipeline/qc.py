@@ -77,6 +77,17 @@ Answer with JSON only: {{"cek": {{"sesuai_deskripsi": bool, "gaya_3d": bool, "ta
 - tanpa_teks_liar: no text except at most one small caption.
 - bersih: no distorted anatomy, no duplicated or garbled elements."""
 
+KONTINUITAS = {
+    "latar": ("\n- kontinuitas: the views are different camera directions inside ONE consistent space and together cover the whole location "
+              "(front view and reverse/back view, left side and right side). Map every landmark (doors, windows, large props, openings, light sources) across the views: "
+              "each keeps the same position relative to the others, what lies behind the camera in one view appears ONLY in the opposite view, left and right views agree "
+              "with the front and back views, nothing appears, disappears, moves or changes shape between views. Near-duplicate angles of the same side fail."),
+    "karakter": ("\n- kontinuitas: the front, back, left-side and right-side views (and close-ups) show exactly the same character or object. Every asymmetric detail "
+                 "(hair parting or bangs, scars, pins, badges, cloth wrapped on one arm, weapon hand, emblems, stripes) stays on the same side of the body, judged from the "
+                 "character's own left and right, and is hidden or visible consistently with each view's direction. Colors, proportions, accessories and their count are identical "
+                 "in every view; nothing appears, disappears or moves between views."),
+}
+
 
 def juri_sheet(img, ref, style_imgs):
     def tiruan():
@@ -86,11 +97,14 @@ def juri_sheet(img, ref, style_imgs):
     if asal.startswith("BELUM"):
         note = " The earlier version failed for this reason, which must now be fixed: " + asal
     extra = "The images before it show the approved house style. " if style_imgs else ""
-    r = vertex.gen_json(SHEET_RUBRIK.format(anchor=ref["anchor"], note=note, extra=extra), images=list(style_imgs) + [img],
+    rubrik = SHEET_RUBRIK.format(anchor=ref["anchor"], note=note, extra=extra); n_cek = 4
+    if ref.get("jenis") in KONTINUITAS:
+        rubrik = rubrik.replace('"bersih": bool}', '"bersih": bool, "kontinuitas": bool}') + KONTINUITAS[ref["jenis"]]; n_cek = 5
+    r = vertex.gen_json(rubrik, images=list(style_imgs) + [img],
                         model=CFG["models"]["judge"], temperature=0.0, mock_value=tiruan)
     cek = r.get("cek", {}); gagal = [k for k, v in cek.items() if v is not True]
     skor = float(r.get("skor", 0))
-    return {"lolos": not gagal and len(cek) == 4 and skor >= CFG["qc"]["min_skor"], "skor": skor, "gagal": gagal,
+    return {"lolos": not gagal and len(cek) == n_cek and skor >= CFG["qc"]["min_skor"], "skor": skor, "gagal": gagal,
             "masalah": r.get("masalah", []), "perbaikan": r.get("perbaikan", "")}
 
 

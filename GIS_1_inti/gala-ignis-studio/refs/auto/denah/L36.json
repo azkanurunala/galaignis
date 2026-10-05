@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Recessed observation window",
+  "kanan": "Vertical cryogenic conduits",
+  "belakang": "Angled metal entrance",
+  "kiri": "Drone maintenance bay"
+ },
+ "sisi": {
+  "depan": "The far wall is dominated by a wide, recessed observation window of polarized black glass, below which runs a long control console covered in softly glowing blue glyphs.",
+  "kanan": "A series of massive, vertical cryogenic conduits covered in frost pulse with faint light along the right wall, terminating near a heavy blast door sealed with a hexagonal locking wheel.",
+  "belakang": "Behind the viewpoint, the back wall is pierced by a single, wide entrance archway made of sharp-angled dark metal plates, flanked by two emergency coolant vents.",
+  "kiri": "The left wall features a large rectangular aperture that serves as a drone maintenance bay, with a single personnel elevator shaft enclosed in transparent crystal set beside it."
+ },
+ "tengah": "A giant, slowly spinning blue ice crystal is suspended within a massive, frost-covered dark metal ring, with three concentric catwalks of perforated metal grating circling it at different heights.",
+ "atas": "The cavernous ceiling is a dark network of thick, intersecting support beams and dangling power cables, from which clusters of harsh, downward-facing industrial floodlights cast a cold glare."
+}

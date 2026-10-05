@@ -1,0 +1,17 @@
+{
+ "penanda": {
+  "depan": "Huge open hangar door",
+  "kanan": "Gray storage lockers",
+  "belakang": "Control-room window",
+  "kiri": "Red fire suppression panel"
+ },
+ "sisi": {
+  "depan": "A massive, partially open sliding hangar door reveals a clear blue sky and distant snow-capped mountains.",
+  "kanan": "The right wall is lined with tall, gray storage lockers and a charging station for maintenance droids.",
+  "belakang": "A solid back wall features a large, rectangular control-room window high up, and a set of metallic double doors at ground level.",
+  "kiri": "The left wall holds several racks of specialized tools and a prominent red fire suppression system panel."
+ },
+ "tengah": "A glossy white, bus-sized Galians transport dropship with purple stripes and a gold crest rests on a circular landing pad defined by bright yellow floor markings; its rear loading ramp is lowered towards the back wall.",
+ "atas": "A high, vaulted ceiling is crisscrossed with structural support beams and rows of powerful, industrial floodlights.",
+ "tengah_hadap": "depan"
+}

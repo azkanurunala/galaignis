@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The Seven-Tiered Tower",
+  "kanan": "Cascading Terrace Residences",
+  "belakang": "The Bioluminescent Park",
+  "kiri": "The Domed Cultural Center"
+ },
+ "sisi": {
+  "depan": "The monorail track curves gently towards a distant, colossal skyscraper with seven tiered joglo-style roofs, its dark structure illuminated by vertical lines of golden light that form a complex parang motif.",
+  "kanan": "A cluster of interconnected residential towers features cascading green terraces on every level, transparent sky-bridges linking them, and holographic koi fish swimming in projected ponds on their glass-like walls.",
+  "belakang": "The elevated track recedes behind the viewpoint, passing over a sprawling park filled with bio-luminescent flora and artificial banyan trees whose roots cascade down to the streets below.",
+  "kiri": "A massive, low-domed building covered in glowing, geometric kawung patterns sits beside a multi-level market plaza where people gather under large, sail-like awnings."
+ },
+ "tengah": "A sleek, white monorail car with a pointed front, dark panoramic windows, and subtle gold trim glides away from the camera along the central magnetic rail.",
+ "atas": "The pale sky is crisscrossed by the faint, shimmering trails of high-altitude sky-skiffs and a network of barely-visible energy conduits connecting the peaks of the tallest buildings."
+}

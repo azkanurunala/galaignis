@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Mako pipe junction",
+  "kanan": "Maintenance monitors",
+  "belakang": "Blast door",
+  "kiri": "Access catwalk"
+ },
+ "sisi": {
+  "depan": "The far curved wall is dominated by a junction of large, glowing mako energy pipes and a single, oversized pressure gauge.",
+  "kanan": "On the right wall, a bank of flickering, wall-mounted monitors is set beside a heavy, sealed maintenance access hatch.",
+  "belakang": "Behind the viewpoint, a massive, circular blast door with an adjacent security keypad serves as the room's only entrance.",
+  "kiri": "An industrial metal catwalk with a safety railing runs along the left wall, leading up towards an unseen level above periodic steam vents."
+ },
+ "tengah": "In the absolute center, the tall, cylindrical reactor core pulses with a soft blue light, and at its base, a semi-circular control console faces towards the camera.",
+ "atas": "Overhead, a complex web of thick power conduits and structural gantries converges on a central point high above the reactor, from which a single, powerful spotlight shines down."
+}

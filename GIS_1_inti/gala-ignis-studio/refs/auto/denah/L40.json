@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Cockpit door with crest",
+  "kanan": "Emergency access panel",
+  "belakang": "Main entry door",
+  "kiri": "Passenger viewport"
+ },
+ "sisi": {
+  "depan": "The front wall features a sliding cockpit door made of dark composite wood, decorated with the golden Galians crest and inlaid with glowing lines forming a kawung batik motif.",
+  "kanan": "The right wall contains a second bench of fold-down seats and a small, plain red emergency access panel with a recessed handle.",
+  "belakang": "The rear wall is dominated by the main sliding entry door, which has a smooth, metallic surface with subtle, carved geometric patterns near its frame.",
+  "kiri": "The left wall is fitted with a continuous bench of fold-down seats upholstered in a durable woven material, located beneath a large, circular viewport."
+ },
+ "tengah": "The floor is made of a non-slip dark grey material, with a central illuminated strip running from the rear door towards the cockpit.",
+ "atas": "A central light panel runs the length of the ceiling, flanked by an overhead grab rail crafted from polished teak-composite with gold-trimmed end caps."
+}
