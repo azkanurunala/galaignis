@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The Atomic Monument",
+  "kanan": "The Sky-Train Station",
+  "belakang": "The Plaza Gateway",
+  "kiri": "The Grand Market Hall"
+ },
+ "sisi": {
+  "depan": "The base of the 300-meter Atomic Monument spire rises from a wide reflecting pool, its polished obsidian surface intricately engraved with glowing gold batik lines that pulse with soft, internal light.",
+  "kanan": "A multi-tiered joglo-style roof of dark metal covers the Sky-Train station, supported by massive carved teak pillars leading to open-air platforms where sleek, silent transport pods arrive and depart.",
+  "belakang": "A massive gateway arch carved from dark volcanic stone frames the entrance to the plaza, flanked by two tall, slender lampposts shaped like unopened lotus buds that cast a warm glow.",
+  "kiri": "The Grand Market Hall features a facade of woven bronze screens in a geometric kawung motif, with wide, unadorned openings revealing holographic vendor displays floating above polished stone counters."
+ },
+ "tengah": "Several low, circular stone benches with inlaid glowing patterns are arranged across the plaza, while automated cleaning drones glide silently over the polished floor between holographic information projectors displaying swirling, abstract light forms.",
+ "atas": "The deep twilight sky is crisscrossed by the faint light trails of high-altitude vehicles, with a large, ringed planet and two bright moons faintly visible through the thin city haze."
+}

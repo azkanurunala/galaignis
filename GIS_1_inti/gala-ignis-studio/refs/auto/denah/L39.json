@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The black crystal throne",
+  "kanan": "The observation window",
+  "belakang": "The main entrance portal",
+  "kiri": "The glowing energy pylons"
+ },
+ "sisi": {
+  "depan": "A wide flight of polished black crystal stairs leads up to a high-backed, faceted black crystal throne set against a wall of smooth, dark-blue crystal panels where cold blue light emanates from the seams.",
+  "kanan": "A single, enormous, floor-to-ceiling faceted window of transparent crystal offers a view of a dark, stormy sky over a city of glowing geometric structures.",
+  "belakang": "A massive, arch-less portal with sliding doors made of a single slab of obsidian-like material stands open, flanked by two tall, featureless pillars of dark metal.",
+  "kiri": "Three towering, chunky pylons of glowing blue crystal pulse slowly with internal light, set into deep alcoves along the smooth, dark-blue crystal wall."
+ },
+ "tengah": "A wide, reflective walkway of polished black crystal leads from the entrance towards the stairs.",
+ "atas": "The ceiling is a vast, smooth dome of dark-blue crystal, with a single, large, multi-faceted crystal formation suspended at its apex that casts a cold, diffuse blue light downwards."
+}

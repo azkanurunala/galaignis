@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The monolithic portal",
+  "kanan": "The energy conduits",
+  "belakang": "The entry archway",
+  "kiri": "The observation facets"
+ },
+ "sisi": {
+  "depan": "A towering, sharp-edged portal of solid black crystal stands at the far end of the glossy floor, its opening filled with a shimmering, silent energy field.",
+  "kanan": "The right wall is a sheer surface of dark blue crystal from which emerge several tall, thin, hexagonal columns that pulse with faint internal light.",
+  "belakang": "Behind the viewpoint is a wide, unadorned archway cut directly into the crystal, leading into a darker corridor from which the camera observes the hall.",
+  "kiri": "The left wall is broken by a series of large, inset, polished black crystal facets that reflect the hall with distorted depth and clarity."
+ },
+ "tengah": "A large, multi-faceted black crystal hovers motionless in the middle of the hall, slowly rotating and facing towards the monolithic portal.",
+ "atas": "The vaulted ceiling is a continuous expanse of polished dark blue crystal, reflecting the geometric patterns of bright lines glowing beneath the floor in a complex, distorted web."
+}

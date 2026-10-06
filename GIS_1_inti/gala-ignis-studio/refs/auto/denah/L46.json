@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The stone shrine",
+  "kanan": "The frozen pond",
+  "belakang": "The snowy valley",
+  "kiri": "The gnarled trees"
+ },
+ "sisi": {
+  "depan": "A small shrine built of dark volcanic stone has a low, open doorway from which hangs a single bronze lantern, revealing a section of an interior wall carved with a relief of stylized flora and cosmic patterns.",
+  "kanan": "A narrow path marked by low, snow-dusted stone posts winds up the hill past a solitary, windswept conifer and the edge of a small, ice-covered pond.",
+  "kiri": "A cluster of gnarled, leafless trees and several large, moss-covered boulders emerge from the deep snow on the slope of a neighbouring hill.",
+  "belakang": "The snowy hillside falls away into a vast, deep valley that stretches towards a distant horizon of jagged mountain peaks.",
+  "tengah": "A single, weathered stone pillar, half-buried in the snow, stands facing the shrine.",
+  "atas": "A heavy, uniform grey sky is filled with thick, slow-moving snow clouds."
+ }
+}

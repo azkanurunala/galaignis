@@ -318,7 +318,7 @@
   "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nResistance fighters: people in hooded patched coats of faded indigo and grey, carrying makeshift rifles.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K43 PEJUANG PERLAWANAN\".",
   "sumber": "auto",
   "qc": {},
-  "catatan_asal": "BELUM: ganti senapan realistis jadi senapan energi rakitan"
+  "catatan_asal": "BELUM: The leather pouch hangs on the character own RIGHT hip: clearly visible in the fourth figure (right side view) and hidden in the second figure (left side view). The rifle is held only in the hands, no floating or duplicated weapon parts between figures."
  },
  "K44": {
   "nama": "Insinyur Tua Perlawanan",
@@ -351,7 +351,7 @@
   "prompt_sheet": "Create a character reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, plain light grey background, soft even studio lighting, no drawn line art, no 2D illustration.\nA Chrono-Wraith: a gaunt humanoid made of shattered clock glass and bent clock hands, trailing purple-silver afterimages, with long glass claws.\nShow one figure in front view and side view, plus one small group shot of three of them together, and a small silhouette of a child for scale.\nLabel the sheet with one small clean caption: \"K46 CHRONO-WRAITH\".",
   "sumber": "auto",
   "qc": {},
-  "catatan_asal": "BELUM: generate ulang, gaya animasi, tanpa tengkorak"
+  "catatan_asal": "BELUM: Render as a fully 3D CGI character like a modern animated feature film: smooth rounded 3D shapes, glossy cracked clock-glass material with real lighting and reflections, never a 2D drawing or line art. Clock faces show only tick marks, no numerals."
  },
  "K47": {
   "nama": "Penjaga Cakrawala",
@@ -921,13 +921,23 @@
  "L23": {
   "nama": "Alun-Alun Monumen Atom",
   "jenis": "latar",
-  "file": null,
-  "lolos": false,
-  "catatan": "Belum ada",
+  "file": "refs/auto/L23.png",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The monument plaza: a wide circular stone plaza at the foot of the Atomic Monument, a 300-meter spire engraved with glowing gold batik lines.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The monument plaza: a wide circular stone plaza at the foot of the Atomic Monument, a 300-meter spire engraved with glowing gold batik lines.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L23 ALUN-ALUN MONUMEN ATOM\".",
   "sumber": "auto",
-  "qc": {},
+  "qc": {
+   "lolos": false,
+   "skor": 6.0,
+   "gagal": [
+    "kontinuitas"
+   ],
+   "masalah": [
+    "Panel-panel kecil hanya merupakan cuplikan dekat dari gambar panorama utama, bukan pandangan dari arah sebaliknya yang dibutuhkan untuk referensi."
+   ],
+   "perbaikan": "Replace the detail shots with proper reverse and side views to show what is behind the main camera and establish a complete turnaround."
+  },
   "catatan_asal": "Belum ada"
  },
  "L24": {
@@ -935,12 +945,12 @@
   "jenis": "latar",
   "file": null,
   "lolos": false,
-  "catatan": "Belum ada",
+  "catatan": "BELUM: The spire tip is the same Atomic Monument as the plaza sheet: dark stone engraved with glowing gold batik lines, with the glowing core socket in it. Only a simple railing around the narrow platform, no wooden posts, no hologram screens, no other structures on the platform.",
   "anchor": "The top of the Atomic Monument: a narrow circular platform around the spire tip with a glowing core socket at the center, the whole city far below.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The top of the Atomic Monument: a narrow circular platform around the spire tip with a glowing core socket at the center, the whole city far below.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L24 PUNCAK MONUMEN ATOM\".",
   "sumber": "auto",
   "qc": {},
-  "catatan_asal": "Belum ada"
+  "catatan_asal": "BELUM: The platform is 300 meters up: the whole city lies tiny and far below, seen from high above with thin clouds drifting under the platform; nothing else reaches this height. No tree-shaped towers. The spire tip is dark stone with glowing gold batik lines and the glowing core socket."
  },
  "L25": {
   "nama": "Rumah Sakit Kota",
@@ -969,14 +979,20 @@
  "L26": {
   "nama": "Kilang Gas Atom",
   "jenis": "latar",
-  "file": null,
-  "lolos": false,
-  "catatan": "Belum ada",
+  "file": "refs/auto/L26.png",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The atomic gas plant: a maze of giant pipes, valve wheels and metal platforms.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The atomic gas plant: a maze of giant pipes, valve wheels and metal platforms.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L26 KILANG GAS ATOM\".",
   "sumber": "auto",
-  "qc": {},
-  "catatan_asal": "Belum ada"
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "BELUM: A vast industrial plant hall: a maze of giant pipes several meters thick crossing at different heights, big red valve wheels, metal platforms and catwalks on several levels connected by stairs. Not a small control room."
  },
  "L27": {
   "nama": "Pasar Tua",
@@ -1053,13 +1069,23 @@
  "L33": {
   "nama": "Atap-Atap Kota",
   "jenis": "latar",
-  "file": null,
-  "lolos": false,
-  "catatan": "Belum ada",
+  "file": "refs/auto/L33.png",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The city rooftops: flat rooftops with water tanks, antennas and billboards, joglo-style tower roofs in the background.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The city rooftops: flat rooftops with water tanks, antennas and billboards, joglo-style tower roofs in the background.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L33 ATAP-ATAP KOTA\".",
   "sumber": "auto",
-  "qc": {},
+  "qc": {
+   "lolos": false,
+   "skor": 5.0,
+   "gagal": [
+    "kontinuitas"
+   ],
+   "masalah": [
+    "Pandangan tidak mencakup seluruh lokasi; hanya menunjukkan satu sisi dan beberapa bidikan dekat, tanpa pandangan sebaliknya."
+   ],
+   "perbaikan": "The sheet must include a reverse shot showing what is behind the camera in the main view to provide full environmental context."
+  },
   "catatan_asal": "BELUM: Several adjacent flat working rooftops at different heights with small gaps between them, water tanks, antennas, billboards and vents, joglo tower roofs in the background. No lounge furniture, no sofas, no potted plants."
  },
  "L34": {
@@ -1133,37 +1159,65 @@
  "L37": {
   "nama": "Absolute Zero Citadel",
   "jenis": "latar",
-  "file": null,
-  "lolos": false,
-  "catatan": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. A massive dark crystal citadel in a frozen black valley under a blizzard, rounded stylized crystal shapes, soft volumetric lighting.",
+  "file": "refs/auto/L37.png",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The Absolute Zero Citadel: a massive dark crystal citadel in a frozen black valley under a perpetual blizzard.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The Absolute Zero Citadel: a massive dark crystal citadel in a frozen black valley under a perpetual blizzard.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L37 ABSOLUTE ZERO CITADEL\".",
   "sumber": "auto",
-  "qc": {},
-  "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. A massive dark crystal citadel in a frozen black valley under a blizzard, rounded stylized crystal shapes, soft volumetric lighting."
+  "qc": {
+   "lolos": false,
+   "skor": 4.0,
+   "gagal": [
+    "kontinuitas"
+   ],
+   "masalah": [
+    "Lembar referensi tidak menunjukkan pandangan dari berbagai arah; panel-panel kecil hanyalah pembesaran dari gambar utama, bukan pandangan sisi atau belakang."
+   ],
+   "perbaikan": "Provide separate views of the left, right, and reverse angles of the location, not just zoomed-in details of the front."
+  },
+  "catatan_asal": "BELUM: The citadel is colossal: towering dark blue-black crystal spires many times taller than the cliffs, filling the front of the view and dwarfing the valley, with a huge gate at its base."
  },
  "L38": {
   "nama": "Aula Citadel",
   "jenis": "latar",
-  "file": null,
-  "lolos": false,
-  "catatan": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. Plain grey sheet background like the other location sheets: one wide shot on top and two views below. Grand halls of dark blue crystal with lines glowing beneath crystal floors.",
+  "file": "refs/auto/L38.png",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The citadel halls: grand halls of dark blue crystal with lines glowing beneath crystal floors.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The citadel halls: grand halls of dark blue crystal with lines glowing beneath crystal floors.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L38 AULA CITADEL\".",
   "sumber": "auto",
-  "qc": {},
-  "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. Plain grey sheet background like the other location sheets: one wide shot on top and two views below. Grand halls of dark blue crystal with lines glowing beneath crystal floors."
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "BELUM: A fully enclosed 3D-rendered grand hall: solid dark blue crystal walls and a vaulted crystal ceiling on every side with no empty grey background, glossy crystal floor with lines glowing beneath it, rendered with real 3D depth, lighting and reflections, not flat 2D artwork."
  },
  "L39": {
   "nama": "Ruang Singgasana",
   "jenis": "latar",
-  "file": null,
-  "lolos": false,
-  "catatan": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film: rounded chunky shapes, smooth clean simplified materials, soft studio lighting, exactly like the approved academy sheets. Not a painting, not concept art, not photorealistic, no gritty realistic textures. A dark crystal throne room: smooth faceted dark-blue crystal walls, a black crystal throne atop tall stairs, cold blue rim lighting.",
+  "file": "refs/auto/L39.png",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The citadel throne room: a dark crystal throne room with a black crystal throne atop tall stairs.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The citadel throne room: a dark crystal throne room with a black crystal throne atop tall stairs.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L39 RUANG SINGGASANA\".",
   "sumber": "auto",
-  "qc": {},
+  "qc": {
+   "lolos": false,
+   "skor": 2.0,
+   "gagal": [
+    "sesuai_deskripsi",
+    "kontinuitas"
+   ],
+   "masalah": [
+    "Gaya visual tidak sesuai dengan referensi yang disetujui; terlalu realistis dan tidak cukup bergaya.",
+    "Sudut pandang kamera tidak mencakup seluruh ruangan; tidak ada tampak sebaliknya (reverse shot)."
+   ],
+   "perbaikan": "The render style must be changed to match the approved clean, soft, and stylized look of the academy sheets, and the sheet must include a reverse angle view."
+  },
   "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film: rounded chunky shapes, smooth clean simplified materials, soft studio lighting, exactly like the approved academy sheets. Not a painting, not concept art, not photorealistic, no gritty realistic textures. A dark crystal throne room: smooth faceted dark-blue crystal walls, a black crystal throne atop tall stairs, cold blue rim lighting."
  },
  "L40": {
@@ -1211,14 +1265,20 @@
  "L42": {
   "nama": "Reruntuhan Akademi (lini masa paralel)",
   "jenis": "latar",
-  "file": null,
-  "lolos": false,
-  "catatan": "Belum ada",
+  "file": "refs/auto/L42.png",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The academy ruins of the parallel timeline: shattered academy buildings buried in snow, the scorched hexagonal arena open to the sky.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The academy ruins of the parallel timeline: shattered academy buildings buried in snow, the scorched hexagonal arena open to the sky.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L42 RERUNTUHAN AKADEMI (LINI MASA PARALEL)\".",
   "sumber": "auto",
-  "qc": {},
-  "catatan_asal": "Belum ada"
+  "qc": {
+   "lolos": true,
+   "skor": 10.0,
+   "gagal": [],
+   "masalah": [],
+   "perbaikan": ""
+  },
+  "catatan_asal": "BELUM: The center is the scorched hexagonal Arena 7 open to the sky, its walls broken; shattered academy halls with joglo roofs buried in snow around it. No robots, automatons, statues or any figures."
  },
  "L43": {
   "nama": "Markas Perlawanan Bawah Tanah",
@@ -1230,7 +1290,7 @@
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The resistance base: an underground metro station with tiled walls, old train cars, lanterns built from salvaged batik panels and scrap workbenches.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L43 MARKAS PERLAWANAN BAWAH TANAH\".",
   "sumber": "auto",
   "qc": {},
-  "catatan_asal": "Belum ada"
+  "catatan_asal": "BELUM: A lived-in hideout of the resistance: warm glowing lanterns built from salvaged batik panels hang everywhere, scrap workbenches with tools, bedrolls and supplies, old train cars turned into rooms; cosy warm light against the cold tiled station. Stylized cartoon 3D, not photoreal."
  },
  "L44": {
   "nama": "Monumen Mati (lini masa paralel)",
@@ -1242,30 +1302,50 @@
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The dead monument of the parallel timeline: the same Atomic Monument encased in dark ice, its batik lines unlit, a cracked dark core socket at its base.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L44 MONUMEN MATI (LINI MASA PARALEL)\".",
   "sumber": "auto",
   "qc": {},
-  "catatan_asal": "BELUM: Render as a stylized 3D CGI scene like a modern 3D animated feature film (same look as the approved academy sheets), not a painting, not a flat 2D or vector illustration, not photorealistic. Show the whole tall Atomic Monument spire (same spire and plaza as the approved monument plaza sheet) encased in dark ice, its gold batik lines unlit, a cracked dark core socket at its base, snowy dead plaza around it."
+  "catatan_asal": "BELUM: This is the SAME round plaza and Atomic Monument as the approved plaza sheet, but dead: the colossal 300-meter dark spire rises far above everything (its top lost in the clouds), encased in dark ice, gold batik lines unlit, a cracked dark core socket at its base; the round plaza, frozen pool and ruined joglo pavilion around it, all snowbound."
  },
  "L45": {
   "nama": "Sektor 7 Paralel",
   "jenis": "latar",
-  "file": null,
-  "lolos": false,
-  "catatan": "Belum ada",
+  "file": "refs/auto/L45.png",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The defeated Sector 7: snowbound factories and broken smokestacks; inside the warehouse, hanging cocoons of clock glass.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The defeated Sector 7: snowbound factories and broken smokestacks; inside the warehouse, hanging cocoons of clock glass.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L45 SEKTOR 7 PARALEL\".",
   "sumber": "auto",
-  "qc": {},
+  "qc": {
+   "lolos": false,
+   "skor": 4.0,
+   "gagal": [
+    "kontinuitas"
+   ],
+   "masalah": [
+    "Lembar referensi tidak menunjukkan seluruh ruangan; hanya ada satu arah pandang utama dengan beberapa detail, tanpa adanya pandangan dari arah sebaliknya."
+   ],
+   "perbaikan": "Provide a reverse shot showing the view from the back wall, and ensure all four sides of the location are clearly depicted across the different views."
+  },
   "catatan_asal": "Belum ada"
  },
  "L46": {
   "nama": "Kuil Bukit Utara",
   "jenis": "latar",
-  "file": null,
-  "lolos": false,
-  "catatan": "Belum ada",
+  "file": "refs/auto/L46.png",
+  "lolos": true,
+  "catatan": "Lolos, disetujui manusia",
   "anchor": "The hermit's shrine: a small stone shrine on a snowy hill with a single lantern at the door and an ancient wall relief inside.",
   "prompt_sheet": "Create an environment reference sheet, 3D CGI render like a modern 3D animated feature film, rounded stylized 3D shapes, soft realistic materials, no drawn line art, no 2D illustration. No characters, no text except one small caption.\nSetting: The hermit's shrine: a small stone shrine on a snowy hill with a single lantern at the door and an ancient wall relief inside.\nShow the place in three views: a wide establishing shot, a medium shot of its most important feature, and a reverse angle looking the other way. Neutral daylight or its usual lighting.\nCaption in one corner: \"L46 KUIL BUKIT UTARA\".",
   "sumber": "auto",
-  "qc": {},
+  "qc": {
+   "lolos": false,
+   "skor": 6.0,
+   "gagal": [
+    "kontinuitas"
+   ],
+   "masalah": [
+    "Panel-panel detail di bagian bawah hanyalah potongan dari gambar panorama 360 utama, bukan sudut kamera yang berbeda dan informatif seperti tampak belakang atau samping."
+   ],
+   "perbaikan": "Provide separate renders for front, back, and side views of the location instead of cropping them from a single 360 panorama."
+  },
   "catatan_asal": "Belum ada"
  },
  "L47": {

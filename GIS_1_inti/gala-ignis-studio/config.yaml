@@ -31,5 +31,5 @@ video:
   veo_pembuka: true      # klip pembuka bergerak (Veo) per Short; kalau gagal, dipakai gambar diam
   veo_detik: 6
 retry:
-  tries: 5
-  jeda: 4
+  tries: 7
+  jeda: 8

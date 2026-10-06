@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Shattered loading bay",
+  "kanan": "Collapsed mezzanine",
+  "belakang": "Sealed personnel door",
+  "kiri": "Frozen coolant pipes"
+ },
+ "sisi": {
+  "depan": "A massive, shattered blast door hangs half-open, revealing a vista of snow-covered, dormant factory complexes and a single, leaning smokestack against the grey sky, with a frozen conveyor belt jutting out from the opening.",
+  "kanan": "A collapsed metal mezzanine level sags down against the wall, its intricate support pillars shaped like stylized bamboo stalks now bent and fractured, spilling frozen, unidentifiable cargo from ruptured storage containers onto the floor.",
+  "belakang": "A heavy, sealed personnel door with a wheel-lock mechanism is frozen shut beside a dark, recessed maintenance alcove filled with drifts of snow blown in from a hole in the roof.",
+  "kiri": "A bank of massive, frost-encrusted coolant pipes, etched with geometric songket-like patterns, runs along the wall before rupturing into a cascade of solid ice near a narrow, barred window completely obscured by snowdrift."
+ },
+ "tengah": "Several large, teardrop-shaped cocoons made of layered, iridescent clock glass hang motionless, some cracked and empty, while one intact cocoon sways slightly with its surface clouded by frost.",
+ "atas": "A high, vaulted ceiling is supported by interlocking beams that mimic the structure of a joglo roof, with large sections of the metal paneling torn away to show tangled wiring and structural girders coated in icicles."
+}

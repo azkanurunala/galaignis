@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The Citadel Gate",
+  "kanan": "Jagged Ice Cliff",
+  "belakang": "Winding Ravine",
+  "kiri": "Frozen Waterfall"
+ },
+ "sisi": {
+  "depan": "Towering spires of dark blue-black crystal fill the view, rising from a massive base that holds a huge, unadorned gate made of a single slab of polished obsidian.",
+  "kanan": "A sheer cliff face of black, ice-glazed rock is broken by a deep crevasse from which a faint, cold blue light emanates.",
+  "belakang": "The narrow valley floor of black volcanic sand winds back into a dark, narrow ravine obscured by driving snow.",
+  "kiri": "A colossal waterfall, frozen solid into a cascade of sharp, translucent blue shards, hangs from the edge of a high, snow-dusted plateau."
+ },
+ "tengah": "Scattered across the black sand are large, sharp-edged shards of fallen dark crystal and clusters of geometric, hexagonal basalt columns jutting from the frozen ground.",
+ "atas": "A churning, black sky is perpetually obscured by a thick, swirling blizzard of white and grey snow, with no visible sun, moon, or stars."
+}

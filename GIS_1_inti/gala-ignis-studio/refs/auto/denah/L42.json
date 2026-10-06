@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The collapsed main hall",
+  "kanan": "The fallen colonnade",
+  "belakang": "The frozen ridgeline",
+  "kiri": "The ruined archive"
+ },
+ "sisi": {
+  "depan": "Across the arena, the splintered teak frame of a collapsed grand hall rises from the snow, its multi-tiered joglo roof caved in, and its wide, empty main entrance choked with frozen debris.",
+  "kanan": "Toppled and broken carved stone pillars from a collapsed covered colonnade lie in a jagged line, their intricate floral carvings barely visible under a thick blanket of ice.",
+  "belakang": "Behind the viewpoint, the dark silhouettes of dead, skeletal trees stand on a distant, snow-covered ridgeline.",
+  "kiri": "A partially standing wall of a ruined archive building features shattered geometric krawangan latticework in its window openings, with heavy snow piled against its base."
+ },
+ "tengah": "A scorched, hexagonal arena with cracked basalt floor tiles and shattered, ice-encrusted low walls is half-buried in deep snow drifts.",
+ "atas": "A starless, perpetually overcast sky is choked with dark grey snow clouds, offering no light."
+}

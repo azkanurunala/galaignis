@@ -73,11 +73,13 @@ FAKSI = {
     "industri": "A neutral industrial place: clean stylized sci-fi industry with only light Nusantara touches. " + TANPA_LAMBANG,
     "musuh": "An ENEMY place: cold industrial metal or dark crystal, no Nusantara ornament, no carved wood, no gold trim. " + TANPA_LAMBANG,
     "paralel": "A dead, frozen version of the world in a defeated parallel timeline: ruined, dark, snowbound, no lights. " + TANPA_LAMBANG,
+    "markas": "The hidden, lived-in base of the resistance in a frozen parallel timeline: cold old structure, but warmly lit by lanterns built from "
+              "salvaged batik panels, with scrap workbenches, bedrolls and supplies; cosy and hopeful. " + TANPA_LAMBANG,
     "kuno": "An ancient mystical Nusantara place: candi stone, carved reliefs and nature, no modern technology. " + TANPA_LAMBANG,
     "gaib": "An otherworldly elemental realm, not built by people. " + TANPA_LAMBANG,
 }
 _GRUP = {"akademi": "L07-L18 L40", "kota": "L22-L25 L27 L28 L32 L33 L64 L66 L67", "industri": "L19-L21 L26 L30 L31",
-         "musuh": "L29 L34-L39 L65 L68", "paralel": "L41-L45", "kuno": "L46-L50 L58-L62", "gaib": "L51-L57 L63"}
+         "musuh": "L29 L34-L39 L65 L68", "paralel": "L41 L42 L44 L45", "markas": "L43", "kuno": "L46-L50 L58-L62", "gaib": "L51-L57 L63"}
 
 
 def _faksi(k):
@@ -118,7 +120,8 @@ def _denah(k, r):
     koreksi = _koreksi(r, "")
     if r["jenis"] == "latar":
         prompt = ("You are a set designer. Turn this location into a fixed layout plan seen from one camera position near the back.\n"
-                  + BUDAYA_UNTUK(k) + "Invent only details that fit this world. Never plan written labels, signs or lettering. "
+                  + BUDAYA_UNTUK(k) + "Invent only details that fit this world. Never plan written labels, signs or lettering, "
+                  "and never plan people, robots, automatons, statues of beings or any other figures. "
                   "If the location is outdoors (a city, street, plaza, landscape, sea, sky), the camera stands outdoors in the open: the four sides are the surrounding "
                   "buildings or scenery and 'atas' is the sky; never turn an outdoor place into a room or a lobby.\n"
                   f"Location: {r['anchor']}{koreksi}\n"
