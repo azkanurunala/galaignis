@@ -350,12 +350,29 @@ def run(n, force=False, izinkan_gagal=False):
     return semua_ok
 
 
+def _probe(path):
+    """Info berkas video dari keluaran `ffmpeg -i`: durasi, ukuran, ada jalur suara atau tidak."""
+    import re
+    err = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(path)], capture_output=True, text=True).stderr
+    m = re.search(r"Duration: (\d+):(\d+):(\d+\.?\d*)", err)
+    if not m:
+        raise RuntimeError("durasi tidak ditemukan: " + err[-120:])
+    dur = int(m.group(1)) * 3600 + int(m.group(2)) * 60 + float(m.group(3))
+    streams = []
+    for line in err.splitlines():
+        if "Video:" in line and "Stream" in line:
+            wh = re.search(r"(\d{2,5})x(\d{2,5})", line)
+            streams.append({"codec_type": "video", "width": int(wh.group(1)) if wh else 0, "height": int(wh.group(2)) if wh else 0})
+        elif "Audio:" in line and "Stream" in line:
+            streams.append({"codec_type": "audio"})
+    return {"streams": streams, "format": {"duration": dur}}
+
+
 def periksa(path, durasi_harap, bersuara):
     """QC berkas video: ukuran, durasi, jalur suara, dan volume."""
     masalah = []
     try:
-        r = json.loads(subprocess.run(["ffprobe", "-v", "error", "-show_streams", "-show_format", "-of", "json", str(path)],
-                                      capture_output=True, text=True, check=True).stdout)
+        r = _probe(path)   # ponytail: ffprobe tidak ikut paket imageio-ffmpeg; cukup baca keluaran `ffmpeg -i`
     except Exception as e:
         return {"lolos": False, "durasi": 0, "masalah": [f"berkas tidak terbaca: {str(e)[:80]}"]}
     vs = [s for s in r["streams"] if s["codec_type"] == "video"]; au = [s for s in r["streams"] if s["codec_type"] == "audio"]

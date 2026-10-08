@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Carved council bench",
+  "kanan": "Digital window screen",
+  "belakang": "Chamber entrance archway",
+  "kiri": "Galians crest wall"
+ },
+ "sisi": {
+  "depan": "A long, raised council bench of dark, polished wood with gold parang batik inlay sits before a towering, flat wall panel intricately carved with geometric cloud motifs.",
+  "kanan": "The chamber's curved wall features three tiers of dark wood seating that end at a tall, narrow window screen displaying a digital bamboo forest.",
+  "belakang": "A wide, recessed entrance archway framed in carved teak stands at the top of the seating tiers, flanked by two glowing light panels set into the wall.",
+  "kiri": "Three corresponding tiers of wooden seating curve along the wall, which is dominated by a large, backlit Galians crest made of polished metal and glowing resin."
+ },
+ "tengah": "A circular, low-profile holographic projector with a polished chrome finish rests on the floor in the center of the chamber, facing towards the council bench.",
+ "atas": "A complex, multi-tiered ceiling inspired by joglo architecture features recessed warm light strips along each dark wood layer, with a suspended public gallery running along the curved portion of the upper walls."
+}

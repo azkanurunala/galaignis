@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Main specimen tank",
+  "kanan": "Shelves of jar-tanks",
+  "belakang": "Sliding bookshelf",
+  "kiri": "Rectangular violet tanks"
+ },
+ "sisi": {
+  "depan": "The far wall features a single, very tall cylindrical tank filled with glowing green liquid and suspended organic matter, flanked by two wall-mounted control panels with unlit screens.",
+  "kanan": "A floor-to-ceiling metal shelving unit holds dozens of small, sealed glass jars filled with bubbling green liquid.",
+  "belakang": "A tall, unadorned dark wood bookshelf is slid partially open to the right, serving as the secret entrance.",
+  "kiri": "A row of five identical, waist-high rectangular tanks filled with glowing violet liquid and thick cables running between them lines the left wall."
+ },
+ "tengah": "A long, metallic workbench covered with intricate glass distillation coils, empty specimen trays, and a multi-lensed microscope faces the front wall.",
+ "atas": "A low ceiling of interlocking dark metal plates has recessed light strips that cast a dim, cool glow downwards."
+}

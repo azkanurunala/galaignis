@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Distant ring cluster",
+  "kanan": "A large tilted ring",
+  "belakang": "Faint ring fragment",
+  "kiri": "Intersecting pale rings"
+ },
+ "sisi": {
+  "depan": "A soft white floor recedes into an infinite white haze where a cluster of faint, pale grey rings drifts slowly in the far distance.",
+  "kanan": "The uniform white floor blends into a hazy void, marked only by a single large, pale grey ring tilted on its axis far away.",
+  "belakang": "Behind the viewpoint, the white floor fades into an endless haze containing the barely visible arc of a distant, fragmented grey ring.",
+  "kiri": "To the left, the seamless white ground dissolves into mist, with several small, pale grey rings intersecting each other in the deep distance."
+ },
+ "tengah": "The space between the viewer and the distant haze is a completely empty and uninterrupted expanse of soft white floor.",
+ "atas": "Above is a limitless white void that merges with the horizonless haze, with the faintest suggestions of pale grey rings at an extreme distance."
+}

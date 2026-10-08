@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The horizon beacon",
+  "kanan": "Passenger water terminal",
+  "belakang": "The pier gateway",
+  "kiri": "Coastal hydroponic towers"
+ },
+ "sisi": {
+  "depan": "The long pier of dark teak planks extends towards the open sea, culminating in a tall, slender beacon tower of polished steel with glowing gold-colored light panels that pulse slowly over the calm ocean horizon.",
+  "kanan": "A multi-level passenger terminal with a tiered joglo-style roof of dark metal features several docking ports for sleek water-taxis, while holographic projectors along the waterfront cast shimmering, abstract batik-like patterns onto the water's surface.",
+  "kiri": "A row of towering, glass-and-teak hydroponic structures rises from the water, interconnected by suspended sky-bridges, with their internal bioluminescent gardens creating a soft green glow against the evening sky.",
+  "belakang": "The pier begins at a grand, open-sided gateway structure of intricately carved dark wood and polished chrome, leading back towards a wide city plaza."
+ },
+ "tengah": "Low, backless benches carved from single pieces of dark wood and sleek, metallic mooring posts with integrated, softly pulsing blue lights are arranged along the edges of the pier's central walkway.",
+ "atas": "The sky is a deep twilight blue, crossed by the silent, glowing trails of high-altitude transport ships and revealing the faint lattice of a massive orbital ring against the first stars."
+}

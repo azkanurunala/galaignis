@@ -190,6 +190,14 @@ def _prompt_tokoh(r, d, fix):
             + "Colors, proportions and accessories identical in all four; never mirror the design." + TANPA_TEKS + _koreksi(r, fix))
 
 
+def _buang_bilah_label(img):
+    """Model kadang menambah bilah hitam berlabel arah (BACK, LEFT, ...) di dasar panorama. Potong kalau ada."""
+    import numpy as np
+    a = np.asarray(img.convert("L"), dtype=float).mean(axis=1)
+    gelap = [y for y in range(int(len(a) * 0.7), len(a)) if a[y] < 25]
+    return img.crop((0, 0, img.width, min(gelap))) if gelap and len(a) - min(gelap) < len(a) * 0.15 else img
+
+
 def _ada_pembatas(img):
     """True kalau ada garis pembatas vertikal (kolom yang hampir seragam dari atas ke bawah) di tengah gambar: tanda kolase atau triptych."""
     import numpy as np
@@ -239,7 +247,7 @@ def _juri(img, r, d, acuan):
 def tampilan(pano, yaw_deg, fov_deg=100, size=(1600, 900)):
     """Potong panorama equirectangular (lebar = 360 derajat) menjadi tampilan perspektif biasa.
     yaw 0 = tengah gambar (depan), 90 = kanan, -90 = kiri. Dinding belakang digambar utuh di kedua tepi, jadi tampak belakang
-    diambil dari salinan tepi kiri (yaw -152), bukan dari sambungan (yaw 180) yang memperlihatkan dua salinan."""
+    diambil dari salinan tepi kiri (yaw -130, tepat sampai tepi tanpa melewati sambungan), bukan dari sambungan (yaw 180) yang memperlihatkan dua salinan."""
     import numpy as np
     src = np.asarray(pano.convert("RGB")); H, W = src.shape[:2]
     vspan = np.pi * 2 * H / W
@@ -257,7 +265,7 @@ def _susun(k, r, img):
     from PIL import ImageDraw, ImageFont
     g = 16; cap = 56
     if r["jenis"] == "latar":
-        views = {a: tampilan(img, yaw) for a, yaw in (("depan", 0), ("kanan", 90), ("belakang", -152), ("kiri", -90))}
+        views = {a: tampilan(img, yaw) for a, yaw in (("depan", 0), ("kanan", 90), ("belakang", -130), ("kiri", -90))}
         for a, v in views.items():
             v.save(ROOT / f"refs/auto/views/{k}_{a}.png")
         pw = 4 * 800 + 3 * g; ph = int(img.height * pw / img.width)
@@ -289,7 +297,23 @@ def run(eps, force=False):
     (ROOT / "refs/auto/views").mkdir(parents=True, exist_ok=True)
     gaya_k = [Image.open(ROOT / refs[k]["file"]) for k in ("K01", "K03") if refs[k]["file"]]
     gaya_l = [Image.open(ROOT / refs[k]["file"]) for k in ("L01", "L02") if refs[k]["file"]]
+    import time
+    gagal_beruntun = 0
     for k in todo:
+        try:
+            _buat_satu(k, gaya_k, gaya_l); gagal_beruntun = 0
+        except Exception as e:  # ponytail: tunda satu sheet saat kuota habis; batch berhenti kalau 3 sheet beruntun gagal
+            gagal_beruntun += 1
+            log(f"  {k} DITUNDA karena galat {type(e).__name__}: {str(e)[:120]}")
+            if gagal_beruntun >= 3:
+                log("Berhenti: 3 sheet beruntun gagal karena galat API."); break
+            time.sleep(120)
+    kontak()
+    return False
+
+
+def _buat_satu(k, gaya_k, gaya_l):
+    if True:
         refs = load_refs(); r = refs[k]; latar = r["jenis"] == "latar"
         gaya = gaya_l if latar else gaya_k
         objek = OBJEK_REF.get(k) if latar else None
@@ -298,6 +322,8 @@ def run(eps, force=False):
         for i in range(CFG["panel"]["max_attempts"]):
             p = _prompt_latar(k, r, d, objek if acuan else None, fix) if latar else _prompt_tokoh(r, d, fix)
             img = vertex.gen_image(p, gaya + acuan, aspect="21:9")
+            if latar:
+                img = _buang_bilah_label(img)
             ok, masalah, perbaikan = _juri(img, r, d, acuan)
             if best is None or ok:
                 best = (img, ok, masalah)
@@ -314,5 +340,3 @@ def run(eps, force=False):
                  catatan="Lolos QC model, menunggu persetujuan manusia" if j["lolos"] else "GAGAL QC: " + "; ".join(j["masalah"])[:200])
         save_refs(refs)
         log(f"  {k} {r['nama']}: {'lolos QC, menunggu persetujuan' if j['lolos'] else 'GAGAL QC'} (skor {j['skor']})")
-    kontak()
-    return False

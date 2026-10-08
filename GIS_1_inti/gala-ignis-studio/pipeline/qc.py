@@ -28,7 +28,11 @@ Meaning of each check (true = good):
 - mata_gala_tertutup: Gala's goggles are on and opaque; his eyes are not visible. True if Gala is absent or seen from behind.
 - ethylene_tanpa_mulut: the fire sprite has no mouth and no limbs. True if the sprite is absent.
 - anatomi_wajar: no extra or missing limbs, no fused or badly distorted hands or faces.
-Be strict: if unsure, answer false and explain in masalah."""
+Be strict about what matters to the viewer: Gala's eyes, text, the sprite's mouth, anatomy, a character's main design (hair color, outfit, colors,
+key accessories), the place's main landmarks and their positions (doors, windows, large props on the correct side), and the main action.
+Do NOT fail a panel for small details a viewer would not notice: the exact number of sides or lines in a floor pattern, the exact shape of a
+light fixture, slight color shade differences, small trim patterns, or a camera angle that is close to the intended one. If unsure about a major
+point, answer false and explain in masalah."""
 
 
 def lokal(img, aspect):
@@ -122,6 +126,8 @@ def lint_naskah(script, kode_wajib, perlu_gagal):
         g = script.get("gagal") or {}
         if not g.get("scene_en"):
             out.append("gagal.scene_en kosong")
+        elif re.search(r"Gala", g["scene_en"]) and re.search(r"(her|she|herself)", g["scene_en"], re.I):
+            out.append("gagal.scene_en: Gala laki-laki, pakai he/his/himself (kalau yang dimaksud tokoh perempuan lain, sebut namanya)")
         fr = dict(fr, **{"gagal": g})
     titik3 = 0; kosong = 0; n_nar = 0
     for k, v in fr.items():

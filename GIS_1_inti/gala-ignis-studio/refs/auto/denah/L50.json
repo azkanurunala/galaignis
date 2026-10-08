@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Central stone shrine",
+  "kanan": "Ancient banyan tree",
+  "kiri": "Cascading rock waterfall",
+  "belakang": "Split-roof gateway"
+ },
+ "sisi": {
+  "depan": "A small, dark volcanic stone shrine stands on a raised platform, featuring a single unadorned rectangular doorway flanked by two low walls with carved reliefs of stylized floral and geometric patterns.",
+  "kanan": "On the misty riverbank to the right, the massive aerial roots of an ancient banyan tree dip into the water near a row of small, unlit stone lanterns resting on mossy boulders.",
+  "kiri": "To the left, a small waterfall tumbles down a dark, fern-covered rock face into the river, and a cluster of large, smooth river stones juts out from the water near its base.",
+  "belakang": "Behind the viewpoint, a wide, low stone gateway with a split-roof design marks the beginning of a worn path leading away from the river's edge."
+ },
+ "tengah": "A winding path of large, dark, flat-topped stepping stones, some slick with moss, leads across the river's surface towards the front shrine.",
+ "atas": "A thick, low-hanging blanket of white mist obscures the sky, diffusing unseen sunlight into a soft, even glow."
+}

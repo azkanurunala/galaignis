@@ -1,0 +1,33 @@
+{
+ "asimetris": [
+  {
+   "detail": "Carries the makeshift scrap-built energy rifle",
+   "sisi": "kanan"
+  },
+  {
+   "detail": "Leather pouch worn on the hip",
+   "sisi": "kiri"
+  },
+  {
+   "detail": "Large grey patch sewn over the shoulder",
+   "sisi": "kanan"
+  },
+  {
+   "detail": "Smaller indigo patch on the elbow",
+   "sisi": "kiri"
+  },
+  {
+   "detail": "Glowing cyan energy cell is socketed into the right side of the rifle's main body",
+   "sisi": "kanan"
+  },
+  {
+   "detail": "A bundle of exposed wires runs along the left side of the rifle's frame",
+   "sisi": "kiri"
+  },
+  {
+   "detail": "A long, frayed tear along the bottom hem of the coat",
+   "sisi": "kiri"
+  }
+ ],
+ "tetap": "The character's hood is up to obscure their face, their right hand holds the energy rifle, and their left hand rests on the leather pouch at their hip."
+}

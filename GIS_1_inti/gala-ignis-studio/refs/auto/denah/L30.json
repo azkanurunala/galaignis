@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Sealed interlocking cargo door",
+  "kanan": "High amber-composite windows",
+  "belakang": "Recessed metal service door",
+  "kiri": "Large stationary ventilator fan"
+ },
+ "sisi": {
+  "depan": "The far wall is dominated by a massive, sealed cargo bay door made of dark, interlocking hexagonal plates, with large piles of defunct server casings and circuit boards heaped against its base.",
+  "kanan": "A long wall features a row of high, narrow, translucent amber-composite windows above sprawling mounds of discarded drone chassis and tangled fiber-optic bundles.",
+  "belakang": "A single, recessed metal service door is set into the wall near one corner, flanked by tall stacks of weathered, modular shipping crates.",
+  "kiri": "A huge, circular, stationary ventilator fan with wide, stylized leaf-shaped blades is set into the wall, which is surrounded by stacks of old power cells and heat sinks."
+ },
+ "tengah": "A central terminal, facing the front wall, is constructed from a cluster of salvaged crates supporting an array of mismatched monitors and exposed hardware, all interconnected by a chaotic nest of thick cables, with the screens displaying glowing, abstract geometric animations.",
+ "atas": "A high ceiling reveals a grid of exposed structural I-beams and conduits, from which hang several industrial-grade pendant lamps that cast focused pools of light."
+}

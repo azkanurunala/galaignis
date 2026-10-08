@@ -48,6 +48,28 @@ def _tiruan(ep, perlu):
     return out
 
 
+def rapikan(s):
+    """Perbaikan pasti sebelum lint: tanda pisah panjang jadi koma, titik tiga maksimal 2 per episode, Ethylene hanya Pip."""
+    sisa = 2
+    semua = list((s.get("frames") or {}).values()) + ([s["gagal"]] if s.get("gagal") else [])
+    for v in semua:
+        def bersih(t):
+            nonlocal sisa
+            t = t.replace("—", ",").replace("–", ",").replace("…", "...").replace(" ,", ",")
+            while "..." in t:
+                if sisa > 0:
+                    sisa -= 1; t = t.replace("...", "@@", 1)
+                else:
+                    t = t.replace("...", "", 1)
+            return t.replace("@@", "...").replace(" .", ".").replace(",,", ",").strip()
+        if v.get("narasi"):
+            v["narasi"] = bersih(v["narasi"])
+        for d in v.get("dialog") or []:
+            d["teks"] = bersih(d.get("teks", ""))
+            if (d.get("tokoh") or "").lower().startswith(qc.NAMA_SPRITE) and (" " in d["teks"].strip() or len(d["teks"].strip()) > 8):
+                d["teks"] = "Pip!"
+
+
 def run(n, force=False):
     ep = episodes()[n]; d = ep_dir(n); path = d / "naskah.json"
     if path.exists() and not force and read_json(path).get("qc", {}).get("lolos"):
@@ -64,6 +86,7 @@ def run(n, force=False):
         s = vertex.gen_json(PROMPT.format(n=n, judul=ep["judul"], ringkasan=ep["ringkasan"], jenis=ep["gagasan"]["jenis"], gagasan=ep["gagasan"]["teks"],
                                           gagal=gagal_txt, frames="\n".join(rows), gagal_schema=GAGAL_SCHEMA if perlu else "", perbaikan=fb),
                             temperature=0.8, mock_value=lambda: _tiruan(ep, perlu))
+        rapikan(s)
         masalah = qc.lint_naskah(s, kode, perlu); juri = None
         if not masalah:
             write_json(path, s)  # supaya frames_final melihat frame gagal

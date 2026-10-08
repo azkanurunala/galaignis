@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The carved stone spire",
+  "kanan": "The communal longhouse",
+  "kiri": "The boat landing",
+  "belakang": "The open sea"
+ },
+ "sisi": {
+  "depan": "A tall, slender stone spire covered in bas-reliefs of marine flora rises from the clear water, surrounded by a cluster of wooden stilt houses with high, curved roofs made of woven palm fronds.",
+  "kanan": "A long communal house with a wide, open-air veranda stands on thick ironwood stilts, connected by a suspended rope bridge to a small platform holding stacked fish traps made of woven bamboo.",
+  "kiri": "A low wooden pier juts out over the coral reef below, where several outrigger canoes with prows carved like sea serpents are moored next to a large fishing net hanging to dry from tall poles.",
+  "belakang": "The view extends to the distant horizon line where the sea meets the sky, with a few small, verdant islets visible in the far distance."
+ },
+ "tengah": "In the foreground on the wooden plank walkway, a large earthenware jar for collecting rainwater sits next to a low, backless bench made from a single piece of polished driftwood facing the spire.",
+ "atas": "A bright, clear sky is filled with scattered, wispy clouds, and the sun casts shimmering reflections on the water's surface."
+}

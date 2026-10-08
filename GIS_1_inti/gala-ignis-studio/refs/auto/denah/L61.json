@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The carved stone spire",
+  "kanan": "A distant steam plume",
+  "belakang": "The solidified lava plain",
+  "kiri": "The columnar basalt cliff"
+ },
+ "sisi": {
+  "depan": "The jagged rim of the summit crater emits a warm volcanic glow from within, and a tall, ancient stone spire covered in intricate, non-figurative relief carvings of swirling cloud and vine motifs stands on the far edge of the rim.",
+  "kanan": "A steep slope of dark, sharp-edged lava rock descends towards a hazy jungle valley, with a single plume of steam rising from a fissure partway down the incline.",
+  "belakang": "Behind the viewpoint, a vast, undulating plain of solidified, ropey pahoehoe lava stretches towards a low mountain range on the far horizon.",
+  "kiri": "The volcano's flank falls away into a sheer cliff of dark columnar basalt formations, with one large, twisted, and petrified tree clinging to its edge.",
+  "tengah": "In the foreground between the camera and the summit, several large, obsidian-like boulders with smooth, glassy surfaces are scattered across the dark, ashen ground.",
+  "atas": "A clear, daytime sky contains a single, bright sun."
+ }
+}

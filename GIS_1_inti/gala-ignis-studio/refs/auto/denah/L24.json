@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The Sunken City District",
+  "kanan": "The Floating Market Domes",
+  "belakang": "The Platform Railing",
+  "kiri": "The Tiered Sky-Gardens"
+ },
+ "sisi": {
+  "depan": "Far below, the city's central district is a dense miniature landscape of joglo-inspired skyscrapers and glowing sky-lanes, with thin wisps of cloud drifting beneath the platform.",
+  "kanan": "To the right, a cluster of immense, translucent domes covering the floating markets glimmers faintly in the distance, nestled among the city's lower levels.",
+  "belakang": "A curved, transparent safety barrier made of reinforced crystal follows the edge of the platform, its surface etched with a subtle, non-illuminated parang motif.",
+  "kiri": "To the left, a series of towering structures with cascading, multi-levelled green roofs forming vertical gardens punctuates the urban sprawl far in the distance."
+ },
+ "tengah": "A central spire tip of polished black stone rises from the platform's floor, its surface traced with glowing golden batik-inspired circuits that converge on a recessed, pulsating blue-white energy core socket at its apex.",
+ "atas": "The deep, clear twilight sky is star-dusted and empty, with the curve of the planet visible as a soft, hazy line at the far horizon."
+}

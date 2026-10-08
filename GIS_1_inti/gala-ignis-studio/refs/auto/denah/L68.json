@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The inactive wall screen",
+  "kanan": "The towering metal shelves",
+  "belakang": "The sliding panel door",
+  "kiri": "The featureless grey wall"
+ },
+ "sisi": {
+  "depan": "A vast, inactive wall screen made of a single sheet of polished dark crystal dominates the front wall from floor to ceiling.",
+  "kanan": "Towering shelves of cold, grey industrial metal are filled with identical, featureless metallic data-cubes.",
+  "belakang": "A wide, sound-dampening sliding panel door of brushed metal is set into the back wall.",
+  "kiri": "The bare left wall is a uniform surface of flat grey composite, broken only by a narrow ventilation grille near the floor."
+ },
+ "tengah": "A large, monolithic desk, formed from a single block of dark, non-reflective synthetic material, faces the front wall.",
+ "atas": "The ceiling consists of an exposed structural grid of dark metal beams, with recessed strips emitting a cold, flat light."
+}

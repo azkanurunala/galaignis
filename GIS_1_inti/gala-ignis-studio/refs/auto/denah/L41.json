@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The central ruined tower",
+  "kanan": "The collapsed skybridge",
+  "belakang": "The snow-covered plaza",
+  "kiri": "The wide pavilion ruin"
+ },
+ "sisi": {
+  "depan": "A towering skyscraper with a multi-tiered joglo-style roof has a long, faded blue snowflake banner hanging from its spire and a fractured monorail track ending abruptly before it.",
+  "kanan": "A smaller ruined tower is connected by a collapsed skybridge, a section of curved monorail track disappears behind snowdrifts, and the frozen facade of a market hall features shattered geometric screens.",
+  "belakang": "The base of a massive, frost-covered pillar from a destroyed building stands at the edge of a vast, empty plaza buried under deep snow.",
+  "kiri": "The snow-filled shell of a wide pavilion with a caved-in roof sits near a distant, leaning tower draped in another tattered blue banner and an overturned, ice-encrusted transport pod."
+ },
+ "tengah": "A series of toppled stone pillars half-buried in snow and a shattered, crystalline canopy from a walkway lie scattered across the foreground.",
+ "atas": "A perpetually overcast, dark grey sky from which a constant, light snow falls."
+}

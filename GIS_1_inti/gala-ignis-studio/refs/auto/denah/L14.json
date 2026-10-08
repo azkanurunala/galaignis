@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Batik-patterned vault door",
+  "kanan": "Shelves of glowing crystals",
+  "belakang": "Carved teakwood archway",
+  "kiri": "Shelves of data scrolls"
+ },
+ "sisi": {
+  "depan": "The curved front wall features a massive, circular vault door of polished black metal, its surface displaying an intricate, luminous batik-patterned locking mechanism at the center.",
+  "kanan": "To the right, a continuous spiral ramp of dark, polished wood shelves winds up the wall, holding neat rows of glowing, hexagonal record crystals that pulse with a soft internal light.",
+  "belakang": "Behind the viewpoint is a grand, open archway framed in intricately carved teakwood with gold trim, serving as the main entrance to the archive chamber.",
+  "kiri": "To the left, the spiraling wooden shelves continue their ascent, packed with traditional data scrolls in protective cylindrical casings of woven bamboo and polished metal."
+ },
+ "tengah": "A low, circular data podium made of smooth white stone stands in the center of the floor, its top surface projecting a silent, slowly rotating holographic lattice of light that faces the vault door.",
+ "atas": "Far above, the spiraling walls converge towards a high, domed ceiling constructed from interlocking panels of dark wood and translucent material, with a central, circular light source casting a focused beam down into the chamber."
+}

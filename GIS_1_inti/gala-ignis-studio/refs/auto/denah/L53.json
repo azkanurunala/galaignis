@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The petrified cascade",
+  "kanan": "The shard cluster",
+  "belakang": "The low ash dunes",
+  "kiri": "The smoking fissure"
+ },
+ "sisi": {
+  "depan": "In the far distance, a colossal, frozen cascade of solidified grey matter hangs suspended over a horizon of jagged, tooth-like peaks.",
+  "kanan": "To the right, a dense cluster of sharp, obsidian-like shards juts out from the ashen ground, some reaching the height of a tall tree.",
+  "belakang": "Behind the viewpoint, a series of low, windswept dunes of fine grey ash recede into a uniform haze.",
+  "kiri": "On the left, a long, deep fissure cuts through the field, releasing slow plumes of pale grey smoke from its depths."
+ },
+ "tengah": "Scattered across the foreground are several brittle, coral-like formations of fused ash, their skeletal branches reaching towards the sky.",
+ "atas": "A seamless, oppressive ceiling of motionless, slate-grey clouds blankets the entire sky, diffusing a flat, shadowless light."
+}

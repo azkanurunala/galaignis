@@ -28,7 +28,7 @@ video:
   suara: "Kore"
   zoom: 0.06
   musik: true            # musik dan efek suara sintetis
-  veo_pembuka: true      # klip pembuka bergerak (Veo) per Short; kalau gagal, dipakai gambar diam
+  veo_pembuka: false      # klip pembuka bergerak (Veo) per Short; kalau gagal, dipakai gambar diam
   veo_detik: 6
 retry:
   tries: 7

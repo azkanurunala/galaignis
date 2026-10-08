@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The holographic map wall",
+  "kanan": "The data port bank",
+  "belakang": "The smoked glass entrance",
+  "kiri": "The monitoring alcoves"
+ },
+ "sisi": {
+  "depan": "A floor-to-ceiling curved screen projects a vast holographic map of islands and glowing signal paths, framed by two wide pillars of dark teak wood with intricate, geometric carvings.",
+  "kanan": "A long, recessed bank of vertical data ports glows with soft, pulsing white light, set into a wall of polished black volcanic stone with fine gold inlay.",
+  "belakang": "A single, wide doorway with a sliding panel of smoked glass is set into the wall, beside which the golden Galians crest is subtly embedded into the dark paneling.",
+  "kiri": "Two deep, semi-circular alcoves are built into the wall, each containing a smaller, curved console screen and a single, low stool upholstered in dark, woven fabric."
+ },
+ "tengah": "A single, high-backed console chair made of polished dark wood and black cushions sits on a circular, raised platform facing the front screen.",
+ "atas": "The ceiling is a multi-tiered, coffered structure made of dark wood, with thin strips of cool blue light recessed along the inner edges of each square coffer."
+}

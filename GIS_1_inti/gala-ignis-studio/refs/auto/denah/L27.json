@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The carved teakwood gateway",
+  "kanan": "The spice vendor's stall",
+  "belakang": "The water-seller's kiosk",
+  "kiri": "The herbal-drink stall"
+ },
+ "sisi": {
+  "depan": "At the far end of the narrow lane stands a wide, intricately carved teakwood gateway with glowing gold-inlaid patterns, from which hangs a single, bright plasma lantern.",
+  "kanan": "A long wooden counter holds rows of illuminated glass jars filled with exotic spices, beside a display of stacked folded cloths with shifting holographic batik motifs.",
+  "belakang": "Behind the viewpoint, a low, moss-covered stone wall marks the lane's entrance, next to a small kiosk with a self-purifying clay water dispenser.",
+  "kiri": "A corner stall features steaming glass vessels of herbal drinks connected by copper pipes, next to another stall displaying woven synthetic-fiber baskets under the exposed support beams of a taller building."
+ },
+ "tengah": "A low-hovering cargo pallet loaded with covered ceramic containers sits in the center of the lane, facing forward.",
+ "atas": "A dense network of weathered fabric tarps is stretched overhead, interspersed with flickering energy-field patches and dangling plasma-oil lamps in ornate brass casings."
+}

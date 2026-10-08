@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Elevator bank",
+  "kanan": "Cantilevered staircase",
+  "belakang": "Lobby entrance",
+  "kiri": "Server room viewport"
+ },
+ "sisi": {
+  "depan": "A bank of three seamless, dark metallic elevator doors is set into a black glass wall traced with pulsing violet circuit lines.",
+  "kanan": "A stark, cantilevered staircase made of black structural metal ascends along the right wall toward an upper level.",
+  "belakang": "A wide, unadorned entrance portal composed of a single sheet of seamless black glass stands closed behind the viewing position.",
+  "kiri": "A floor-to-ceiling transparent wall panel offers a view into a deep room filled with rows of server racks that glow with a steady violet light."
+ },
+ "tengah": "A long, monolithic reception desk, appearing as if carved from a single block of polished black crystal, sits in the middle of the floor facing the entrance.",
+ "atas": "The high ceiling is a smooth, reflective black surface where thin violet light patterns converge, and a glass-walled executive office on a mezzanine is visible high on the right."
+}

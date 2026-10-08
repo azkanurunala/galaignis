@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Warehouse 9",
+  "kanan": "Gantry crane",
+  "belakang": "Loading pier",
+  "kiri": "Container stack"
+ },
+ "sisi": {
+  "depan": "Across the permacrete expanse, the massive facade of Warehouse 9 features enormous multi-panelled bay doors of a dark alloy, flanked by tall, narrow observation windows glowing with a soft internal light.",
+  "kanan": "A towering gantry crane with a sleek, curved arm stands over a row of automated loading platforms, while glowing guidance strips are embedded in the ground.",
+  "belakang": "Behind the viewpoint, a long loading pier extends out into the calm, dark water of the harbor, lined with mooring posts that emit a steady, pulsing blue light.",
+  "kiri": "Modular shipping containers are stacked in a precise, geometric formation, their surfaces etched with intricate, non-representational patterns, and a covered conveyor belt system runs alongside them on elevated supports."
+ },
+ "tengah": "In the middle of the open dock space, several low-profile cargo skimmers are parked facing the warehouse, and a series of tall, slender light poles shaped like stylized bamboo stalks illuminate the area.",
+ "atas": "Overhead, the hazy night sky is crisscrossed by the faint energy trails of high-altitude traffic, and the partially retracted, multi-segmented roof of the warehouse reveals a glimpse of the complex structural lattice within."
+}

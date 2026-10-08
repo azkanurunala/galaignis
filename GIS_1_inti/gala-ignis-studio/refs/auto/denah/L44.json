@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The dead Atomic Monument",
+  "kanan": "The collapsed arcade",
+  "belakang": "The shattered gateway",
+  "kiri": "The ruined pavilion"
+ },
+ "sisi": {
+  "depan": "A colossal 300-meter spire of dark metal encased in black ice rises from the plaza, its intricate gold batik-patterned lines unlit and a great cracked socket for a core sitting at its base.",
+  "kanan": "A long, collapsed arcade of heavy stone pillars lies in a jumble of snow-covered wreckage, revealing the dark, hollowed-out interiors of the buildings behind it.",
+  "belakang": "The two halves of a massive, non-symmetrical split gateway of dark, carved stone stand askew, framing a desolate view of snow-swept ruins beyond the plaza.",
+  "kiri": "The skeletal frame of a large, open-sided joglo pavilion with a distinctive, multi-tiered tumpang sari roof structure has caved in under the weight of accumulated ice and snow."
+ },
+ "tengah": "The wide, circular basin of an ornamental pool, its surface a sheet of cracked, opaque ice, surrounds the monument's central plinth, with drifts of snow piled against its frozen edge.",
+ "atas": "A perpetual twilight sky is obscured by a thick, oppressive ceiling of swirling dark clouds from which snow falls continuously, obscuring the top of the spire."
+}

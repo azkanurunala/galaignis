@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Ancient stone spire",
+  "kanan": "Slope-side village",
+  "belakang": "Lower terrace pools",
+  "kiri": "Cascading waterfall"
+ },
+ "sisi": {
+  "depan": "Golden rice terraces ascend a steep hill to a distant, slender stone spire on the summit, which is flanked by a grove of towering banyan trees.",
+  "kanan": "A village of wooden stilt houses with intricately carved gables and woven bamboo walls clusters along the mid-slope, nestled among the continuing terraces and a dense patch of coconut palms.",
+  "belakang": "Behind the viewpoint, the terraced slope descends sharply into a misty valley, where the wide, reflective surfaces of the lowest water-filled paddies are visible.",
+  "kiri": "A multi-tiered waterfall tumbles down a dark rock face into a series of turquoise pools, with the hillside terraces curving around it and a lone, weathered stone footbridge crossing the main stream."
+ },
+ "tengah": "In the foreground, a series of bamboo irrigation pipes channels water along the edge of the current terrace, feeding into a small, moss-covered stone basin carved with geometric patterns.",
+ "atas": "A vast, hazy sky glows with the warm, golden light of a low sun, casting long shadows and reflecting brilliantly off the water in the terraces."
+}

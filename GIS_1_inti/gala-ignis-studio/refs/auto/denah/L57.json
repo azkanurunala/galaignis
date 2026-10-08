@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Faint horizon line",
+  "kanan": "Drifting noise cluster",
+  "belakang": "Impenetrable static wall",
+  "kiri": "Wisps of grey particles"
+ },
+ "sisi": {
+  "depan": "An endless, glossy white floor recedes towards a faint horizon line where it merges completely with dense white fog.",
+  "kanan": "A large, slow-drifting cluster of dark grey noise flecks floats in the mid-ground before dissipating into the surrounding void.",
+  "belakang": "Behind the viewpoint, the glossy floor's reflection of the white void fades into an impenetrable wall of dense, shimmering static.",
+  "kiri": "Thin, wispy trails of fine grey particles drift horizontally across the empty space."
+ },
+ "tengah": "The vast space between the camera and the horizon is completely empty, filled only with softly drifting motes of static.",
+ "atas": "An infinite expanse of soft, even white light is populated by countless tiny, floating grey static particles that hang suspended in the air."
+}

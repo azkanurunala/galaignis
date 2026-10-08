@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The Great Pillar Hut",
+  "kanan": "The Pillar Cluster",
+  "belakang": "The Fissured Plateau",
+  "kiri": "The Obsidian Arch"
+ },
+ "sisi": {
+  "depan": "A single, colossal pillar of dark stone supports the largest spherical hut of glowing amber, with a distant, slow-moving river of lava visible on the plains beyond.",
+  "kanan": "A dense grouping of stone pillars at staggered heights, each topped with a small, round glowing hut, recedes into the shimmering heat haze of the horizon.",
+  "belakang": "The ground at the viewer's position is a wide, cracked plateau of warm stone, with bright orange light pulsing up from deep fissures.",
+  "kiri": "A natural arch of smooth, black obsidian rock frames a single, impossibly tall and slender pillar holding a tiny, bright hut at its peak."
+ },
+ "tengah": "A short, thick pillar supporting a modest glowing hut stands in the near-midground to the left, while a series of low, sharp volcanic rock formations jut out from the ground to the right.",
+ "atas": "The sky is a slow-swirling miasma of incandescent red and molten gold clouds, with no visible sun or moon."
+}

@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Huge warehouse door",
+  "kanan": "Smokestack cluster",
+  "belakang": "Courtyard security gate",
+  "kiri": "Elevated conveyor bridge"
+ },
+ "sisi": {
+  "depan": "A massive, segmented warehouse door with interlocking geometric patterns inspired by songket weaving is set into the main grey factory facade, flanked by tall, narrow ventilation slits glowing with a soft amber light.",
+  "kanan": "A cluster of slender, polished metal smokestacks with flared tops releasing clean white vapor rises behind a secondary processing building that has a long, horizontal window slit.",
+  "kiri": "An enclosed, elevated conveyor bridge supported by thick pillars shaped like stylized bamboo stalks connects a long, windowless factory block to the main building.",
+  "belakang": "Behind the camera's position stands a wide security gate made of a dark metallic lattice, set between two low, angular administrative buildings with opaque, dark glass panels."
+ },
+ "tengah": "In the center of the wide, paved courtyard sit several large, hexagonal cargo containers with smooth, dark grey surfaces, arranged around a central, low-profile atmospheric condenser unit facing towards the main warehouse door.",
+ "atas": "The sky is a hazy, pale grey, crisscrossed by the faint energy trails of automated cargo transports moving in the far distance."
+}

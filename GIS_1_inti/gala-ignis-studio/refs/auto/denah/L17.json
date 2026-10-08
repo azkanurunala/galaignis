@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The main workbench",
+  "kanan": "The magnetic tool wall",
+  "belakang": "The sliding teakwood door",
+  "kiri": "The component diagnostics station"
+ },
+ "sisi": {
+  "depan": "A massive workbench made of polished black stone rests against a wall of dark wood panels etched with glowing geometric patterns.",
+  "kanan": "A large smart-glass window shows a view of tiered-roof skyscrapers, and next to it is a magnetic wall where precision tools float in neat arrays.",
+  "belakang": "A wide, sliding door of polished teakwood, marked with a subtly glowing Galians crest, is flanked by two vertical light panels.",
+  "kiri": "A component diagnostics station with built-in energy conduits is set into the wall beside a series of recessed shelves holding metallic alloy ingots."
+ },
+ "tengah": "A large, shimmering holographic schematic of a winged vehicle rotates slowly in the center of the room, with several disassembled mechanical parts laid out on a low, floating platform beneath it.",
+ "atas": "A high ceiling features a central, multi-tiered wooden structure resembling an inverted pyramid, from which hang several glowing orbs that illuminate the space below."
+}

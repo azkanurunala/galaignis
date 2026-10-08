@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Panoramic city window",
+  "kanan": "Carved server housing",
+  "kiri": "Auxiliary monitor wall",
+  "belakang": "Sliding teakwood door"
+ },
+ "sisi": {
+  "depan": "A massive panoramic window reveals a cityscape of towering structures with tiered roofs, flanked by a wall of large, high-resolution broadcast screens showing silent city feeds.",
+  "kanan": "A tall server housing unit made of polished dark wood with intricate floral carvings stands beside a wall panel inset with glowing, circuit-like batik patterns.",
+  "kiri": "A bank of small, vertically-stacked monitoring screens is built into the wall next to a recessed equipment niche lined with polished copper.",
+  "belakang": "A wide, automated sliding door of dark teakwood is set into a wall sectioned by thin, vertical light strips."
+ },
+ "tengah": "A long, curved main control console with integrated holographic projectors and smooth, dark touch-surfaces faces the front, and behind it sits a smaller, secondary technician's station.",
+ "atas": "A high, tiered ceiling mimics a joglo's structure, with dark wooden beams trimmed in gold and large, recessed light panels that softly illuminate the room."
+}

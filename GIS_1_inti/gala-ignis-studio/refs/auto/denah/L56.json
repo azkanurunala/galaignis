@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Solidified lava cascade",
+  "kanan": "Heat-hazed cavern mouth",
+  "belakang": "Fractured crater rim",
+  "kiri": "Jagged obsidian outcrop"
+ },
+ "sisi": {
+  "depan": "The distant crater wall glows with a massive, frozen cascade of solidified magma, its surface cracked with incandescent light.",
+  "kanan": "Along the sheer right wall, a wide cavern mouth exhales a shimmering heat haze, and veins of molten gold run down the dark rock.",
+  "belakang": "Behind the viewpoint, the jagged lip of the crater's edge is outlined against the sky, with glowing red cracks running along the broken ground.",
+  "kiri": "The steep left wall is studded with sharp outcrops of black volcanic glass that reflect the fire below, with wisps of hot steam venting from small fissures."
+ },
+ "tengah": "At the bottom of the crater rests a vast, spherical core of living fire, its surface a churning mass of swirling plasma layers that pulses with a slow, rhythmic light, sending up a constant stream of large, floating embers.",
+ "atas": "A warm, red-gold sky is filled with slow-drifting clouds of luminous vapor and shimmering ash particles."
+}

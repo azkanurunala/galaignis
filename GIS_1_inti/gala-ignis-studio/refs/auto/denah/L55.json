@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The great lavafall cliff",
+  "kanan": "The crystalline shelter alcove",
+  "belakang": "The fractured obsidian field",
+  "kiri": "The terraced lava cascades"
+ },
+ "sisi": {
+  "depan": "A wide river of bright yellow lava flows from a large fissure at the base of a towering, dark volcanic rock cliff.",
+  "kanan": "A deep, hollowed-out alcove with walls lined in faintly glowing purple crystals is carved into a sheer cliff face of smooth, black rock.",
+  "kiri": "A series of stepped rock ledges creates small, cascading waterfalls of orange lava that flow into a lower pool, crossed by a thin, twisted bridge of solidified lava rope.",
+  "belakang": "Behind the viewpoint, a vast, flat plain of cracked black ground stretches towards distant, sharp mountain peaks silhouetted against the glowing horizon."
+ },
+ "tengah": "A narrow bridge formed from interlocking hexagonal basalt columns spans the main lava river, leading from the foreground towards the distant cliff.",
+ "atas": "A perpetually twilight sky glows with warm red and gold hues, filled with slow-swirling clouds of dark ash and a shimmering heat haze rising from the lava below."
+}

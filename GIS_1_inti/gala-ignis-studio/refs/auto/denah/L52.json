@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Towering crystal wall",
+  "kanan": "Incandescent pool",
+  "belakang": "Cavern entrance",
+  "kiri": "Fractured obsidian wall"
+ },
+ "sisi": {
+  "depan": "A dense wall of towering, self-illuminating crimson crystal formations rises from the floor, with a shimmering heat haze emanating from a fissure at its base.",
+  "kanan": "A pool of incandescent liquid reflects smaller clusters of jagged, ruby-colored crystals growing from the cavern wall.",
+  "belakang": "A wide, natural archway of dark, cooled igneous rock forms the cavern entrance.",
+  "kiri": "A sheer wall of obsidian-like rock is fractured with deep fissures from which an intense vermilion light glows."
+ },
+ "tengah": "Numerous incandescent embers drift slowly through the air, alongside several large, levitating shards of black volcanic glass that spin lazily.",
+ "atas": "The cavern ceiling is a vast dome covered in countless small, sharp, glowing red crystal stalactites that drip with molten light."
+}

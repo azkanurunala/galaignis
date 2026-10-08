@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "A cascade of mist",
+  "kanan": "A bioluminescent coral formation",
+  "kiri": "A leaning monolith",
+  "belakang": "A slow water vortex"
+ },
+ "sisi": {
+  "depan": "On the far side of the trench, a perpetual cascade of thick mist pours down into the abyss, while the dark, choppy surface of the sea breaks against the unseen edge.",
+  "kanan": "A large formation of giant, branching corals glowing with a soft, blue-green bioluminescence breaks the water's surface, with a distant line of jagged sea stacks visible on the horizon.",
+  "kiri": "A solitary, leaning monolith of black volcanic stone, its surface covered in sea moss and etched with eroded, spiraling reliefs of flora, rises from the unseen depths.",
+  "belakang": "Close to the viewpoint, the sea forms a slow, wide vortex, pulling long strands of dark kelp and shimmering surface foam towards its calm center.",
+  "tengah": "A small, unmanned raft constructed of dark, petrified wood and woven liana floats in the middle distance, held in place by a single, massive, rust-colored chain that descends into the dark water, facing 'depan'."
+ },
+ "atas": "The sky is a heavy blanket of swirling, bruised-purple and dark grey clouds, illuminated from within by a diffused, sourceless light."
+}

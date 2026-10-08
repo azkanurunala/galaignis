@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Central diagnostic console",
+  "kanan": "Recessed supply cabinet",
+  "belakang": "Curved rear wall",
+  "kiri": "Carved sliding door"
+ },
+ "sisi": {
+  "depan": "A central diagnostic console made of white polymer and polished teak projects a soft green holographic display between two tall, narrow windows looking out onto a garden with tiered pavilions.",
+  "kanan": "A floor-to-ceiling recessed supply cabinet with frosted smart-glass doors, etched with a faint Galians crest, is built into the wall next to a bio-gel dispenser unit.",
+  "kiri": "A wide, seamless sliding door, decorated with a laser-cut kawung batik motif, is set beside a wall-mounted vital signs monitor with a glowing green interface.",
+  "belakang": "The smooth, curved rear wall is a continuous white surface featuring integrated, vertical light strips that glow with a gentle warmth."
+ },
+ "tengah": "Two rounded, white medical pods with gold-trimmed bases face towards the front, and a third pod faces towards the right wall.",
+ "atas": "The ceiling is a multi-tiered, recessed structure inspired by a joglo roof, with soft, indirect light emanating from the gaps between each white level."
+}

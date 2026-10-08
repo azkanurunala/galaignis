@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Large view window",
+  "kanan": "Woven-style sliding door",
+  "belakang": "Tall corner lamp",
+  "kiri": "Faded decorative panel"
+ },
+ "sisi": {
+  "depan": "A wide, single-pane horizontal window with a chunky, dark composite frame shows a view of an adjacent building's weathered wall, set above a low, floating console with integrated soft-glowing data ports.",
+  "kanan": "The main entrance is a sliding panel of smooth, cream-colored polymer molded into a wide woven pattern, next to a wall-mounted rectangular light panel with a geometric cutout.",
+  "belakang": "A plain wall section of faded blue paint has a tall, slender floor lamp with a cylindrical shade standing in one corner.",
+  "kiri": "An open, arch-less doorway with rounded edges leads deeper into the house, beside a large, hanging wall panel of synthetic fabric printed with a faded, abstract floral batik motif."
+ },
+ "tengah": "A long, chunky couch with rounded arms and faded green fabric upholstery featuring several smooth, darker green patches faces forward, placed before a low, circular coffee table made of a dark, polished composite material.",
+ "atas": "The flat, off-white ceiling has a large, central, recessed circular light fixture emitting a diffuse, warm glow."
+}

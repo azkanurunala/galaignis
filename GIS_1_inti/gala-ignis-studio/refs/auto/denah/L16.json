@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Main security door",
+  "kanan": "Row of energy cells",
+  "belakang": "Corridor entrance arch",
+  "kiri": "Identical cell row"
+ },
+ "sisi": {
+  "depan": "At the far end of the corridor, a massive door made of dark, polished wood with inlaid gold trim is marked with a large, glowing Galians crest that serves as the lock.",
+  "kanan": "A continuous series of holding cells is set into the smooth grey wall, each opening sealed by a shimmering field of vertical blue energy bars.",
+  "belakang": "Behind the viewpoint is a wide, unadorned archway of polished grey stone leading back into the main academy complex.",
+  "kiri": "The left wall is a mirror of the right, featuring an identical row of cells secured by grids of glowing blue energy."
+ },
+ "tengah": "The polished dark floor is completely bare, reflecting the blue glow from the cells.",
+ "atas": "The ceiling is a sequence of overlapping, dark grey metal panels in a tiered structure like an inverted joglo frame, with strips of cool white light recessed along the edges of each tier."
+}

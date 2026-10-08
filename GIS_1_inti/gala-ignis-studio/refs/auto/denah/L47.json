@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Carved stone gate",
+  "kanan": "Collapsed stupa",
+  "belakang": "Misty jungle wall",
+  "kiri": "Great banyan tree"
+ },
+ "sisi": {
+  "depan": "A wide stone staircase ascends to a grand candi bentar gate, its surfaces intricately carved with reliefs of warriors wearing batik sashes.",
+  "kanan": "A crumbling temple wall covered in thick moss features a small, dark opening at its base, partially obscured by giant taro plants and a collapsed, bell-shaped stupa.",
+  "kiri": "The massive aerial roots of a great banyan tree snake over a low stone balustrade and into a small, empty niche carved into the temple's foundation.",
+  "belakang": "Behind the viewpoint, a dense wall of jungle foliage rises from the banks of a shallow, rocky stream, with thick ground mist swirling around ferns and liana vines."
+ },
+ "tengah": "A single, unlit stone torch holder stands beside a large, moss-covered block of andesite, both facing the distant temple gate.",
+ "atas": "The dense jungle canopy allows only slivers of the grey, overcast sky to be seen through a heavy layer of rolling mist."
+}

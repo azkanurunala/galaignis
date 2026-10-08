@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "The cosmic pattern relief",
+  "kanan": "The mossy alcoves",
+  "belakang": "The great stone lintel",
+  "kiri": "The weeping stone wall"
+ },
+ "sisi": {
+  "depan": "The far wall displays a giant, intricate relief of swirling cosmic patterns carved from a single slab of stone, with a wide, low opening at its base.",
+  "kanan": "The right wall is a continuous surface of dark, volcanic stone blocks covered in patches of green moss, punctuated by a series of deep, empty alcoves.",
+  "kiri": "The left wall is made of damp, grey candi stone showing long, dark streaks from water seepage, featuring a parallel series of identical recessed niches.",
+  "belakang": "Behind the viewpoint, a massive, unadorned stone lintel rests on two thick, square pillars, forming the shadowed entryway."
+ },
+ "tengah": "Visible within the low opening at the far end is a long, rectangular stone sarcophagus bound by immense, corroded metal chains bolted to the floor, while flanking the central walkway are pairs of large, blocky, stylized stone figures resembling coiled serpents with floral crowns, all facing forward.",
+ "atas": "The ceiling is a high, corbelled vault of interlocking stone bricks, from which thick tree roots and hanging vines descend through gaps."
+}

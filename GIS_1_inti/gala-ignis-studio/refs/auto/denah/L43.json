@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Repurposed train car",
+  "kanan": "Dark metro tunnel",
+  "belakang": "Barricaded archway",
+  "kiri": "Scrap workbench"
+ },
+ "sisi": {
+  "depan": "The far wall features a stationary train car with its side doors open to reveal a warmly lit interior, standing on tracks next to a tiled platform edge.",
+  "kanan": "A large, dark arched metro tunnel opening dominates the right wall, which is covered in cracked ceramic tiles and has crates of supplies stacked against it.",
+  "belakang": "The back wall contains a wide archway partially barricaded with stacked metal plates and old station benches, leaving a small gap for entry.",
+  "kiri": "Along the left tiled wall stands a long workbench made from salvaged metal sheets, covered with disassembled electronic parts and tools."
+ },
+ "tengah": "Several unrolled sleeping bags and woven floor mats are arranged around a low table made from a large gear, all facing towards the front.",
+ "atas": "A vaulted concrete ceiling has exposed conduits and thick cables from which hang numerous glowing cube-shaped lanterns constructed from colourful, patterned batik fabric panels stretched over wire frames."
+}

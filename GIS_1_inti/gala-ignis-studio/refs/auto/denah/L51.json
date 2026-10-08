@@ -1,0 +1,16 @@
+{
+ "penanda": {
+  "depan": "Lavafall Island",
+  "kanan": "Obsidian Spires",
+  "belakang": "Ember Chasm",
+  "kiri": "Gas Vents"
+ },
+ "sisi": {
+  "depan": "A single, colossal floating island of dark basalt hangs in the distance, its underside glowing with fissures of heat, as a wide curtain of molten gold pours from its edge into a vast lava river below.",
+  "kanan": "A broad plain of jagged, glassy obsidian spires rises from the ground, each shard pulsing slowly with an internal, deep-red light.",
+  "belakang": "The warm stone plain ends in a sheer cliff edge that drops into a deep chasm filled with a swirling mist of glowing embers.",
+  "kiri": "A cracked, barren field is dotted with wide geothermal vents that intermittently erupt with tall, silent plumes of incandescent gas."
+ },
+ "tengah": "A loose cluster of smaller, sharp-edged floating rocks, weathered and dark, drift slowly in the heated air currents above the ground.",
+ "atas": "A turbulent sky of deep crimson and shimmering gold clouds perpetually churns without a distinct sun, casting a flickering, fiery light over the realm."
+}
